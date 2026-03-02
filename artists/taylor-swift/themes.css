@@ -1,0 +1,140 @@
+.theme-taylor-swift {
+  --album-color-primary: #a9cbaa;
+  --album-color-secondary: #0c1a0c;
+  --album-font: "goskar-variable", sans-serif;
+  --text-font: Georgia, serif;
+}
+
+.theme-fearless {
+  --album-color-primary: #FDDAA6;
+  --album-color-secondary: #1e151a;
+  --album-font: sweet-sans-pro, sans-serif;
+  --text-font: sweet-sans-pro, sans-serif;
+  --album-text-transform: uppercase;
+  --album-letter-spacing: -5%;
+}
+  
+.theme-fearless.theme-item {
+  text-transform: uppercase;
+}
+
+.theme-speak-now {
+  --album-color-primary: #d6badc;
+  --album-color-secondary: #000000;
+  --album-font: 'mina', sans-serif;
+  --text-font: var(--default-font);
+}
+
+.theme-red {
+  --album-color-primary: #72333c;
+  --album-color-secondary: #c6b1a1;
+  --album-font: 'kaneda-gothic', sans-serif;
+  --text-font: var(--default-font);
+  --album-text-transform: uppercase;
+  --album-letter-spacing: -3%;
+}
+
+.theme-red.theme-item {
+  text-transform: uppercase;
+}
+
+.theme-1989 {
+  --album-color-primary: #034a62;
+  --album-color-secondary: #d1f3ff;
+  --album-font: 'ts-handwriting', sans-serif;
+  --text-font: var(--default-font);
+  --album-text-transform: none;
+  --album-letter-spacing: 0.05em;
+}
+
+.theme-1989.theme-item {
+  text-transform: none;
+}
+
+.theme-reputation {
+  --album-color-primary: #2a2628;
+  --album-color-secondary: #cacaca;
+  --album-font: 'amador', sans-serif;
+  --text-font: var(--default-font);
+  --album-text-transform: lowercase;
+  --album-letter-spacing: 0.05em;
+}
+
+.theme-reputation.theme-item {
+  text-transform: lowercase;
+}
+
+.theme-lover {
+  --album-color-primary: #fbb3d1;
+  --album-color-secondary: #3d2d34;
+  --album-font: 'mrssaintdelafield-pro', sans-serif;
+  --text-font: var(--default-font);
+}
+
+.theme-folklore,
+.theme-evermore {
+  --album-font: 'de-walpergens-pica', serif;
+  --text-font: var(--serif-text-font);
+  --album-text-transform: lowercase;
+  --album-font-weight: normal;}
+
+.theme-folklore.theme-item,
+.theme-evermore.theme-item,
+.theme-evermore header,
+.theme-folklore header {
+  text-transform: lowercase;
+  font-style: italic;
+}
+
+.theme-folklore {
+  --album-color-primary: #D5D5D5;
+  --album-color-secondary: #000000;
+}
+
+.theme-evermore {
+  --album-color-primary: #E0C9AF;
+  --album-color-secondary: #2E2327;
+}
+
+.theme-midnights {
+  --album-color-primary: #E0EDFD;
+  --album-color-secondary: #1F2E43;
+  --album-font: 'neue-haas-grotesk-display', sans-serif;
+  --text-font: var(--default-font);
+}
+
+.theme-ttpd {
+  --album-color-primary: #6f6a66;
+  --album-color-secondary: #EEEDEB;
+  --album-font: "big-caslon-fb", serif;
+  --text-font: var(--serif-text-font);
+  --album-text-transform: uppercase;
+  letter-spacing: 3%;
+}
+
+/* .theme-ttpd header h1, .theme-ttpd header h2, .theme-ttpd header h3 {
+  letter-spacing: normal;
+} */
+
+.theme-item.theme-ttpd {
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.theme-showgirl {
+  --album-color-primary: #8DCFB1;
+  --album-color-secondary: #007A68;
+  --album-font: 'gazzetta-variable', sans-serif;
+  --text-font: var(--default-font);
+  --album-text-transform: uppercase;
+}
+
+.theme-showgirl header {
+  font-style: italic;
+}
+
+/* .theme-showgirl header h1, */
+.theme-showgirl.theme-item {
+  font-style: italic;
+  text-transform: uppercase;
+}
