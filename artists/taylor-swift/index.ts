@@ -1,23 +1,21 @@
 import type { ArtistConfig } from '../../core/types';
 import songs from './songs.json';
-import { ALBUM_THEMES, DEFAULT_THEME } from './themes';
+import { ALBUM_THEMES } from './themes';
 
 export const TaylorSwiftConfig: ArtistConfig = {
-  // Unique identifier for artist
+  // Must be unique across all artists, used for storage keys.
   id: 'taylor-swift',
-  // Name of the artist to display in the title on the website
+  // Display name for the artist.
   name: 'Taylor Swift',
-  // These two values link to the local files - no need to change.
   songs,
   themes: ALBUM_THEMES,
-  defaultTheme: DEFAULT_THEME,
-  // The default selected theme
+  // Key of the default theme to use from the themes object.
   defaultThemeKey: 'Midnights',
-  // These keys must be unique amongst all artists.
+  // Key for storing the sort session in localStorage. Should be unique across artists.
   storageKey: 'ts-song-sorter-session',
   settingsKey: 'ts-song-sorter-settings',
-  // Title for the final result selection.
+  // Optional: If provided, a "Top Picks" section will be shown at the top of the results 
+  // with this name and containing this many songs.
   topSectionName: 'The Top 13',
-  // The number of top songs to highlight in the results.
   topSectionCount: 13,
 };
