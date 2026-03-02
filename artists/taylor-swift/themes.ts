@@ -5,7 +5,8 @@ import type { Theme } from '../../core/types';
 //
 // Set this to a neutral-coloured theme, as it's used as a fallback for styling the results page if
 // an album does not have a corresponding theme, or if there's an error that breaks the themed
-// styling on the home page.
+// styling on the home page. Realistically, you can leave this as the default-styled grey in this example
+// for new themes.
 export const DEFAULT_THEME: Theme = {
     className: 'theme-default',
 };
