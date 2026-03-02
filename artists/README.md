@@ -78,6 +78,9 @@ export const ALBUM_THEMES: Record<string, Theme> = {
 };
 ```
 
+For any songs with an album that does not have a corresponding theme, the theme will fallback to a default
+site-wide fallback styling.
+
 ### 4. `themes.css`
 
 Styles are scoped by the `className` defined in `themes.ts`. Use these CSS variables to customize the UI:
