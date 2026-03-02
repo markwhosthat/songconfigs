@@ -23,6 +23,7 @@
   --album-color-secondary: #000000;
   --album-font: 'mina', sans-serif;
   --text-font: var(--default-font);
+  --album-font-size-item: 0.75rem;
 }
 
 .theme-red {
@@ -32,6 +33,7 @@
   --text-font: var(--default-font);
   --album-text-transform: uppercase;
   --album-letter-spacing: -3%;
+  --album-font-size-item: 1.4rem;
 }
 
 .theme-red.theme-item {
@@ -58,6 +60,7 @@
   --text-font: var(--default-font);
   --album-text-transform: lowercase;
   --album-letter-spacing: 0.05em;
+  --album-font-size-item: 0.85rem;
 }
 
 .theme-reputation.theme-item {
@@ -69,6 +72,7 @@
   --album-color-secondary: #3d2d34;
   --album-font: 'mrssaintdelafield-pro', sans-serif;
   --text-font: var(--default-font);
+  --album-font-size-item: 1.4rem; /* Cursive fonts usually need to be larger to be legible */
 }
 
 .theme-folklore,

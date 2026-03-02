@@ -9,7 +9,6 @@ export const OliviaRodrigoConfig: ArtistConfig = {
   themes: ALBUM_THEMES,
   defaultThemeKey: 'SOUR',
   storageKey: 'or-song-sorter-session',
-  settingsKey: 'or-song-sorter-settings',
   topSectionName: 'The Top Picks',
   topSectionCount: 10,
 };

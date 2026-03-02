@@ -13,7 +13,6 @@ export const TaylorSwiftConfig: ArtistConfig = {
   defaultThemeKey: 'Midnights',
   // Key for storing the sort session in localStorage. Should be unique across artists.
   storageKey: 'ts-song-sorter-session',
-  settingsKey: 'ts-song-sorter-settings',
   // Optional: If provided, a "Top Picks" section will be shown at the top of the results 
   // with this name and containing this many songs.
   topSectionName: 'The Top 13',
