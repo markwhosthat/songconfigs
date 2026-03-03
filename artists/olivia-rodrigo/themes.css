@@ -1,27 +1,27 @@
 .theme-sour {
   --album-color-primary: #dcd0ff; /* Lavender */
   --album-color-secondary: #2b1d52;
-  --album-font: sans-serif;
+  --album-font: var(--default-font);
   --text-font: var(--default-font);
 }
 
 .theme-guts {
   --album-color-primary: #8a2be2; /* Blue Violet */
   --album-color-secondary: #ffffff;
-  --album-font: sans-serif;
+  --album-font: var(--default-font);
   --text-font: var(--default-font);
 }
 
 .theme-guts-spilled {
   --album-color-primary: #ff0000; /* Red for spilled */
   --album-color-secondary: #ffffff;
-  --album-font: sans-serif;
+  --album-font: var(--default-font);
   --text-font: var(--default-font);
 }
 
 .theme-hunger-games {
   --album-color-primary: #ffd700; /* Gold */
   --album-color-secondary: #000000;
-  --album-font: serif;
-  --text-font: serif;
+  --album-font: var(--default-font);
+  --text-font: var(--default-font);
 }

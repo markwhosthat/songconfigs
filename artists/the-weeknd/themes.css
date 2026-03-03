@@ -1,0 +1,49 @@
+.theme-house-of-balloons {
+    --album-color-primary: #121212;
+    --album-color-secondary: #ffffff;
+}
+
+.theme-thursday {
+    --album-color-primary: #1a1a1a;
+    --album-color-secondary: #ff4d4d;
+}
+
+.theme-echoes-of-silence {
+    --album-color-primary: #1c1c1c;
+    --album-color-secondary: #bfbfbf;
+}
+
+.theme-kiss-land {
+    --album-color-primary: #00f080;
+    --album-color-secondary: #050505;
+}
+
+.theme-beauty-behind-the-madness {
+    --album-color-primary: #e6e6e6;
+    --album-color-secondary: #111111;
+}
+
+.theme-starboy {
+    --album-color-primary: #0b1028;
+    --album-color-secondary: #ff0055;
+}
+
+.theme-my-dear-melancholy {
+    --album-color-primary: #ff8e3c;
+    --album-color-secondary: #0a0a0a;
+}
+
+.theme-after-hours {
+    --album-color-primary: #a90b23;
+    --album-color-secondary: #220909;
+}
+
+.theme-dawn-fm {
+    --album-color-primary: #102a43;
+    --album-color-secondary: #6ec6ff;
+}
+
+.theme-hurry-up-tomorrow {
+    --album-color-primary: #eae2d0;
+    --album-color-secondary: #461b05;
+}
