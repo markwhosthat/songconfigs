@@ -58,11 +58,11 @@ The song list is an array of objects:
 
 - **`id`**: Unique numeric ID for each song.
 - **`title`**: Display name of the song.
-- **`album`**: The album name. This MUST match a key in `ALBUM_THEMES` within `themes.ts`.
+- **`album`**: The album name. This should match with an album in Themes. If it does not match, the results for this song will use the fallback theme. It's typically fine to have one "Other songs" option that is not themed, but the "other" string should match across all songs that do not belong to an album.
 
 ### 3. `themes.ts`
 
-Maps album names to theme metadata. The key used here (e.g., `"Album Name"`) MUST exactly match the `album` property of the songs in `songs.json`.
+Maps album names to theme metadata. The key used here (e.g., `"Album Name"`) MUST exactly match the corresponding `album` property of the songs in `songs.json`.
 
 ```typescript
 import type { Theme } from '../../core/types';
