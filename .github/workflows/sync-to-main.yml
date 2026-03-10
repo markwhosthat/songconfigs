@@ -1,31 +1,26 @@
 name: Sync artists/ back to songsorter
-
 on:
   push:
     branches: [main]
     paths:
       - 'artists/**'
-
 jobs:
   sync:
     runs-on: ubuntu-latest
     if: github.actor != 'github-actions[bot]'
-
     steps:
       - name: Checkout songconfigs
         uses: actions/checkout@v4
-
       - name: Checkout songsorter
         uses: actions/checkout@v4
         with:
           repository: markwhosthat/songsorter
           token: ${{ secrets.MAIN_REPO_TOKEN }}
           path: songsorter
-
+          ref: artists
       - name: Sync artists/ → src/artists/
         run: |
           rsync -av --delete artists/ songsorter/src/artists/
-
       - name: Open pull request
         uses: peter-evans/create-pull-request@v6
         with:
@@ -35,8 +30,7 @@ jobs:
           title: "Sync: Changes to src/artists from songconfigs"
           body: |
             Automated sync from `artists/` in songconfigs into `src/artists/`.
-
             Source commit: ${{ github.sha }}
             [View run](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})
           branch: sync/from-songconfigs-${{ github.sha }}
-          base: main
+          base: artists
