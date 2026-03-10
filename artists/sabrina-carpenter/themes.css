@@ -1,0 +1,39 @@
+.theme-eyes-wide-open {
+  --album-color-primary: #EDE6DA;
+  --album-color-secondary: #5AAFBE;
+}
+
+.theme-evolution {
+  --album-color-primary: #8B3A1A;
+  --album-color-secondary: #E8C4A0;
+}
+
+.theme-singular-act-i {
+  --album-color-primary: #C5BBA4;
+  --album-color-secondary: #1E1E1A;
+}
+
+.theme-singular-act-ii {
+  --album-color-primary: #3A3A3E;
+  --album-color-secondary: #B0ADA8;
+}
+
+.theme-emails-fwd {
+  --album-color-primary: #E8C9B0;
+  --album-color-secondary: #C85A50;
+}
+
+.theme-fruitcake {
+  --album-color-primary: #F0E4D4;
+  --album-color-secondary: #B33030;
+}
+
+.theme-short-n-sweet {
+  --album-color-primary: #B8D9EC;
+  --album-color-secondary: #C43049;
+}
+
+.theme-mans-best-friend {
+  --album-color-primary: #1C1816;
+  --album-color-secondary: #C9A87E;
+}

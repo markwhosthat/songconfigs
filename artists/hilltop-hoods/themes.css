@@ -1,0 +1,44 @@
+.theme-a-matter-of-time {
+    --album-color-primary: #1a2a3a;
+    --album-color-secondary: #ffffff;
+}
+
+.theme-left-foot-right-foot {
+    --album-color-primary: #8b0000;
+    --album-color-secondary: #ffffff;
+}
+
+.theme-the-calling {
+    --album-color-primary: #d4af37;
+    --album-color-secondary: #000000;
+}
+
+.theme-the-hard-road {
+    --album-color-primary: #0047ab;
+    --album-color-secondary: #ffffff;
+}
+
+.theme-state-of-the-art {
+    --album-color-primary: #003399;
+    --album-color-secondary: #ffcc00;
+}
+
+.theme-drinking-from-the-sun {
+    --album-color-primary: #ff8c00;
+    --album-color-secondary: #000000;
+}
+
+.theme-walking-under-stars {
+    --album-color-primary: #2e1a47;
+    --album-color-secondary: #ffffff;
+}
+
+.theme-the-great-expanse {
+    --album-color-primary: #006400;
+    --album-color-secondary: #ffffff;
+}
+
+.theme-singles-restrung {
+    --album-color-primary: #808080;
+    --album-color-secondary: #ffffff;
+}

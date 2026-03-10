@@ -11,4 +11,18 @@ export const OliviaRodrigoConfig: ArtistConfig = {
   storageKey: 'or-song-sorter-session',
   topSectionName: 'The Top Picks',
   topSectionCount: 10,
+  filterPresets: [
+    {
+      name: 'Standard Tracks',
+      slug: 'standard-tracks',
+      excludedAlbums: ['The Hunger Games'],
+      excludedVariants: ['GUTS:spilled']
+    },
+    {
+      name: 'Album Tracks Only',
+      slug: 'album-tracks-only',
+      excludedAlbums: ['The Hunger Games'],
+      excludedVariants: []
+    }
+  ]
 };

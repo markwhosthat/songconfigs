@@ -22,10 +22,10 @@
   { "id": 21, "title": "the grudge", "album": "GUTS" },
   { "id": 22, "title": "pretty isn't pretty", "album": "GUTS" },
   { "id": 23, "title": "teenage dream", "album": "GUTS" },
-  { "id": 24, "title": "obsessed", "album": "GUTS (spilled)" },
-  { "id": 25, "title": "girl i've always been", "album": "GUTS (spilled)" },
-  { "id": 26, "title": "stranger", "album": "GUTS (spilled)" },
-  { "id": 27, "title": "so american", "album": "GUTS (spilled)" },
-  { "id": 28, "title": "scared of my guitar", "album": "GUTS (spilled)" },
+  { "id": 24, "title": "obsessed", "album": "GUTS", "variants": ["spilled"] },
+  { "id": 25, "title": "girl i've always been", "album": "GUTS", "variants": ["spilled"] },
+  { "id": 26, "title": "stranger", "album": "GUTS", "variants": ["spilled"] },
+  { "id": 27, "title": "so american", "album": "GUTS", "variants": ["spilled"] },
+  { "id": 28, "title": "scared of my guitar", "album": "GUTS", "variants": ["spilled"] },
   { "id": 29, "title": "can't catch me now", "album": "The Hunger Games" }
 ]

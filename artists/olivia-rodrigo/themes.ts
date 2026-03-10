@@ -7,8 +7,4 @@ export const ALBUM_THEMES: Record<string, Theme> = {
     "GUTS": {
         className: 'theme-guts',
     },
-    "GUTS (spilled)": {
-        className: 'theme-guts-spilled',
-        short_name: "GUTS (Spilled)",
-    },
 }

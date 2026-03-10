@@ -1,0 +1,48 @@
+.theme-yours-truly {
+  --album-color-primary: #f7d7e3;
+  --album-color-secondary: #5e4a52;
+  --album-font: var(--default-font);
+  --text-font: var(--default-font);
+}
+
+.theme-my-everything {
+  --album-color-primary: #1a1a1a;
+  --album-color-secondary: #aec6cf;
+  --album-font: var(--default-font);
+  --text-font: var(--default-font);
+}
+
+.theme-dangerous-woman {
+  --album-color-primary: #121212;
+  --album-color-secondary: #e6e6e6;
+  --album-font: var(--default-font);
+  --text-font: var(--default-font);
+}
+
+.theme-sweetener {
+  --album-color-primary: #f7ebdb;
+  --album-color-secondary: #bd7d62;
+  --album-font: var(--default-font);
+  --text-font: var(--default-font);
+}
+
+.theme-thank-u-next {
+  --album-color-primary: #eb85a6;
+  --album-color-secondary: #000000;
+  --album-font: var(--default-font);
+  --text-font: var(--default-font);
+}
+
+.theme-positions {
+  --album-color-primary: #94b18a;
+  --album-color-secondary: #ffffff;
+  --album-font: var(--default-font);
+  --text-font: var(--default-font);
+}
+
+.theme-eternal-sunshine {
+  --album-color-primary: #e9e4d9;
+  --album-color-secondary: #b11b22;
+  --album-font: var(--default-font);
+  --text-font: var(--default-font);
+}

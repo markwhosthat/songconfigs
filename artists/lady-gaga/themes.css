@@ -1,0 +1,54 @@
+.theme-the-fame {
+  --album-color-primary: #d1d1d1;
+  --album-color-secondary: #1a1a1a;
+  --album-font: var(--default-font);
+}
+
+.theme-the-fame-monster {
+  --album-color-primary: #000000;
+  --album-color-secondary: #ffffff;
+  --album-font: var(--default-font);
+}
+
+.theme-born-this-way {
+  --album-color-primary: #180708;
+  --album-color-secondary: #b5343c;
+  --album-font: var(--default-font);
+}
+
+.theme-artpop {
+  --album-color-primary: #0F0F5B;
+  --album-color-secondary: #C42C94;
+  --album-font: var(--default-font);
+}
+
+.theme-joanne {
+  --album-color-primary: #c3d8e5;
+  --album-color-secondary: #9e8086;
+  --album-font: var(--default-font);
+}
+
+.theme-a-star-is-born {
+  --album-color-primary: #B29548;
+  --album-color-secondary: #0C0904;
+  --album-font: var(--default-font);
+}
+
+.theme-chromatica {
+  --album-color-primary: #939CAD;
+  --album-color-secondary: #B51835;
+  --album-font: var(--default-font);
+}
+
+.theme-harlequin {
+  --album-color-primary: #9eb48d;
+  --album-color-secondary: #9b0a1c;
+  --album-font: var(--default-font);
+}
+
+.theme-mayhem {
+  --album-color-primary: #2f2f2f;
+  --album-color-secondary: #cdcdcd;
+  --album-font: var(--default-font);
+}
+

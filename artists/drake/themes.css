@@ -1,0 +1,45 @@
+.theme-drake {
+  --album-color-primary: #000000;
+  --album-color-secondary: #D4AF37; /* Gold */
+}
+
+.theme-thank-me-later {
+  --album-color-primary: #1A1A1A;
+  --album-color-secondary: #A52A2A;
+}
+
+.theme-take-care {
+  --album-color-primary: #DAA520;
+  --album-color-secondary: #000000;
+}
+
+.theme-nothing-was-the-same {
+  --album-color-primary: #87CEEB;
+  --album-color-secondary: #FFFFFF;
+}
+
+.theme-views {
+  --album-color-primary: #778899;
+  --album-color-secondary: #F5F5F5;
+}
+
+.theme-scorpion {
+  --album-color-primary: #000000;
+  --album-color-secondary: #808080;
+}
+
+.theme-clb {
+  --album-color-primary: #FFFFFF;
+  --album-color-secondary: #FFB6C1;
+}
+
+.theme-honestly-nevermind {
+  --album-color-primary: #000000;
+  --album-color-secondary: #7FFFD4;
+}
+
+.theme-fatd {
+  --album-color-primary: #BE563E;
+  --album-color-secondary: #BCBAB3;
+}
+
