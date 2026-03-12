@@ -7,6 +7,9 @@ export const ALBUM_THEMES: Record<string, Theme> = {
     "Born to Die": {
         className: 'theme-lana-del-rey-born-to-die',
     },
+    "Paradise": {
+        className: 'theme-lana-del-rey-paradise',
+    },
     "Ultraviolence": {
         className: 'theme-lana-del-rey-ultraviolence',
     },

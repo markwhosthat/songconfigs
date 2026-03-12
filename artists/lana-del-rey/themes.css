@@ -8,6 +8,11 @@
   --album-color-secondary: #f0f0f0;
 }
 
+.theme-lana-del-rey-paradise {
+  --album-color-primary: #5e787f;
+  --album-color-secondary: #ccb16d;
+}
+
 .theme-lana-del-rey-ultraviolence {
   --album-color-primary: #d4d4d6;
   --album-color-secondary: #262628;

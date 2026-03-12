@@ -37,10 +37,10 @@ export const LanaDelReyConfig: ArtistConfig = {
       ]
     },
     {
-        name: 'Album Tracks Only',
-        slug: 'album-tracks-only',
-        excludedAlbums: ['Other Songs', 'Lana Del Ray'],
-        excludedVariants: []
+      name: 'Album Tracks Only',
+      slug: 'album-tracks-only',
+      excludedAlbums: ['Other Songs', 'Lana Del Ray'],
+      excludedVariants: []
     }
   ]
 };
