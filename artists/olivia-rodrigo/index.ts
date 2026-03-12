@@ -17,6 +17,8 @@ export const OliviaRodrigoConfig: ArtistConfig = {
       excludedAlbums: ['The Hunger Games'],
       excludedVariants: ['GUTS:spilled']
     },
+    // Exclude hunger games songs and variants for the "Album Tracks Only"
+    // preset, since these are not part of an album.
     {
       name: 'Album Tracks Only',
       slug: 'album-tracks-only',
