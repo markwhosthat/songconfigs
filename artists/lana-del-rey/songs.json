@@ -1,0 +1,787 @@
+[
+  {
+    "id": 129,
+    "title": "Kill Kill",
+    "album": "Lana Del Ray"
+  },
+  {
+    "id": 130,
+    "title": "Queen Of The Gas Station",
+    "album": "Lana Del Ray"
+  },
+  {
+    "id": 131,
+    "title": "Oh Say Can You See",
+    "album": "Lana Del Ray"
+  },
+  {
+    "id": 132,
+    "title": "Gramma (Blue Ribbon Sparkler Trailer Heaven)",
+    "album": "Lana Del Ray"
+  },
+  {
+    "id": 133,
+    "title": "For K, Part 2",
+    "album": "Lana Del Ray"
+  },
+  {
+    "id": 134,
+    "title": "Jump",
+    "album": "Lana Del Ray"
+  },
+  {
+    "id": 135,
+    "title": "Mermaid Motel",
+    "album": "Lana Del Ray"
+  },
+  {
+    "id": 136,
+    "title": "Raise Me Up (Mississippi South)",
+    "album": "Lana Del Ray"
+  },
+  {
+    "id": 137,
+    "title": "Pawn Shop Blues",
+    "album": "Lana Del Ray"
+  },
+  {
+    "id": 138,
+    "title": "Brite Lites",
+    "album": "Lana Del Ray"
+  },
+  {
+    "id": 139,
+    "title": "Put Me In A Movie",
+    "album": "Lana Del Ray"
+  },
+  {
+    "id": 140,
+    "title": "Smarty",
+    "album": "Lana Del Ray"
+  },
+  {
+    "id": 125,
+    "title": "Yayo",
+    "album": "Lana Del Ray"
+  },
+  {
+    "id": 18,
+    "title": "Born to Die",
+    "album": "Born to Die"
+  },
+  {
+    "id": 90,
+    "title": "Off to the Races",
+    "album": "Born to Die"
+  },
+  {
+    "id": 15,
+    "title": "Blue Jeans",
+    "album": "Born to Die"
+  },
+  {
+    "id": 127,
+    "title": "Video Games",
+    "album": "Born to Die"
+  },
+  {
+    "id": 39,
+    "title": "Diet Mountain Dew",
+    "album": "Born to Die"
+  },
+  {
+    "id": 85,
+    "title": "National Anthem",
+    "album": "Born to Die"
+  },
+  {
+    "id": 36,
+    "title": "Dark Paradise",
+    "album": "Born to Die"
+  },
+  {
+    "id": 96,
+    "title": "Radio",
+    "album": "Born to Die"
+  },
+  {
+    "id": 25,
+    "title": "Carmen",
+    "album": "Born to Die"
+  },
+  {
+    "id": 82,
+    "title": "Million Dollar Man",
+    "album": "Born to Die"
+  },
+  {
+    "id": 103,
+    "title": "Summertime Sadness",
+    "album": "Born to Die"
+  },
+  {
+    "id": 110,
+    "title": "This Is What Makes Us Girls",
+    "album": "Born to Die"
+  },
+  {
+    "id": 124,
+    "title": "Without You",
+    "album": "Born to Die",
+    "variants": [
+      "Deluxe"
+    ]
+  },
+  {
+    "id": 75,
+    "title": "Lolita",
+    "album": "Born to Die",
+    "variants": [
+      "Deluxe"
+    ]
+  },
+  {
+    "id": 78,
+    "title": "Lucky Ones",
+    "album": "Born to Die",
+    "variants": [
+      "Deluxe"
+    ]
+  },
+  {
+    "id": 98,
+    "title": "Ride",
+    "album": "Born to Die",
+    "variants": [
+      "Paradise"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "American",
+    "album": "Born to Die",
+    "variants": [
+      "Paradise"
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Cola",
+    "album": "Born to Die",
+    "variants": [
+      "Paradise"
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Body Electric",
+    "album": "Born to Die",
+    "variants": [
+      "Paradise"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Blue Velvet",
+    "album": "Born to Die",
+    "variants": [
+      "Paradise"
+    ]
+  },
+  {
+    "id": 53,
+    "title": "Gods & Monsters",
+    "album": "Born to Die",
+    "variants": [
+      "Paradise"
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Burning Desire",
+    "album": "Born to Die",
+    "variants": [
+      "Paradise",
+      "iTunes"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Bel Air",
+    "album": "Born to Die",
+    "variants": [
+      "Paradise"
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Cruel World",
+    "album": "Ultraviolence"
+  },
+  {
+    "id": 114,
+    "title": "Ultraviolence",
+    "album": "Ultraviolence"
+  },
+  {
+    "id": 101,
+    "title": "Shades of Cool",
+    "album": "Ultraviolence"
+  },
+  {
+    "id": 20,
+    "title": "Brooklyn Baby",
+    "album": "Ultraviolence"
+  },
+  {
+    "id": 118,
+    "title": "West Coast",
+    "album": "Ultraviolence"
+  },
+  {
+    "id": 99,
+    "title": "Sad Girl",
+    "album": "Ultraviolence"
+  },
+  {
+    "id": 45,
+    "title": "Florida Kilos",
+    "album": "Ultraviolence"
+  },
+  {
+    "id": 83,
+    "title": "Money Power Glory",
+    "album": "Ultraviolence"
+  },
+  {
+    "id": 49,
+    "title": "Fucked My Way Up to the Top",
+    "album": "Ultraviolence"
+  },
+  {
+    "id": 91,
+    "title": "Old Money",
+    "album": "Ultraviolence"
+  },
+  {
+    "id": 92,
+    "title": "The Other Woman",
+    "album": "Ultraviolence"
+  },
+  {
+    "id": 12,
+    "title": "Black Beauty",
+    "album": "Ultraviolence",
+    "variants": [
+      "Deluxe"
+    ]
+  },
+  {
+    "id": 95,
+    "title": "Pretty When You Cry",
+    "album": "Ultraviolence",
+    "variants": [
+      "Deluxe"
+    ]
+  },
+  {
+    "id": 68,
+    "title": "Is This Happiness",
+    "album": "Ultraviolence",
+    "variants": [
+      "Deluxe"
+    ]
+  },
+  {
+    "id": 58,
+    "title": "Guns and Roses",
+    "album": "Ultraviolence",
+    "variants": [
+      "Deluxe"
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Flipside",
+    "album": "Ultraviolence",
+    "variants": [
+      "Deluxe"
+    ]
+  },
+  {
+    "id": 62,
+    "title": "Honeymoon",
+    "album": "Honeymoon"
+  },
+  {
+    "id": 84,
+    "title": "Music to Watch Boys To",
+    "album": "Honeymoon"
+  },
+  {
+    "id": 108,
+    "title": "Terrence Loves You",
+    "album": "Honeymoon"
+  },
+  {
+    "id": 100,
+    "title": "Salvatore",
+    "album": "Honeymoon"
+  },
+  {
+    "id": 13,
+    "title": "The Blackest Day",
+    "album": "Honeymoon"
+  },
+  {
+    "id": 6,
+    "title": "Art Deco",
+    "album": "Honeymoon"
+  },
+  {
+    "id": 22,
+    "title": "Burnt Norton (Interlude)",
+    "album": "Honeymoon"
+  },
+  {
+    "id": 97,
+    "title": "Religion",
+    "album": "Honeymoon"
+  },
+  {
+    "id": 61,
+    "title": "High by the Beach",
+    "album": "Honeymoon"
+  },
+  {
+    "id": 47,
+    "title": "Freak",
+    "album": "Honeymoon"
+  },
+  {
+    "id": 52,
+    "title": "God Knows I Tried",
+    "album": "Honeymoon"
+  },
+  {
+    "id": 41,
+    "title": "Don't Let Me Be Misunderstood",
+    "album": "Honeymoon"
+  },
+  {
+    "id": 128,
+    "title": "Sandcastles",
+    "album": "Honeymoon"
+  },
+  {
+    "id": 104,
+    "title": "Swan Song",
+    "album": "Honeymoon"
+  },
+  {
+    "id": 2,
+    "title": "24",
+    "album": "Honeymoon"
+  },
+  {
+    "id": 76,
+    "title": "Love",
+    "album": "Lust for Life"
+  },
+  {
+    "id": 79,
+    "title": "Lust for Life",
+    "album": "Lust for Life"
+  },
+  {
+    "id": 1,
+    "title": "13 Beaches",
+    "album": "Lust for Life"
+  },
+  {
+    "id": 120,
+    "title": "White Mustang",
+    "album": "Lust for Life"
+  },
+  {
+    "id": 102,
+    "title": "Summer Bummer",
+    "album": "Lust for Life"
+  },
+  {
+    "id": 51,
+    "title": "God Bless America \u2013 and All the Beautiful Women in It",
+    "album": "Lust for Life"
+  },
+  {
+    "id": 31,
+    "title": "Coachella \u2013 Woodstock in My Mind",
+    "album": "Lust for Life"
+  },
+  {
+    "id": 66,
+    "title": "In My Feelings",
+    "album": "Lust for Life"
+  },
+  {
+    "id": 28,
+    "title": "Cherry",
+    "album": "Lust for Life"
+  },
+  {
+    "id": 9,
+    "title": "Beautiful People Beautiful Problems",
+    "album": "Lust for Life"
+  },
+  {
+    "id": 112,
+    "title": "Tomorrow Never Came",
+    "album": "Lust for Life"
+  },
+  {
+    "id": 57,
+    "title": "Groupie Love",
+    "album": "Lust for Life"
+  },
+  {
+    "id": 60,
+    "title": "Heroin",
+    "album": "Lust for Life"
+  },
+  {
+    "id": 119,
+    "title": "When the World Was at War We Kept Dancing",
+    "album": "Lust for Life"
+  },
+  {
+    "id": 50,
+    "title": "Get Free",
+    "album": "Lust for Life"
+  },
+  {
+    "id": 26,
+    "title": "Change",
+    "album": "Lust for Life"
+  },
+  {
+    "id": 81,
+    "title": "Mariners Apartment Complex",
+    "album": "Norman Fucking Rockwell!"
+  },
+  {
+    "id": 115,
+    "title": "Venice Bitch",
+    "album": "Norman Fucking Rockwell!"
+  },
+  {
+    "id": 48,
+    "title": "Fuck It I Love You",
+    "album": "Norman Fucking Rockwell!"
+  },
+  {
+    "id": 40,
+    "title": "Doin' Time",
+    "album": "Norman Fucking Rockwell!"
+  },
+  {
+    "id": 23,
+    "title": "California",
+    "album": "Norman Fucking Rockwell!"
+  },
+  {
+    "id": 88,
+    "title": "Norman Fucking Rockwell",
+    "album": "Norman Fucking Rockwell!"
+  },
+  {
+    "id": 7,
+    "title": "Bartender",
+    "album": "Norman Fucking Rockwell!"
+  },
+  {
+    "id": 63,
+    "title": "hope is a dangerous thing for a woman like me to have - but i have it",
+    "album": "Norman Fucking Rockwell!"
+  },
+  {
+    "id": 87,
+    "title": "The Next Best American Record",
+    "album": "Norman Fucking Rockwell!"
+  },
+  {
+    "id": 64,
+    "title": "How to Disappear",
+    "album": "Norman Fucking Rockwell!"
+  },
+  {
+    "id": 30,
+    "title": "Cinnamon Girl",
+    "album": "Norman Fucking Rockwell!"
+  },
+  {
+    "id": 77,
+    "title": "Love Song",
+    "album": "Norman Fucking Rockwell!"
+  },
+  {
+    "id": 59,
+    "title": "Happiness Is a Butterfly",
+    "album": "Norman Fucking Rockwell!"
+  },
+  {
+    "id": 56,
+    "title": "The Greatest",
+    "album": "Norman Fucking Rockwell!"
+  },
+  {
+    "id": 121,
+    "title": "White Dress",
+    "album": "Chemtrails over the Country Club"
+  },
+  {
+    "id": 27,
+    "title": "Chemtrails over the Country Club",
+    "album": "Chemtrails over the Country Club"
+  },
+  {
+    "id": 113,
+    "title": "Tulsa Jesus Freak",
+    "album": "Chemtrails over the Country Club"
+  },
+  {
+    "id": 72,
+    "title": "Let Me Love You like a Woman",
+    "album": "Chemtrails over the Country Club"
+  },
+  {
+    "id": 122,
+    "title": "Wild at Heart",
+    "album": "Chemtrails over the Country Club"
+  },
+  {
+    "id": 35,
+    "title": "Dark but Just a Game",
+    "album": "Chemtrails over the Country Club"
+  },
+  {
+    "id": 89,
+    "title": "Not All Who Wander Are Lost",
+    "album": "Chemtrails over the Country Club"
+  },
+  {
+    "id": 19,
+    "title": "Breaking Up Slowly",
+    "album": "Chemtrails over the Country Club"
+  },
+  {
+    "id": 34,
+    "title": "Dance Till We Die",
+    "album": "Chemtrails over the Country Club"
+  },
+  {
+    "id": 126,
+    "title": "Yosemite",
+    "album": "Chemtrails over the Country Club"
+  },
+  {
+    "id": 46,
+    "title": "For Free",
+    "album": "Chemtrails over the Country Club"
+  },
+  {
+    "id": 109,
+    "title": "Text Book",
+    "album": "Blue Banisters"
+  },
+  {
+    "id": 14,
+    "title": "Blue Banisters",
+    "album": "Blue Banisters"
+  },
+  {
+    "id": 5,
+    "title": "Arcadia",
+    "album": "Blue Banisters"
+  },
+  {
+    "id": 74,
+    "title": "Living Legend",
+    "album": "Blue Banisters"
+  },
+  {
+    "id": 29,
+    "title": "Cherry Blossom",
+    "album": "Blue Banisters"
+  },
+  {
+    "id": 123,
+    "title": "Wildflower Wildfire",
+    "album": "Blue Banisters"
+  },
+  {
+    "id": 111,
+    "title": "Thunder",
+    "album": "Blue Banisters"
+  },
+  {
+    "id": 37,
+    "title": "Dealer",
+    "album": "Blue Banisters"
+  },
+  {
+    "id": 8,
+    "title": "Beautiful",
+    "album": "Blue Banisters"
+  },
+  {
+    "id": 86,
+    "title": "Nectar of the Gods",
+    "album": "Blue Banisters"
+  },
+  {
+    "id": 11,
+    "title": "Black Bathing Suit",
+    "album": "Blue Banisters"
+  },
+  {
+    "id": 65,
+    "title": "If You Lie Down with Me",
+    "album": "Blue Banisters"
+  },
+  {
+    "id": 117,
+    "title": "Violets for Roses",
+    "album": "Blue Banisters"
+  },
+  {
+    "id": 106,
+    "title": "Sweet Carolina",
+    "album": "Blue Banisters"
+  },
+  {
+    "id": 67,
+    "title": "Interlude \u2013 The Trio",
+    "album": "Blue Banisters"
+  },
+  {
+    "id": 38,
+    "title": "Did You Know That There's a Tunnel Under Ocean Blvd",
+    "album": "Did You Know That There's a Tunnel Under Ocean Blvd"
+  },
+  {
+    "id": 55,
+    "title": "The Grants",
+    "album": "Did You Know That There's a Tunnel Under Ocean Blvd"
+  },
+  {
+    "id": 70,
+    "title": "Judah Smith Interlude",
+    "album": "Did You Know That There's a Tunnel Under Ocean Blvd"
+  },
+  {
+    "id": 3,
+    "title": "A&W",
+    "album": "Did You Know That There's a Tunnel Under Ocean Blvd"
+  },
+  {
+    "id": 24,
+    "title": "Candy Necklace",
+    "album": "Did You Know That There's a Tunnel Under Ocean Blvd"
+  },
+  {
+    "id": 69,
+    "title": "Jon Batiste Interlude",
+    "album": "Did You Know That There's a Tunnel Under Ocean Blvd"
+  },
+  {
+    "id": 71,
+    "title": "Kintsugi",
+    "album": "Did You Know That There's a Tunnel Under Ocean Blvd"
+  },
+  {
+    "id": 42,
+    "title": "Fingertips",
+    "album": "Did You Know That There's a Tunnel Under Ocean Blvd"
+  },
+  {
+    "id": 94,
+    "title": "Peppers",
+    "album": "Did You Know That There's a Tunnel Under Ocean Blvd"
+  },
+  {
+    "id": 54,
+    "title": "Grandfather Please Stand on the Shoulders of My Father While He's Deep-Sea Fishing",
+    "album": "Did You Know That There's a Tunnel Under Ocean Blvd"
+  },
+  {
+    "id": 73,
+    "title": "Let the Light In",
+    "album": "Did You Know That There's a Tunnel Under Ocean Blvd"
+  },
+  {
+    "id": 43,
+    "title": "Fishtail",
+    "album": "Did You Know That There's a Tunnel Under Ocean Blvd"
+  },
+  {
+    "id": 80,
+    "title": "Margaret",
+    "album": "Did You Know That There's a Tunnel Under Ocean Blvd"
+  },
+  {
+    "id": 93,
+    "title": "Paris, Texas",
+    "album": "Did You Know That There's a Tunnel Under Ocean Blvd"
+  },
+  {
+    "id": 107,
+    "title": "Taco Truck x VB",
+    "album": "Did You Know That There's a Tunnel Under Ocean Blvd"
+  },
+  {
+    "id": 105,
+    "title": "Sweet",
+    "album": "Did You Know That There's a Tunnel Under Ocean Blvd"
+  },
+  {
+    "id": 141,
+    "title": "Young and Beautiful",
+    "album": "Other Songs",
+    "variants": [
+      "Soundtrack"
+    ]
+  },
+  {
+    "id": 142,
+    "title": "Once Upon a Dream",
+    "album": "Other Songs",
+    "variants": [
+      "Soundtrack"
+    ]
+  },
+  {
+    "id": 143,
+    "title": "Say Yes to Heaven",
+    "album": "Other Songs"
+  },
+  {
+    "id": 144,
+    "title": "Take Me Home, Country Roads",
+    "album": "Other Songs"
+  },
+  {
+    "id": 145,
+    "title": "Henry, Come On",
+    "album": "Stove"
+  },
+  {
+    "id": 146,
+    "title": "Bluebird",
+    "album": "Stove"
+  },
+  {
+    "id": 147,
+    "title": "White Feather Hawk Tail Deer Hunter",
+    "album": "Stove"
+  }
+]
