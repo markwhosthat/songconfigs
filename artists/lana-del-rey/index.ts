@@ -10,7 +10,7 @@ export const LanaDelReyConfig: ArtistConfig = {
   songs,
   themes: ALBUM_THEMES,
   // Key of the default theme to use from the themes object.
-  defaultThemeKey: 'Norman Fucking Rockwell!',
+  defaultThemeKey: 'Did You Know That There\'s a Tunnel Under Ocean Blvd',
   // Key for storing the sort session in localStorage. Should be unique across artists.
   storageKey: 'ldr-song-sorter-session',
   topSectionName: 'The Top 10',
