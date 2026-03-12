@@ -9,6 +9,4 @@ export const LadyGagaConfig: ArtistConfig = {
   themes: ALBUM_THEMES,
   defaultThemeKey: 'The Fame',
   storageKey: 'gaga-song-sorter-session',
-  topSectionName: 'The Top 10',
-  topSectionCount: 10,
 };

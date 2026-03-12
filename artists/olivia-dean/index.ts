@@ -9,6 +9,4 @@ export const OliviaDeanConfig: ArtistConfig = {
   themes: ALBUM_THEMES,
   defaultThemeKey: 'Messy',
   storageKey: 'od-song-sorter-session',
-  topSectionName: 'Top 10',
-  topSectionCount: 10,
 };

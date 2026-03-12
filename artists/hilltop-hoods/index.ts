@@ -10,6 +10,4 @@ export const HilltopHoodsConfig: ArtistConfig = {
   themes: ALBUM_THEMES,
   defaultThemeKey: 'The Calling',
   storageKey: 'hh-song-sorter-session',
-  topSectionName: 'The Top 10',
-  topSectionCount: 10,
 };

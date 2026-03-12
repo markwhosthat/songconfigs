@@ -9,6 +9,4 @@ export const ArianaGrandeConfig: ArtistConfig = {
   themes: ALBUM_THEMES,
   defaultThemeKey: 'eternal sunshine',
   storageKey: 'ag-song-sorter-session',
-  topSectionName: 'The Top Picks',
-  topSectionCount: 10,
 };

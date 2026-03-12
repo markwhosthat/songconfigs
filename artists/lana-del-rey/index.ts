@@ -13,8 +13,6 @@ export const LanaDelReyConfig: ArtistConfig = {
   defaultThemeKey: 'Did You Know That There\'s a Tunnel Under Ocean Blvd',
   // Key for storing the sort session in localStorage. Should be unique across artists.
   storageKey: 'ldr-song-sorter-session',
-  topSectionName: 'The Top 10',
-  topSectionCount: 10,
   filterPresets: [
     {
       name: 'No Bonus Tracks',

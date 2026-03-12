@@ -35,9 +35,9 @@ export const ArtistNameConfig: ArtistConfig = {
   defaultThemeKey: 'DefaultAlbum',
   // Unique localStorage key for this artist's session
   storageKey: 'artist-session-key',
-  // (Optional) Label for the top results section
-  topSectionName: 'Top 10 Songs',
-  // (Optional) Number of songs to show in the top results section
+  // (Optional) Label for the top results section. Defaults to 'The Top 10'
+  topSectionName: 'The Top 10',
+  // (Optional) Number of songs to show in the top results section. Defaults to 10
   topSectionCount: 10,
 };
 ```

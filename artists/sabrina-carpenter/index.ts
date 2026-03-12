@@ -9,6 +9,4 @@ export const SabrinaCarpenterConfig: ArtistConfig = {
   themes: ALBUM_THEMES,
   defaultThemeKey: "Short n' Sweet",
   storageKey: 'sabrina-song-sorter-session',
-  topSectionName: 'The Top 10',
-  topSectionCount: 10,
 };
