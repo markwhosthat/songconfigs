@@ -74,7 +74,7 @@ The song list is an array of objects:
 
 - **`id`**: Unique numeric ID for each song.
 - **`title`**: Display name of the song.
-- **`album`**: The album name. This MUST match a key in `ALBUM_THEMES` within `themes.ts`.
+- **`album`**: The album name. This should match a key in `ALBUM_THEMES` within `themes.ts` if it is to have a matching theme. A standard "Other Songs" album title can be used and should not be themed.
 - **`variants`** (Optional): An array of strings representing subsets of the album (e.g., `["deluxe"]`, `["from the vault"]`). These appear in the Filters menu as "variant tracks" that can be toggled independently of the base album.
 
 ### 3. Filter Presets & URL Slugs
