@@ -27,5 +27,19 @@
   { "id": 26, "title": "stranger", "album": "GUTS", "variants": ["spilled"] },
   { "id": 27, "title": "so american", "album": "GUTS", "variants": ["spilled"] },
   { "id": 28, "title": "scared of my guitar", "album": "GUTS", "variants": ["spilled"] },
-  { "id": 29, "title": "can't catch me now", "album": "The Hunger Games" }
+  { "id": 29, "title": "can't catch me now", "album": "The Hunger Games" },
+  { "id": 30, "title": "drop dead", "album": "You Seem Pretty Sad for a Girl So in Love" },
+  { "id": 31, "title": "stupid song", "album": "You Seem Pretty Sad for a Girl So in Love" },
+  { "id": 32, "title": "honeybee", "album": "You Seem Pretty Sad for a Girl So in Love" },
+  { "id": 33, "title": "maggots for brains", "album": "You Seem Pretty Sad for a Girl So in Love" },
+  { "id": 34, "title": "u + me = <3", "album": "You Seem Pretty Sad for a Girl So in Love" },
+  { "id": 35, "title": "my way", "album": "You Seem Pretty Sad for a Girl So in Love" },
+  { "id": 36, "title": "purple", "album": "You Seem Pretty Sad for a Girl So in Love" },
+  { "id": 37, "title": "the cure", "album": "You Seem Pretty Sad for a Girl So in Love" },
+  { "id": 38, "title": "begged", "album": "You Seem Pretty Sad for a Girl So in Love" },
+  { "id": 39, "title": "what's wrong with me", "album": "You Seem Pretty Sad for a Girl So in Love" },
+  { "id": 40, "title": "less", "album": "You Seem Pretty Sad for a Girl So in Love" },
+  { "id": 41, "title": "expectations", "album": "You Seem Pretty Sad for a Girl So in Love" },
+  { "id": 42, "title": "cigarette smoke", "album": "You Seem Pretty Sad for a Girl So in Love" },
+  { "id": 43, "title": "never do", "album": "You Seem Pretty Sad for a Girl So in Love", "variants": ["bonus track"] }
 ]
