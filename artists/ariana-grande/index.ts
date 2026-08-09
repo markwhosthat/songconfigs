@@ -7,6 +7,6 @@ export const ArianaGrandeConfig: ArtistConfig = {
   name: 'Ariana Grande',
   songs,
   themes: ALBUM_THEMES,
-  defaultThemeKey: 'eternal sunshine',
+  defaultThemeKey: 'petal',
   storageKey: 'ag-song-sorter-session',
 };

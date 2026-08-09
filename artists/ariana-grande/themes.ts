@@ -25,4 +25,8 @@ export const ALBUM_THEMES: Record<string, Theme> = {
         className: 'theme-eternal-sunshine',
         short_name: 'eternal sunshine',
     },
+    "petal": {
+        className: 'theme-petal',
+        short_name: 'petal',
+    },
 }

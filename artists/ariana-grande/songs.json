@@ -108,5 +108,17 @@
   { "id": 107, "title": "warm", "album": "eternal sunshine", "variants": ["brighter days ahead"] },
   { "id": 108, "title": "dandelion", "album": "eternal sunshine", "variants": ["brighter days ahead"] },
   { "id": 109, "title": "past life", "album": "eternal sunshine", "variants": ["brighter days ahead"] },
-  { "id": 110, "title": "hampstead", "album": "eternal sunshine", "variants": ["brighter days ahead"] }
+  { "id": 110, "title": "hampstead", "album": "eternal sunshine", "variants": ["brighter days ahead"] },
+  { "id": 111, "title": "kiss me", "album": "petal" },
+  { "id": 112, "title": "hate that i made you love me", "album": "petal" },
+  { "id": 113, "title": "petal", "album": "petal" },
+  { "id": 114, "title": "stay", "album": "petal" },
+  { "id": 115, "title": "oh well", "album": "petal" },
+  { "id": 116, "title": "big feelings", "album": "petal" },
+  { "id": 117, "title": "freak", "album": "petal" },
+  { "id": 118, "title": "warning signs (interlude)", "album": "petal" },
+  { "id": 119, "title": "like i do", "album": "petal" },
+  { "id": 120, "title": "never get over me", "album": "petal" },
+  { "id": 121, "title": "bad thing (bunny hop)", "album": "petal" },
+  { "id": 122, "title": "nowhere, nobody", "album": "petal" }
 ]

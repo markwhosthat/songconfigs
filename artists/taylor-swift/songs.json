@@ -262,5 +262,5 @@
   { "title": "Eyes Open", "album": "Other Songs", "id": 253 },
   { "title": "I Heart ?", "album": "Other Songs", "id": 254 },
   { "title": "Safe & Sound", "album": "Other Songs", "id": 255 },
-  { "title": "I Knew It, I Knew You", album: "Other Songs", id: 256 }
+  { "title": "I Knew It, I Knew You", "album": "Other Songs", "id": 256 }
 ]

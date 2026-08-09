@@ -46,3 +46,10 @@
   --album-font: var(--default-font);
   --text-font: var(--default-font);
 }
+
+.theme-petal {
+  --album-color-primary: #121212;
+  --album-color-secondary: #ffffff;
+  --album-font: var(--default-font);
+  --text-font: var(--default-font);
+}
