@@ -7,7 +7,7 @@ export const OliviaRodrigoConfig: ArtistConfig = {
   name: 'Olivia Rodrigo',
   songs,
   themes: ALBUM_THEMES,
-  defaultThemeKey: 'SOUR',
+  defaultThemeKey: 'You Seem Pretty Sad for a Girl So in Love',
   storageKey: 'or-song-sorter-session',
   topSectionName: 'The Top Picks',
   filterPresets: [

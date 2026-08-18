@@ -7,4 +7,7 @@ export const ALBUM_THEMES: Record<string, Theme> = {
     "GUTS": {
         className: 'theme-guts',
     },
+    "You Seem Pretty Sad for a Girl So in Love": {
+        className: 'theme-you-seem-sad',
+    },
 }

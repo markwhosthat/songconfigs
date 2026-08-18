@@ -12,6 +12,16 @@
   --text-font: var(--default-font);
 }
 
+.theme-you-seem-sad {
+  /* Matches the real album art: Olivia on a swing in a pink dress (a
+     Fragonard "The Swing" reference), with "love" hand-lettered on her
+     underskirt against that same soft pink. */
+  --album-color-primary: #fdafca; /* hsl(339.23, 95.12%, 83.92%) */
+  --album-color-secondary: #000000;
+  --album-font: var(--default-font);
+  --text-font: var(--default-font);
+}
+
 .theme-guts-spilled {
   --album-color-primary: #ff0000; /* Red for spilled */
   --album-color-secondary: #ffffff;
