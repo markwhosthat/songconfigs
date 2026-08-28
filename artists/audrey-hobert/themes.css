@@ -1,0 +1,11 @@
+/*
+ * Palette drawn from the "Who's the Clown?" (2025) album identity:
+ * the raspberry-pink vinyl pressing offset by warm cream / buttery-yellow
+ * sleeve accents. Primary paints the page background (and selected cards),
+ * secondary is the text that sits on it - a vivid, playful pairing that
+ * clears WCAG AA (contrast ~5.6:1 both ways).
+ */
+.theme-audrey-hobert-whos-the-clown {
+  --album-color-primary: #b01e54;
+  --album-color-secondary: #fce9c4;
+}
