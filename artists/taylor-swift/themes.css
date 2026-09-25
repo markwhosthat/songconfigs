@@ -142,3 +142,228 @@
   font-style: italic;
   text-transform: uppercase;
 }
+
+/* The Encore: colours sampled from the cover art. Burgundy is the curtain
+   shadow, gold is the median of the glitter ENCORE lettering. 6.73:1
+   contrast either way round, so it clears WCAG AA for body text. */
+.theme-showgirl-encore {
+  --album-color-primary: #420318;
+  --album-color-secondary: #D59943;
+  --album-font: 'gazzetta-variable', sans-serif;
+  --text-font: var(--default-font);
+  --album-text-transform: uppercase;
+}
+
+.theme-showgirl-encore header {
+  font-style: italic;
+}
+
+.theme-showgirl-encore.theme-item {
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+/* Glitter on the cards. The texture is generated rather than photographed:
+   crisp flakes (a seamless 768px tile, shown at 256px: sharp on 2x
+   screens, and fine-grained), each a flat facet at its own angle to the light, lit in
+   clusters like the cover's glitter. Its brightness spread and, per
+   brightness, its colour are sampled from glitter inside the cover's
+   ENCORE N - pale yellow highlights, brown-orange darks - averaging the
+   secondary.
+   Background-image only: the cards' own hover/active rules still set
+   background-color, and using the shorthand here would fight them. */
+.theme-showgirl-encore .choice-card {
+  background-image:
+    linear-gradient(rgb(213 153 67 / 0.3), rgb(213 153 67 / 0.3)),
+    url('/textures/encore-glitter.webp');
+  background-size: auto, 256px 256px;
+}
+
+/* The cards' live glitter is drawn by GlitterSurface (WebGL) over the
+   texture above, which remains as the fallback. The song text sits above
+   it and lets clicks through to the card's select overlay. */
+body.theme-showgirl-encore .choice-card .song-title,
+body.theme-showgirl-encore .choice-card .song-metadata {
+  position: relative;
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* Card text on glitter. The glitter itself calms behind the text (see
+   GlitterSurface's calm box), so the letters need no halo: crisp burgundy,
+   with a faint light edge below each glyph, as if pressed into the card.
+   The variant label (faint by default) is brought up to hold its own. */
+.theme-showgirl-encore .choice-card .song-title,
+.theme-showgirl-encore .choice-card .album-name,
+.theme-showgirl-encore .choice-card .variant-info {
+  text-shadow: 0 1px 0 rgb(255 236 200 / 0.35);
+}
+
+.theme-showgirl-encore .choice-card .album-name {
+  opacity: 1;
+}
+
+.theme-showgirl-encore .choice-card .variant-info {
+  opacity: 0.85;
+}
+
+/* The play button on glitter: a small frosted disc - the flakes behind it
+   blurred and washed toward the card gold - so the icon reads cleanly.
+   Hover and playing keep their own tint on top of the blur. */
+.theme-showgirl-encore .choice-card .preview-btn {
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  background: color-mix(in srgb, var(--album-color-secondary), transparent 35%);
+  border-color: color-mix(in srgb, var(--album-color-primary), transparent 65%);
+}
+
+/* Gazzetta sets small for its size, so both Showgirl themes run the page
+   title at 120% of the global h1 (2.5rem, and 1.8rem at <=700px). */
+.theme-showgirl header h1,
+.theme-showgirl-encore header h1 {
+  font-size: calc(2.5rem * 1.2);
+}
+
+@media (max-width: 700px) {
+  .theme-showgirl header h1,
+  .theme-showgirl-encore header h1 {
+    font-size: calc(1.8rem * 1.2);
+  }
+}
+
+/* The Encore's staggered name is the page's hero, and Gazzetta is narrow:
+   set another 40% up. The small words around it are sized relative to
+   this (--title-small, below). */
+.theme-showgirl-encore header h1.title-staggered {
+  font-size: calc(2.5rem * 1.2 * 1.4);
+}
+
+@media (max-width: 700px) {
+  .theme-showgirl-encore header h1.title-staggered {
+    font-size: calc(1.8rem * 1.2 * 1.4);
+  }
+}
+
+/* The Encore title, after the cover's ENCORE: the artist name's letters
+   alternate between two fixed heights, one down, one up (ThemedTitle marks
+   them .is-down / .is-up). "Song Sorter" after it stays on the baseline.
+
+   The letters are shifted with vertical-align rather than transforms or
+   relative positioning: they stay ordinary inline text, so kerning holds
+   and the heading's single glitter fill (below) still covers them - a
+   transformed or positioned child drops out of its parent's text clip.
+   cap is the font's own capital height; the em values before it are the
+   fallback for browsers without it (0.7em is a typical capital). */
+.theme-showgirl-encore .stagger-letter.is-down {
+  vertical-align: -0.084em;
+  vertical-align: -0.12cap;
+}
+
+.theme-showgirl-encore .stagger-letter.is-up {
+  vertical-align: 0.084em;
+  vertical-align: 0.12cap;
+}
+
+/* Heading lockup, after the cover: the staggered name is the hero, and the
+   words around it - "THE" before, "SONG SORTER" under - share one small,
+   secondary size, as the cover sets its small type against ENCORE. */
+.theme-showgirl-encore .title-staggered {
+  --title-small: 0.28em;
+  /* The heading is shrink-wrapped (it sits in a flex row), and the glitter
+     fill only paints inside its box: italic letters lean past it, which
+     clipped the top of the final T. Room for the lean at both ends, the
+     start's taken back out so the title does not move. */
+  padding-inline: 0.2em;
+  margin-left: -0.2em;
+  /* The small caption line ends the heading close to the text below it. */
+  margin-bottom: 0.3em;
+}
+
+/* THE: top-aligned with the first (lowered) letter. Raised by 2.14 of its
+   own capitals: the lowered letter's top sits 0.88 of a title capital up
+   (1 - 0.12), less THE's own 0.28 of one, = 0.6 title capitals = 2.14
+   of THE's. */
+.theme-showgirl-encore .title-prefix {
+  font-size: var(--title-small);
+  vertical-align: 1.5em;
+  vertical-align: 2.14cap;
+}
+
+/* The name and "SONG SORTER" stack as one column, so the second line hangs
+   from the name's first letter rather than from THE. inline-flex keeps
+   the column's baseline on the name's line (an inline-block would take
+   its last line's), which THE and the stagger are aligned to. */
+.theme-showgirl-encore .title-lockup {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Set solid, so the caption sits close under the name rather than a full
+   line-height away. */
+.theme-showgirl-encore .title-feature {
+  line-height: 1;
+}
+
+.theme-showgirl-encore .title-rest {
+  font-size: var(--title-small);
+  letter-spacing: 0.22em;
+  margin-top: 0.45em;
+}
+
+/* Edges that read as made of glitter, not cut from it: the displacement
+   filter ThemedTitle provides roughens every glyph edge by a pixel or so. */
+.theme-showgirl-encore .title-staggered {
+  filter: url(#glitter-edge);
+}
+
+/* Glitter lettering across the whole title. Guarded so a browser without
+   text clipping keeps the plain gold title rather than transparent text. */
+@supports ((background-clip: text) or (-webkit-background-clip: text)) {
+  .theme-showgirl-encore header h1 {
+    background-image: url('/textures/encore-glitter.webp');
+    /* Half the cards' scale: title strokes are thin, and at the cards'
+       size each would hold only a flake or two. */
+    background-size: 192px 192px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+}
+
+/* Showgirl songs in the results: the top cards in gold glitter with
+   burgundy lettering, as on the sorter's choice cards; the small album
+   badges plain gold, where glitter would swamp the text. The `.results`
+   ancestor outranks the component's scoped rules. */
+.results .top-card.theme-showgirl-encore,
+.results .album-badge.theme-showgirl-encore {
+  background-color: var(--album-color-secondary);
+  color: var(--album-color-primary);
+}
+
+.results .top-card.theme-showgirl-encore {
+  background-image:
+    linear-gradient(rgb(213 153 67 / 0.3), rgb(213 153 67 / 0.3)),
+    url('/textures/encore-glitter.webp');
+  background-size: auto, 256px 256px;
+  text-shadow: 0 1px 0 rgb(255 236 200 / 0.35);
+  border-color: var(--album-color-primary);
+  font-style: normal;
+  text-transform: none;
+}
+
+.results .top-card.theme-showgirl-encore .rank {
+  opacity: 1;
+}
+
+/* Pressing a glitter card is the glitter's own animation: no grey tap
+   flash from the browser, and no tint over the card when pressed. */
+.theme-showgirl-encore .choice-card,
+.theme-showgirl-encore .choice-card * {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.theme-showgirl-encore .choice-card:has(.select-action-overlay:active),
+.theme-showgirl-encore .choice-card.is-active {
+  background-color: var(--album-color-secondary);
+}

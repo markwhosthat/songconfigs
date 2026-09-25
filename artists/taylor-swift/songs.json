@@ -248,6 +248,10 @@
   { "title": "Cancelled!", "album": "The Life Of A Showgirl", "id": 246 },
   { "title": "Honey", "album": "The Life Of A Showgirl", "id": 247 },
   { "title": "The Life of A Show Girl (Ft. Sabrina Carpenter)", "album": "The Life Of A Showgirl", "id": 248 },
+  { "title": "Patient Zero", "album": "The Life Of A Showgirl", "id": 264, "variants": ["The Encore"] },
+  { "title": "Cleveland!", "album": "The Life Of A Showgirl", "id": 265, "variants": ["The Encore"] },
+  { "title": "Pink Clouding", "album": "The Life Of A Showgirl", "id": 266, "variants": ["The Encore"] },
+  { "title": "Babylon", "album": "The Life Of A Showgirl", "id": 267, "variants": ["The Encore"] },
   { "title": "The Fate of Ophelia (Alone In My Tower Acoustic Version)", "album": "The Life Of A Showgirl", "id": 257, "variants": ["Extras"] },
   { "title": "Eldest Daughter (Now You're Home Acoustic Version)", "album": "The Life Of A Showgirl", "id": 258, "variants": ["Extras"] },
   { "title": "Opalite (Life Is A Song Acoustic Version)", "album": "The Life Of A Showgirl", "id": 259, "variants": ["Extras"] },
@@ -262,5 +266,5 @@
   { "title": "Eyes Open", "album": "Other Songs", "id": 253 },
   { "title": "I Heart ?", "album": "Other Songs", "id": 254 },
   { "title": "Safe & Sound", "album": "Other Songs", "id": 255 },
-  { "title": "I Knew It, I Knew You", "album": "Other Songs", "id": 256 }
+  { "title": "I Knew It, I Knew You", "album": "Other Songs", "id": 268 }
 ]
