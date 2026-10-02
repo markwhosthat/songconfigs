@@ -67,7 +67,7 @@ export const TaylorSwiftConfig: ArtistConfig = {
   storageKey: 'ts-song-sorter-session',
   // Songs where she is a featured guest rather than the main artist, her
   // covers of other people's songs, and the Taylor's Version re-recordings.
-  defaultExcludedVariants: ['Other Songs:Features', 'Other Songs:Covers', ...TAYLORS_VERSIONS],
+  defaultExcludedVariants: ['Other Songs:Features', 'The Life Of A Showgirl:Extras', 'Other Songs:Covers', ...TAYLORS_VERSIONS],
   topSectionName: 'The Top 13',
   topSectionCount: 13,
   seo: {
