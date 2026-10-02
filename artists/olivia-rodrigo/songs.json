@@ -41,5 +41,6 @@
   { "id": 40, "title": "less", "album": "You Seem Pretty Sad for a Girl So in Love" },
   { "id": 41, "title": "expectations", "album": "You Seem Pretty Sad for a Girl So in Love" },
   { "id": 42, "title": "cigarette smoke", "album": "You Seem Pretty Sad for a Girl So in Love" },
-  { "id": 43, "title": "never do", "album": "You Seem Pretty Sad for a Girl So in Love", "variants": ["bonus track"] }
+  { "id": 43, "title": "never do", "album": "You Seem Pretty Sad for a Girl So in Love", "variants": ["bonus track"] },
+  { "id": 44, "title": "serena joy", "album": "Other Songs" }
 ]
