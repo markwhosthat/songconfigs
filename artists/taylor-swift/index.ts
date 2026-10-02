@@ -90,6 +90,36 @@ export const TaylorSwiftConfig: ArtistConfig = {
         title: 'Rank The Life of a Showgirl: The Encore | Taylor Swift Song Sorter',
         description: "Rank Patient Zero, Cleveland!, Pink Clouding and Babylon, the four new songs on Taylor Swift's The Life of a Showgirl: The Encore, two at a time.",
       },
+      // Presets that are filtered copies of the full catalogue stay noindex,
+      // but their titles still show in tabs and link previews.
+      'Everything': {
+        title: 'Rank Every Taylor Swift Song, Every Version | Taylor Swift Song Sorter',
+        description: "Rank every Taylor Swift song: every album, Taylor's Version and vault track, plus features, covers and extras. Choose between two songs at a time.",
+      },
+      'Standard Tracks': {
+        title: 'Rank Taylor Swift Album Tracks Only | Taylor Swift Song Sorter',
+        description: "Rank the standard tracklists of Taylor Swift's albums, without deluxe, vault or bonus tracks. Choose between two songs at a time.",
+      },
+      "Default + Taylor's Versions": {
+        title: "Rank Taylor Swift Songs with Taylor's Versions | Taylor Swift Song Sorter",
+        description: "Rank Taylor Swift's songs with the Taylor's Version re-recordings alongside the originals. Choose between two songs at a time to build your ranking.",
+      },
+      'The Life Of A Showgirl: The Encore': {
+        title: 'Rank The Life of a Showgirl + The Encore | Taylor Swift Song Sorter',
+        description: "Rank The Life of a Showgirl's standard tracks and The Encore's four new songs together, two at a time.",
+      },
+      'Beyond the Albums': {
+        title: "Rank Taylor Swift's Non-Album Songs | Taylor Swift Song Sorter",
+        description: 'Rank the Taylor Swift songs that live outside her albums: singles, soundtrack songs, Christmas songs, features and covers, two at a time.',
+      },
+      'Holiday': {
+        title: 'Rank Taylor Swift Christmas Songs | Taylor Swift Song Sorter',
+        description: "Rank Taylor Swift's Christmas songs, from Christmas Tree Farm and Christmases When You Were Mine to Last Christmas and Santa Baby, two at a time.",
+      },
+      'Other Songs': {
+        title: "Rank Taylor Swift's Non-Album Songs | Taylor Swift Song Sorter",
+        description: "Rank Taylor Swift's songs outside her albums: soundtrack songs like Safe & Sound and Eyes Open, singles like Only The Young, and her Christmas songs, two at a time.",
+      },
       "Taylor's Versions": {
         title: "Rank Every Taylor's Version Song | Taylor Swift Song Sorter",
         description: "Rank every song from Fearless, Speak Now, Red and 1989 (Taylor's Version), vault tracks included. Choose between two songs at a time to build your ranking.",
@@ -191,6 +221,8 @@ export const TaylorSwiftConfig: ArtistConfig = {
       group: 'Beyond',
       slug: 'holiday',
       ...holiday,
+      // Her Christmas songs, which no album page lists together.
+      indexable: true,
     }
   ]
 };
