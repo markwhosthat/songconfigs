@@ -66,12 +66,11 @@ export const TaylorSwiftConfig: ArtistConfig = {
   songTypes: [
     { label: 'Album tracks', variants: [STANDARD_VARIANT] },
     { label: "Taylor's Versions", variants: ["Taylor's Version"] },
-    { label: 'Deluxe & bonus', variants: ['Deluxe', 'Bonus'] },
+    // 3am Edition, The Anthology and The Encore are deluxe editions.
+    { label: 'Deluxe', variants: ['Deluxe', '3am Edition', 'The Anthology', 'The Encore'] },
+    // Bonus tracks, Showgirl's extra versions among them.
+    { label: 'Bonus', variants: ['Bonus', 'Extras'] },
     { label: 'From the Vault', variants: ['From the Vault'] },
-    { label: '3am Edition', variants: ['3am Edition'] },
-    { label: 'The Anthology', variants: ['The Anthology'] },
-    { label: 'The Encore', variants: ['The Encore'] },
-    { label: 'Extras', variants: ['Extras'] },
     { label: 'Remix', variants: ['Remix'] },
     { label: 'Soundtrack & singles', variants: ['Soundtrack', 'Singles'] },
     { label: 'Holiday', variants: ['Holiday'] },
