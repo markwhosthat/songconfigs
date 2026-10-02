@@ -27,6 +27,9 @@ export const TaylorSwiftConfig: ArtistConfig = {
   themes: ALBUM_THEMES,
   defaultThemeKey: 'The Life Of A Showgirl: The Encore',
   storageKey: 'ts-song-sorter-session',
+  // Songs where she is a featured guest rather than the main artist, and
+  // her covers of other people's songs.
+  defaultExcludedVariants: ['Other Songs:Features', 'Other Songs:Covers'],
   topSectionName: 'The Top 13',
   topSectionCount: 13,
   seo: {
@@ -72,7 +75,9 @@ export const TaylorSwiftConfig: ArtistConfig = {
       excludedAlbums: [],
       excludedVariants: [
         'Midnights:Remix',
-        'The Life Of A Showgirl:Extras'
+        'The Life Of A Showgirl:Extras',
+        'Other Songs:Features',
+        'Other Songs:Covers'
       ]
     },
     {
