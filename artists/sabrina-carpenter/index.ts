@@ -29,7 +29,7 @@ export const SabrinaCarpenterConfig: ArtistConfig = {
   name: 'Sabrina Carpenter',
   songs,
   themes: ALBUM_THEMES,
-  defaultThemeKey: SNS,
+  defaultThemeKey: MBF,
   storageKey: 'sabrina-song-sorter-session',
   // Song type switches in the Filters panel; every song is exactly one.
   songTypes: [
