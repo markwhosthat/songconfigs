@@ -1,0 +1,71 @@
+.theme-meet-miley-cyrus {
+  --album-color-primary: #f7f5f2;
+  --album-color-secondary: #141414;
+  --album-font: var(--default-font);
+}
+
+.theme-breakout {
+  --album-color-primary: #d4a537;
+  --album-color-secondary: #121212;
+  --album-font: var(--default-font);
+}
+
+.theme-the-time-of-our-lives {
+  --album-color-primary: #f6f2f8;
+  --album-color-secondary: #5b2a86;
+  --album-font: var(--default-font);
+}
+
+.theme-cant-be-tamed {
+  --album-color-primary: #0d0d0d;
+  --album-color-secondary: #c9a245;
+  --album-font: var(--default-font);
+}
+
+.theme-bangerz {
+  --album-color-primary: #f2a98f;
+  --album-color-secondary: #4b2170;
+  --album-font: var(--default-font);
+}
+
+.theme-dead-petz {
+  --album-color-primary: #120a14;
+  --album-color-secondary: #ff4fb8;
+  --album-font: var(--default-font);
+}
+
+.theme-younger-now {
+  --album-color-primary: #f6f1e6;
+  --album-color-secondary: #5a3a22;
+  --album-font: var(--default-font);
+}
+
+.theme-she-is-coming {
+  --album-color-primary: #111111;
+  --album-color-secondary: #f2f2f2;
+  --album-font: var(--default-font);
+}
+
+.theme-plastic-hearts {
+  --album-color-primary: #0e0e0e;
+  --album-color-secondary: #e8b3c0;
+  --album-font: var(--default-font);
+}
+
+.theme-endless-summer-vacation {
+  --album-color-primary: #1b3f8f;
+  --album-color-secondary: #f7f7f4;
+  --album-font: var(--default-font);
+}
+
+.theme-something-beautiful {
+  --album-color-primary: #0b1020;
+  --album-color-secondary: #5fa8d3;
+  --album-font: var(--default-font);
+}
+
+.theme-bass-persuades {
+  --album-color-primary: #0e0e0e;
+  --album-color-secondary: #f2352a;
+  --album-font: var(--default-font);
+}
