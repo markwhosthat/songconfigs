@@ -22,6 +22,12 @@
   --album-font: var(--default-font);
 }
 
+.theme-cheek-to-cheek {
+  --album-color-primary: #c9a45c;
+  --album-color-secondary: #161616;
+  --album-font: var(--default-font);
+}
+
 .theme-joanne {
   --album-color-primary: #c3d8e5;
   --album-color-secondary: #9e8086;
@@ -37,6 +43,12 @@
 .theme-chromatica {
   --album-color-primary: #939CAD;
   --album-color-secondary: #B51835;
+  --album-font: var(--default-font);
+}
+
+.theme-love-for-sale {
+  --album-color-primary: #1f5a5e;
+  --album-color-secondary: #e9b3bd;
   --album-font: var(--default-font);
 }
 

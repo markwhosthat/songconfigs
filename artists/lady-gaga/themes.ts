@@ -13,6 +13,9 @@ export const ALBUM_THEMES: Record<string, Theme> = {
   "ARTPOP": {
     className: 'theme-artpop',
   },
+  "Cheek to Cheek": {
+    className: 'theme-cheek-to-cheek',
+  },
   "Joanne": {
     className: 'theme-joanne',
   },
@@ -21,6 +24,9 @@ export const ALBUM_THEMES: Record<string, Theme> = {
   },
   "Chromatica": {
     className: 'theme-chromatica',
+  },
+  "Love for Sale": {
+    className: 'theme-love-for-sale',
   },
   "Harlequin": {
     className: 'theme-harlequin',
