@@ -154,7 +154,7 @@ export const TaylorSwiftConfig: ArtistConfig = {
         title: 'Rank Every From the Vault Song | Taylor Swift Song Sorter',
         description: "Rank all of Taylor Swift's From the Vault tracks, from You All Over Me to All Too Well (10 Minute Version) and You're Losing Me, two at a time.",
       },
-      'Track 5s': {
+      'Track 5': {
         title: 'Rank Every Taylor Swift Track 5 | Taylor Swift Song Sorter',
         description: 'Rank every Taylor Swift track 5, from Cold As You and All Too Well to my tears ricochet, So Long, London and Eldest Daughter, two at a time.',
       },
@@ -234,9 +234,11 @@ export const TaylorSwiftConfig: ArtistConfig = {
       indexable: true,
     },
     {
-      name: 'Track 5s',
+      name: 'Track 5',
+      label: 'Track 5s',
       group: 'Collections',
       slug: 'track-5s',
+      ownPage: true,
       ...trackFives,
       // A set no album page covers - worth a search result.
       indexable: true,
