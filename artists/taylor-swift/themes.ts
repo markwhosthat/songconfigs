@@ -48,7 +48,12 @@ export const ALBUM_THEMES: Record<string, Theme> = {
         // Showgirl theme stays in the picker.
         forAlbum: 'The Life Of A Showgirl',
         // Rankings shared from this theme preview as a glitter card.
-        shareCard: { texture: '/og/encore-glitter.jpg', bg: '#420318', fg: '#D59943' },
+        // The title is the header's lockup screenshotted from the live site
+        // (real Gazzetta, the site's spacing and glitter), trimmed.
+        shareCard: {
+            texture: '/og/encore-glitter.jpg', bg: '#420318', fg: '#D59943',
+            title: { src: '/og/encore-title.png', width: 897, height: 314 },
+        },
         // Sampled from the cover's glitter lettering, dark flakes to the
         // brightest flashes.
         entranceEffect: {
