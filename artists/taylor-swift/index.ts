@@ -9,7 +9,7 @@ const SHOWGIRL = 'The Life Of A Showgirl';
 const TAYLORS_VERSIONS = ['Fearless', 'Speak Now', 'Red', '1989'].map(album => `${album}:Taylor's Version`);
 
 // Left out unless someone opts in (see defaultExcludedVariants below).
-const DEFAULT_EXCLUDED = ['Other Songs:Features', 'The Life Of A Showgirl:Extras', 'Other Songs:Covers', ...TAYLORS_VERSIONS];
+const DEFAULT_EXCLUDED = ['Other Songs:Features', 'The Life Of A Showgirl:Extras', 'Other Songs:Covers', 'Lover:Live From Paris', ...TAYLORS_VERSIONS];
 
 // Just the Encore's new songs: every other album out, and within Showgirl
 // the Extras variant and the standard tracks (which carry no variant, so
@@ -49,6 +49,30 @@ const taylorsVersions = forAlbums(RERECORDED, ["Taylor's Version", 'From the Vau
 
 // Her Christmas songs: the originals and the Holiday Collection's covers,
 // but not her other covers.
+// Track 5 of each album, the slot she keeps for her most emotional song:
+// those albums' main tracks only, less every song but the fifth. The
+// originals, as Default ranks them, not the Taylor's Versions.
+const TRACK_FIVES: Record<string, string> = {
+  'Taylor Swift': 'Cold As You',
+  'Fearless': 'White Horse',
+  'Speak Now': 'Dear John',
+  'Red': 'All Too Well',
+  '1989': 'All You Had To Do Was Stay',
+  'Reputation': 'Delicate',
+  'Lover': 'The Archer',
+  'Folklore': 'my tears ricochet',
+  'Evermore': 'tolerate it',
+  'Midnights': "You're On Your Own, Kid",
+  'The Tortured Poets Department': 'So Long, London',
+  [SHOWGIRL]: 'Eldest Daughter',
+};
+const trackFives = {
+  ...forAlbums(Object.keys(TRACK_FIVES), [STANDARD_VARIANT]),
+  excludedSongs: songs
+    .filter(s => s.album in TRACK_FIVES && !s.variants?.length && s.title !== TRACK_FIVES[s.album])
+    .map(s => s.id),
+};
+
 const holiday = {
   ...keep({ 'Other Songs': ['Holiday', 'Covers'] }),
   excludedSongs: songs.filter(s => s.album === 'Other Songs' && s.title === 'September').map(s => s.id),
@@ -72,13 +96,16 @@ export const TaylorSwiftConfig: ArtistConfig = {
     { label: 'Bonus', variants: ['Bonus', 'Extras'] },
     { label: 'From the Vault', variants: ['From the Vault'] },
     { label: 'Remix', variants: ['Remix'] },
+    // Lover (Live From Paris), the City of Lover concert recordings.
+    { label: 'Live', variants: ['Live From Paris'] },
     { label: 'Soundtrack & singles', variants: ['Soundtrack', 'Singles'] },
     { label: 'Holiday', variants: ['Holiday'] },
     { label: 'Features', variants: ['Features'] },
     { label: 'Covers', variants: ['Covers'] },
   ],
   // Songs where she is a featured guest rather than the main artist, her
-  // covers of other people's songs, and the Taylor's Version re-recordings.
+  // covers of other people's songs, the live versions, and the Taylor's
+  // Version re-recordings.
   defaultExcludedVariants: DEFAULT_EXCLUDED,
   topSectionName: 'The Top 13',
   topSectionCount: 13,
@@ -126,6 +153,10 @@ export const TaylorSwiftConfig: ArtistConfig = {
       'From the Vault': {
         title: 'Rank Every From the Vault Song | Taylor Swift Song Sorter',
         description: "Rank all of Taylor Swift's From the Vault tracks, from You All Over Me to All Too Well (10 Minute Version) and You're Losing Me, two at a time.",
+      },
+      'Track 5s': {
+        title: 'Rank Every Taylor Swift Track 5 | Taylor Swift Song Sorter',
+        description: 'Rank every Taylor Swift track 5, from Cold As You and All Too Well to my tears ricochet, So Long, London and Eldest Daughter, two at a time.',
       },
       'Collaborations': {
         title: 'Rank Taylor Swift Collaborations & Features | Taylor Swift Song Sorter',
@@ -200,6 +231,14 @@ export const TaylorSwiftConfig: ArtistConfig = {
       group: 'Collections',
       slug: 'vault-tracks',
       ...forAlbums(VAULTED, ['From the Vault']),
+      indexable: true,
+    },
+    {
+      name: 'Track 5s',
+      group: 'Collections',
+      slug: 'track-5s',
+      ...trackFives,
+      // A set no album page covers - worth a search result.
       indexable: true,
     },
     {
