@@ -1,0 +1,35 @@
+.theme-room-93 {
+  --album-color-primary: #232824;
+  --album-color-secondary: #d4d8d5;
+  --album-font: var(--default-font);
+}
+
+.theme-badlands {
+  --album-color-primary: #2e272c;
+  --album-color-secondary: #86c3c0;
+  --album-font: var(--default-font);
+}
+
+.theme-hopeless-fountain-kingdom {
+  --album-color-primary: #c62f2f;
+  --album-color-secondary: #f5ecdc;
+  --album-font: var(--default-font);
+}
+
+.theme-manic {
+  --album-color-primary: #2b4a9b;
+  --album-color-secondary: #e3eaf3;
+  --album-font: var(--default-font);
+}
+
+.theme-love-and-power {
+  --album-color-primary: #341a12;
+  --album-color-secondary: #d2a272;
+  --album-font: var(--default-font);
+}
+
+.theme-the-great-impersonator {
+  --album-color-primary: #e6b94e;
+  --album-color-secondary: #1b1916;
+  --album-font: var(--default-font);
+}
