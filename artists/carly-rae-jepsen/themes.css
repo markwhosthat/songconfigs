@@ -21,10 +21,11 @@
   --album-color-secondary: #C21F57;
 }
 
-/* Black ground, the sky-blue E·MO·TION logo. */
+/* Black ground, the sky-blue E·MO·TION logo, lightened from #4DB6E0 so
+   small text (and its faded variants) reads cleanly on the black. */
 .theme-crj-emotion {
   --album-color-primary: #0A0909;
-  --album-color-secondary: #4DB6E0;
+  --album-color-secondary: #8DD3F0;
 }
 
 /* Pink half of the pink-to-blue gradient, navy of her tights. */

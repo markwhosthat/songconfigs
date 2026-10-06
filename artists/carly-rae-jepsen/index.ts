@@ -4,6 +4,12 @@ import { ALBUM_THEMES } from './themes';
 
 const DAY_AND_NIGHT = 'Day and Night';
 
+// Each song type's editions. Day and Night's two discs are editions of its
+// album tracks, switched inside the album; Emotion's 10th anniversary
+// edition is a deluxe reissue, switched inside Emotion.
+const ALBUM_TRACKS = [STANDARD_VARIANT, 'Day', 'Night'];
+const DELUXE = ['Deluxe', '10th Anniversary'];
+
 // Builds a preset's filters from what it keeps: these albums, and in each
 // only the listed variants (Standard for its untagged main tracks).
 const ALBUMS = [...new Set(songs.map(s => s.album))];
@@ -26,15 +32,6 @@ const idsOf = (titles: string[], album?: string) => titles.map(title => {
   return song.id;
 });
 
-// Day and Night is a double album: songs.json lists disc one (Day), then disc
-// two (Night), each with its bonus track last. A disc's preset is the album
-// less the other disc's songs.
-const DAY_AND_NIGHT_IDS = songs.filter(s => s.album === DAY_AND_NIGHT).map(s => s.id);
-const [NIGHT_OPENER] = idsOf(['Never Let a Good Thing Die'], DAY_AND_NIGHT);
-const NIGHT_START = DAY_AND_NIGHT_IDS.indexOf(NIGHT_OPENER!);
-const DAY_DISC = DAY_AND_NIGHT_IDS.slice(0, NIGHT_START);
-const NIGHT_DISC = DAY_AND_NIGHT_IDS.slice(NIGHT_START);
-
 const CHRISTMAS = idsOf([
   'Mittens',
   'Let It Snow',
@@ -43,7 +40,7 @@ const CHRISTMAS = idsOf([
 ], 'Other Songs');
 
 const EXTRAS = ALBUMS.filter(a => a !== 'Other Songs' &&
-  songs.some(s => s.album === a && s.variants?.some(v => v === 'Deluxe' || v === 'Bonus')));
+  songs.some(s => s.album === a && s.variants?.some(v => DELUXE.includes(v) || v === 'Bonus')));
 
 export const CarlyRaeJepsenConfig: ArtistConfig = {
   id: 'carly-rae-jepsen',
@@ -54,12 +51,11 @@ export const CarlyRaeJepsenConfig: ArtistConfig = {
   storageKey: 'crj-song-sorter-session',
   // Song type switches in the Filters panel; every song is exactly one.
   songTypes: [
-    { label: 'Album tracks', variants: [STANDARD_VARIANT] },
-    { label: 'Deluxe', variants: ['Deluxe'] },
+    { label: 'Album tracks', variants: ALBUM_TRACKS },
+    // Deluxe editions, and Emotion (10th Anniversary Edition), 2025.
+    { label: 'Deluxe', variants: DELUXE },
     // Regional, retailer and later-edition bonus tracks.
     { label: 'Bonus', variants: ['Bonus'] },
-    // Emotion (10th Anniversary Edition), 2025.
-    { label: 'Emotion 10th Anniversary', variants: ['10th Anniversary'] },
     { label: 'Singles', variants: ['Singles'] },
     { label: 'Features', variants: ['Features'] },
   ],
@@ -81,14 +77,6 @@ export const CarlyRaeJepsenConfig: ArtistConfig = {
       'The Loneliest Time + The Loveliest Time': {
         title: 'Rank The Loneliest Time + The Loveliest Time | Carly Rae Jepsen Song Sorter',
         description: 'Rank the companion albums together, from Western Wind, Beach House and The Loneliest Time to Shy Boy, Kamikaze and Psychedelic Switch, two at a time.',
-      },
-      'Day and Night: Day': {
-        title: 'Rank Day and Night: Disc One (Day) | Carly Rae Jepsen Song Sorter',
-        description: 'Rank the Day disc of Day and Night, from After All and On Wires to Lonely Side of the Bed and Just a Little Walk on the Moon, two at a time.',
-      },
-      'Day and Night: Night': {
-        title: 'Rank Day and Night: Disc Two (Night) | Carly Rae Jepsen Song Sorter',
-        description: "Rank the Night disc of Day and Night, from Never Let a Good Thing Die and Don't Leave Me on the Dance Floor to Motivation and Super Sage, two at a time.",
       },
       'Deluxe & Bonus Tracks': {
         title: 'Rank Carly Rae Jepsen Deluxe & Bonus Tracks | Carly Rae Jepsen Song Sorter',
@@ -128,7 +116,7 @@ export const CarlyRaeJepsenConfig: ArtistConfig = {
       label: 'Album tracks only',
       slug: 'standard-tracks',
       // Exactly the Album tracks song type on its own.
-      ...forAlbums(ALBUMS, [STANDARD_VARIANT]),
+      ...forAlbums(ALBUMS, ALBUM_TRACKS),
     },
     {
       name: 'Emotion + Side B',
@@ -157,31 +145,11 @@ export const CarlyRaeJepsenConfig: ArtistConfig = {
       indexable: true,
     },
     {
-      name: 'Day and Night: Day',
-      label: 'Day and Night: Day disc',
-      group: 'Collections',
-      slug: 'day-disc',
-      ...wholeAlbums([DAY_AND_NIGHT]),
-      excludedSongs: NIGHT_DISC,
-      themeKey: DAY_AND_NIGHT,
-      indexable: true,
-    },
-    {
-      name: 'Day and Night: Night',
-      label: 'Day and Night: Night disc',
-      group: 'Collections',
-      slug: 'night-disc',
-      ...wholeAlbums([DAY_AND_NIGHT]),
-      excludedSongs: DAY_DISC,
-      themeKey: DAY_AND_NIGHT,
-      indexable: true,
-    },
-    {
       name: 'Deluxe & Bonus Tracks',
       label: 'Deluxe & bonus only',
       group: 'Collections',
       slug: 'deluxe-and-bonus-tracks',
-      ...forAlbums(EXTRAS, ['Deluxe', 'Bonus', '10th Anniversary']),
+      ...forAlbums(EXTRAS, [...DELUXE, 'Bonus']),
       indexable: true,
     },
     {
