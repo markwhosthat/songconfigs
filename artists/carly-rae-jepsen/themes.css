@@ -8,10 +8,11 @@
   --album-color-secondary: #262A24;
 }
 
-/* White studio backdrop, the cyan "CARLY RAE JEPSEN" logo. */
+/* White studio backdrop, the cyan "CARLY RAE JEPSEN" logo, deepened
+   from #0084C4 for readable text. */
 .theme-crj-curiosity {
   --album-color-primary: #EAE7E3;
-  --album-color-secondary: #0084C4;
+  --album-color-secondary: #006BA1;
 }
 
 /* Baby-blue backdrop, the hot-pink T-shirt. */

@@ -50,7 +50,7 @@ export const CarlyRaeJepsenConfig: ArtistConfig = {
   name: 'Carly Rae Jepsen',
   songs,
   themes: ALBUM_THEMES,
-  defaultThemeKey: 'Emotion',
+  defaultThemeKey: DAY_AND_NIGHT,
   storageKey: 'crj-song-sorter-session',
   // Song type switches in the Filters panel; every song is exactly one.
   songTypes: [
