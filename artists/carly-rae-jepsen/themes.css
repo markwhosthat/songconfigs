@@ -1,0 +1,63 @@
+/* Colours sampled from each record's cover art: the background
+   (--album-color-primary) is the cover's ground, and the accent the
+   lettering or the detail that defines it. */
+
+/* Sea-green sky, charcoal lettering. */
+.theme-crj-tug-of-war {
+  --album-color-primary: #9BBBAF;
+  --album-color-secondary: #262A24;
+}
+
+/* White studio backdrop, the cyan "CARLY RAE JEPSEN" logo. */
+.theme-crj-curiosity {
+  --album-color-primary: #EAE7E3;
+  --album-color-secondary: #0084C4;
+}
+
+/* Baby-blue backdrop, the hot-pink T-shirt. */
+.theme-crj-kiss {
+  --album-color-primary: #A5DBE2;
+  --album-color-secondary: #C21F57;
+}
+
+/* Black ground, the sky-blue E·MO·TION logo. */
+.theme-crj-emotion {
+  --album-color-primary: #0A0909;
+  --album-color-secondary: #4DB6E0;
+}
+
+/* Pink half of the pink-to-blue gradient, navy of her tights. */
+.theme-crj-emotion-side-b {
+  --album-color-primary: #E285B7;
+  --album-color-secondary: #14305A;
+}
+
+/* The black-and-white photograph: pale grey, deep black. */
+.theme-crj-dedicated {
+  --album-color-primary: #D2D2D2;
+  --album-color-secondary: #1C1C1C;
+}
+
+/* The same photograph, with the "Dedicated ... side B" script in taupe. */
+.theme-crj-dedicated-side-b {
+  --album-color-primary: #DCD9D2;
+  --album-color-secondary: #6E6252;
+}
+
+/* Oxblood wall, the amber of the table and pears. */
+.theme-crj-loneliest-time {
+  --album-color-primary: #462920;
+  --album-color-secondary: #E0A060;
+}
+
+/* Lamplit dark umber, the gold lamé. */
+.theme-crj-loveliest-time {
+  --album-color-primary: #2A1C08;
+  --album-color-secondary: #E8AC58;
+}
+
+/* Night café shadows, the peach "DAY AND NIGHT" title. */
+.theme-crj-day-and-night {
+  --album-color-primary: #1E1A16;
+  --album-color-secondary: #F0B490;
+}
