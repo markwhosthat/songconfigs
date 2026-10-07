@@ -1,0 +1,46 @@
+/* Colours sampled from each record's official cover art (Apple Music):
+   the background (--album-color-primary) is the cover's ground, and the
+   accent the lettering or the detail that defines it. Lorde gives her
+   records colours of their own (Melodrama violet, Solar Power gold, Virgin
+   "clear"), and each pick follows hers where the cover carries it. Every
+   pair meets WCAG AA (4.5:1) both ways round, faded (70%) text included;
+   where a sampled colour missed, only its lightness was moved, keeping its
+   hue, and the sampled value is noted. */
+
+/* The white ground, her maroon fur coat (sampled #864F46). */
+.theme-lorde-the-love-club-ep {
+  --album-color-primary: #FFFFFF;
+  --album-color-secondary: #57332D;
+}
+
+/* The black ground, the white "LORDE / PURE HEROINE" lettering. */
+.theme-lorde-pure-heroine {
+  --album-color-primary: #1F1D1E;
+  --album-color-secondary: #F3F2F2;
+}
+
+/* The midnight blue of the painting's ground, the violet-pink light on
+   her skin and sheets. */
+.theme-lorde-melodrama {
+  --album-color-primary: #021561;
+  --album-color-secondary: #E2C8DA;
+}
+
+/* The sky (sampled #5996D3), the yellow "Solar Power" lettering. */
+.theme-lorde-solar-power {
+  --album-color-primary: #163452;
+  --album-color-secondary: #EAE815;
+}
+
+/* The navy forest, the pink sky above the mountain. */
+.theme-lorde-te-ao-marama {
+  --album-color-primary: #081854;
+  --album-color-secondary: #F2B4DB;
+}
+
+/* The pale blue of the X-ray, the deep blue of its zip and buckle
+   (sampled #014469). */
+.theme-lorde-virgin {
+  --album-color-primary: #9BC6E6;
+  --album-color-secondary: #002031;
+}
