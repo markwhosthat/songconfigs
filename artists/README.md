@@ -135,6 +135,25 @@ site-wide fallback styling.
 
 ### 5. `themes.css`
 
+#### Choosing colours — never from memory
+Never choose a theme's colours from memory or from what an album "probably"
+looks like. Every colour must come from a source you have actually checked:
+
+1. **Search for the era's official colours first** (the artist's site, label
+   or merch, and press coverage of the era). Use any official palette you find.
+2. **Sample the official cover art.** Download the cover (e.g. Apple Music's
+   artwork via the iTunes Search API at 600×600 or larger), look at it, and
+   take exact pixel values: the background (`--album-color-primary`) from the
+   cover's ground, the accent (`--album-color-secondary`) from its lettering or
+   defining detail.
+3. **Check contrast.** Each pair must meet WCAG AA (4.5:1) both ways round, at
+   full strength and with the accent faded to 70%, as the site shows some text.
+   If it misses, change only the lightness of the sampled colour (keep its hue),
+   and note the sampled value in a comment.
+
+Comment each theme with what its colours were taken from, as in
+`beyonce/themes.css`.
+
 Styles are scoped by the `className` defined in `themes.ts`. Use these CSS variables to customize the UI:
 
 ```css

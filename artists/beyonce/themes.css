@@ -1,63 +1,71 @@
-/* Colours taken from each record's cover art: the background
-   (--album-color-primary) is the cover's ground, and the accent the
-   lettering or the detail that defines it. */
+/* Colours sampled from each record's official cover art (Apple Music):
+   the background (--album-color-primary) is the cover's ground, and the
+   accent the lettering or the detail that defines it. Where a pair missed
+   WCAG AA (4.5:1) for the site's faded (70%) text, only its lightness was
+   moved, keeping the sampled hue; the sampled value is noted. */
 
-/* Pale stone backdrop, the deep red of the title. */
+/* Blue-grey studio backdrop (sampled #92A3B4), the black of her hair
+   (the white "Beyoncé" logo is too faint on the blue to carry text). */
 .theme-bey-dangerously-in-love {
-  --album-color-primary: #CFC8BF;
-  --album-color-secondary: #8E1C2E;
+  --album-color-primary: #9CABBB;
+  --album-color-secondary: #0F0607;
 }
 
-/* Burnished gold, dark bronze. */
+/* The original cover's pale aqua sky, the near-black of her hair. */
 .theme-bey-bday {
-  --album-color-primary: #D8B46C;
-  --album-color-secondary: #4A2A12;
+  --album-color-primary: #A5CCD2;
+  --album-color-secondary: #13120C;
 }
 
-/* The black-and-white portrait: paper white, ink black. */
+/* Peter Lindbergh's black-and-white portrait: the pale grey ground, its
+   deepest black. */
 .theme-bey-sasha-fierce {
-  --album-color-primary: #EFEFEF;
-  --album-color-secondary: #151515;
+  --album-color-primary: #E8E7E5;
+  --album-color-secondary: #1A1818;
 }
 
-/* Warm umber, the gold "4". */
+/* Sage-cream backdrop, the midnight "BEYONCÉ" and "4". */
 .theme-bey-4 {
-  --album-color-primary: #3A2416;
-  --album-color-secondary: #E5B868;
+  --album-color-primary: #DAE2CD;
+  --album-color-secondary: #1D182F;
 }
 
 /* Black ground, the pink "BEYONCÉ" lettering. */
 .theme-bey-beyonce {
-  --album-color-primary: #0B0B0B;
-  --album-color-secondary: #F2A7C3;
+  --album-color-primary: #090B0A;
+  --album-color-secondary: #E2B6CD;
 }
 
-/* Lemon yellow, near-black. */
+/* The dark fur, the sea-green water behind it (sampled #6E978B). */
 .theme-bey-lemonade {
-  --album-color-primary: #F2DC4B;
-  --album-color-secondary: #1A1A1A;
+  --album-color-primary: #121414;
+  --album-color-secondary: #96B4AB;
 }
 
-/* The Louvre's walnut and varnish, Mona Lisa cream. */
+/* The Louvre's shadowed walnut, the rose-beige of the light on skin
+   (sampled #AB8A90). */
 .theme-bey-everything-is-love {
-  --album-color-primary: #4B3A26;
-  --album-color-secondary: #E8D9B5;
+  --album-color-primary: #251206;
+  --album-color-secondary: #C4ACB0;
 }
 
-/* Savannah sunset orange, earth brown. */
+/* The gold field, the bronze shadow of the relief (sampled #733911),
+   deepened rather than paling the gold. */
 .theme-bey-the-gift {
-  --album-color-primary: #E39A2D;
-  --album-color-secondary: #3B1D0A;
+  --album-color-primary: #E2B14B;
+  --album-color-secondary: #2A1506;
 }
 
-/* Smoky studio grey, the silver of the crystal horse. */
+/* Black ground, the highlights on the chrome horse. */
 .theme-bey-renaissance {
-  --album-color-primary: #1C1D20;
-  --album-color-secondary: #D6D9DE;
+  --album-color-primary: #000000;
+  --album-color-secondary: #E7EAF0;
 }
 
-/* Sash cream, rodeo red. */
+/* The flag's white and red (sampled #D2CBC7, #8A202A) - the era's red,
+   white and blue (the cover's black ground is left to RENAISSANCE, which
+   shares it). */
 .theme-bey-cowboy-carter {
-  --album-color-primary: #F3EDE2;
-  --album-color-secondary: #A0242C;
+  --album-color-primary: #E5E1DE;
+  --album-color-secondary: #681820;
 }
