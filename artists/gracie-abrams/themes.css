@@ -1,0 +1,38 @@
+/* Colours sampled from each record's official cover art (Apple Music):
+   the background (--album-color-primary) is the cover's ground, and the
+   accent the lettering or the detail that defines it. No official era
+   palette exists (Daughter from Hell's lavender and cobalt are vinyl
+   pressings, not the artwork). Every pair meets WCAG AA (4.5:1) both ways
+   round, faded (70%) text included; where a sampled colour missed, only its
+   lightness was moved, keeping its hue, and the sampled value is noted. */
+
+/* White page, the hand-drawn red frame (sampled #AC3F43). */
+.theme-ga-minor {
+  --album-color-primary: #FBFBFB;
+  --album-color-secondary: #6D282B;
+}
+
+/* The dark grass, the lettering dug into it (sampled #CFB08D). */
+.theme-ga-this-is-what-it-feels-like {
+  --album-color-primary: #13241D;
+  --album-color-secondary: #D8BEA2;
+}
+
+/* The blurred black-and-white photograph: its black, its light grey. */
+.theme-ga-good-riddance {
+  --album-color-primary: #0F0D0E;
+  --album-color-secondary: #C5C4C0;
+}
+
+/* The baby-blue "The Secret of Us" script, the near-black of her hair
+   (the white ground cannot carry the blue as text). */
+.theme-ga-the-secret-of-us {
+  --album-color-primary: #85C3E8;
+  --album-color-secondary: #17110C;
+}
+
+/* The dark ground, the warm light on her skin (sampled #C8886E). */
+.theme-ga-daughter-from-hell {
+  --album-color-primary: #130607;
+  --album-color-secondary: #D19C86;
+}
