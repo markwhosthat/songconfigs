@@ -1,0 +1,31 @@
+[
+  {"title": "Die Young", "album": "School Nights", "id": 1},
+  {"title": "Good Hurt", "album": "School Nights", "id": 2},
+  {"title": "Meantime", "album": "School Nights", "id": 3},
+  {"title": "Sugar High", "album": "School Nights", "id": 4},
+  {"title": "Bad for You", "album": "School Nights", "id": 5},
+  {"title": "Good Hurt (Aevion Remix)", "album": "School Nights", "id": 6, "variants": ["Remix"]},
+  {"title": "Die Young (Acoustic)", "album": "School Nights", "id": 7, "variants": ["Acoustic"]},
+
+  {"title": "Femininomenon", "album": "The Rise and Fall of a Midwest Princess", "id": 8},
+  {"title": "Red Wine Supernova", "album": "The Rise and Fall of a Midwest Princess", "id": 9},
+  {"title": "After Midnight", "album": "The Rise and Fall of a Midwest Princess", "id": 10},
+  {"title": "Coffee", "album": "The Rise and Fall of a Midwest Princess", "id": 11},
+  {"title": "Casual", "album": "The Rise and Fall of a Midwest Princess", "id": 12},
+  {"title": "Super Graphic Ultra Modern Girl", "album": "The Rise and Fall of a Midwest Princess", "id": 13},
+  {"title": "HOT TO GO!", "album": "The Rise and Fall of a Midwest Princess", "id": 14},
+  {"title": "My Kink Is Karma", "album": "The Rise and Fall of a Midwest Princess", "id": 15},
+  {"title": "Picture You", "album": "The Rise and Fall of a Midwest Princess", "id": 16},
+  {"title": "Kaleidoscope", "album": "The Rise and Fall of a Midwest Princess", "id": 17},
+  {"title": "Pink Pony Club", "album": "The Rise and Fall of a Midwest Princess", "id": 18},
+  {"title": "Naked in Manhattan", "album": "The Rise and Fall of a Midwest Princess", "id": 19},
+  {"title": "California", "album": "The Rise and Fall of a Midwest Princess", "id": 20},
+  {"title": "Guilty Pleasure", "album": "The Rise and Fall of a Midwest Princess", "id": 21},
+
+  {"title": "Bitter", "album": "Other Songs", "id": 22, "variants": ["Singles"]},
+  {"title": "School Nights", "album": "Other Songs", "id": 23, "variants": ["Singles"]},
+  {"title": "Love Me Anyway", "album": "Other Songs", "id": 24, "variants": ["Singles"]},
+  {"title": "Good Luck, Babe!", "album": "Other Songs", "id": 25, "variants": ["Singles"]},
+  {"title": "The Giver", "album": "Other Songs", "id": 26, "variants": ["Singles"]},
+  {"title": "The Subway", "album": "Other Songs", "id": 27, "variants": ["Singles"]}
+]

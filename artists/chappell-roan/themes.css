@@ -1,0 +1,20 @@
+/* Colours sampled from each record's official cover art (Apple Music):
+   the background (--album-color-primary) is the cover's ground, and the
+   accent the lettering or the detail that defines it. Both pairs meet
+   WCAG AA (4.5:1) both ways round, faded text (70%) included. No official
+   era palette exists; the era's pink is not on either cover (the Midwest
+   Princess roses sample peach, #CE957C). */
+
+/* Abbey Watkins' black-and-white illustration: its black frame, its
+   white ground. */
+.theme-cr-school-nights {
+  --album-color-primary: #000000;
+  --album-color-secondary: #FDFDFD;
+}
+
+/* The dressing room's shadowed wall, the pale blue of the "CHAPPELL"
+   pageant sash. */
+.theme-cr-midwest-princess {
+  --album-color-primary: #15130F;
+  --album-color-secondary: #B3C8CE;
+}
