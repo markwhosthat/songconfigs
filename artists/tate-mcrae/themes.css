@@ -1,0 +1,46 @@
+/* Colours sampled from each record's official cover art (Apple Music):
+   the background (--album-color-primary) is the cover's ground, and the
+   accent the lettering or the detail that defines it. No official era
+   palette exists. Every pair meets WCAG AA (4.5:1) both ways round, faded
+   (70%) text included; where a sampled colour missed, only its lightness
+   was moved, keeping its hue, and the sampled value is noted. */
+
+/* The indigo cloud (sampled #231C58), the magenta sky above it (sampled
+   #BA4A9C). */
+.theme-tm-the-one-day-lp {
+  --album-color-primary: #151135;
+  --album-color-secondary: #DA9DC9;
+}
+
+/* The blue studio backdrop (sampled #2D465C), her orange jacket. */
+.theme-tm-all-the-things-i-never-said {
+  --album-color-primary: #16232E;
+  --album-color-secondary: #FBB38C;
+}
+
+/* The grey wall, the black of the "TATE" label (the orange-red vest is
+   too close to the grey to carry text). */
+.theme-tm-too-young-to-be-sad {
+  --album-color-primary: #A6B0BD;
+  --album-color-secondary: #091113;
+}
+
+/* Her hot-pink dress (sampled #C12654), the pale plane wing she stands on
+   (sampled #D7C6B9). */
+.theme-tm-i-used-to-think-i-could-fly {
+  --album-color-primary: #801938;
+  --album-color-secondary: #F9F7F5;
+}
+
+/* The black ground (sampled #1E1F1E), the blue "THINK LATER" lettering on
+   her goalie pads (sampled #5261A4). */
+.theme-tm-think-later {
+  --album-color-primary: #111211;
+  --album-color-secondary: #A1A9D0;
+}
+
+/* The dark brown ground, her pale cream dress. */
+.theme-tm-so-close-to-what {
+  --album-color-primary: #201C1A;
+  --album-color-secondary: #CAC0BA;
+}
