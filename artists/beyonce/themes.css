@@ -1,0 +1,63 @@
+/* Colours taken from each record's cover art: the background
+   (--album-color-primary) is the cover's ground, and the accent the
+   lettering or the detail that defines it. */
+
+/* Pale stone backdrop, the deep red of the title. */
+.theme-bey-dangerously-in-love {
+  --album-color-primary: #CFC8BF;
+  --album-color-secondary: #8E1C2E;
+}
+
+/* Burnished gold, dark bronze. */
+.theme-bey-bday {
+  --album-color-primary: #D8B46C;
+  --album-color-secondary: #4A2A12;
+}
+
+/* The black-and-white portrait: paper white, ink black. */
+.theme-bey-sasha-fierce {
+  --album-color-primary: #EFEFEF;
+  --album-color-secondary: #151515;
+}
+
+/* Warm umber, the gold "4". */
+.theme-bey-4 {
+  --album-color-primary: #3A2416;
+  --album-color-secondary: #E5B868;
+}
+
+/* Black ground, the pink "BEYONCÉ" lettering. */
+.theme-bey-beyonce {
+  --album-color-primary: #0B0B0B;
+  --album-color-secondary: #F2A7C3;
+}
+
+/* Lemon yellow, near-black. */
+.theme-bey-lemonade {
+  --album-color-primary: #F2DC4B;
+  --album-color-secondary: #1A1A1A;
+}
+
+/* The Louvre's walnut and varnish, Mona Lisa cream. */
+.theme-bey-everything-is-love {
+  --album-color-primary: #4B3A26;
+  --album-color-secondary: #E8D9B5;
+}
+
+/* Savannah sunset orange, earth brown. */
+.theme-bey-the-gift {
+  --album-color-primary: #E39A2D;
+  --album-color-secondary: #3B1D0A;
+}
+
+/* Smoky studio grey, the silver of the crystal horse. */
+.theme-bey-renaissance {
+  --album-color-primary: #1C1D20;
+  --album-color-secondary: #D6D9DE;
+}
+
+/* Sash cream, rodeo red. */
+.theme-bey-cowboy-carter {
+  --album-color-primary: #F3EDE2;
+  --album-color-secondary: #A0242C;
+}
