@@ -1,45 +1,123 @@
-.theme-drake {
+/* Colours sampled from each record's official cover art (Apple Music):
+   the background (--album-color-primary) is the cover's ground, and the
+   accent the lettering or the detail that defines it. No official per-album
+   palette exists (OVO's black and gold is the brand, with no published
+   values). Every pair meets WCAG AA (4.5:1) both ways round, faded (70%)
+   text included; where a sampled colour missed, only its lightness was
+   moved, keeping its hue, and the sampled value is noted. */
+
+/* Black ground, the white "DRAKE: SO FAR GONE" lettering. */
+.theme-so-far-gone {
   --album-color-primary: #000000;
-  --album-color-secondary: #D4AF37; /* Gold */
-}
-
-.theme-thank-me-later {
-  --album-color-primary: #1A1A1A;
-  --album-color-secondary: #A52A2A;
-}
-
-.theme-take-care {
-  --album-color-primary: #DAA520;
-  --album-color-secondary: #000000;
-}
-
-.theme-nothing-was-the-same {
-  --album-color-primary: #87CEEB;
   --album-color-secondary: #FFFFFF;
 }
 
+/* White ground, the red "DRAKE" (sampled #E0282A). */
+.theme-thank-me-later {
+  --album-color-primary: #FFFFFF;
+  --album-color-secondary: #961617;
+}
+
+/* The dark room, the gold signature (sampled #B88751). */
+.theme-take-care {
+  --album-color-primary: #0A0D0D;
+  --album-color-secondary: #C8A278;
+}
+
+/* The pale sky by the clouds, the near-black of his hair. */
+.theme-nothing-was-the-same {
+  --album-color-primary: #90C3E6;
+  --album-color-secondary: #1A1717;
+}
+
+/* White page, the black handwriting. */
+.theme-iyrtitl {
+  --album-color-primary: #FFFFFF;
+  --album-color-secondary: #101215;
+}
+
+/* The diamonds' silver, their darkest facets (sampled #41414C). */
+.theme-watba {
+  --album-color-primary: #C0C0C4;
+  --album-color-secondary: #1E1E23;
+}
+
+/* The CN Tower's shadow, the light in the storm clouds. */
 .theme-views {
-  --album-color-primary: #778899;
-  --album-color-secondary: #F5F5F5;
+  --album-color-primary: #0C131B;
+  --album-color-secondary: #B2BCBE;
 }
 
-.theme-scorpion {
+/* Black ground, the blue "MORE LIFE" (sampled #1063A8). */
+.theme-more-life {
   --album-color-primary: #000000;
-  --album-color-secondary: #808080;
+  --album-color-secondary: #5CADF0;
 }
 
+/* Charcoal ground, the light grey of the portrait (sampled #D9D9D9). */
+.theme-scorpion {
+  --album-color-primary: #303030;
+  --album-color-secondary: #E4E4E4;
+}
+
+/* Black ground, the silver "Care Package" script. */
+.theme-care-package {
+  --album-color-primary: #000000;
+  --album-color-secondary: #E3ECF9;
+}
+
+/* The olive-black frame, its olive light (sampled #4B4A0C). */
+.theme-dark-lane {
+  --album-color-primary: #131607;
+  --album-color-secondary: #B7B41D;
+}
+
+/* White ground, the emoji pink (sampled #CD3A9E). */
 .theme-clb {
   --album-color-primary: #FFFFFF;
-  --album-color-secondary: #FFB6C1;
+  --album-color-secondary: #791F5C;
 }
 
+/* Black ground, the holographic silver lettering. */
 .theme-honestly-nevermind {
   --album-color-primary: #000000;
-  --album-color-secondary: #7FFFD4;
+  --album-color-secondary: #D1CDCB;
 }
 
+/* The mauve backdrop (sampled #B699A9), the plum-black of her braids
+   (sampled #19111F). */
+.theme-her-loss {
+  --album-color-primary: #BCA2B0;
+  --album-color-secondary: #110C16;
+}
+
+/* Lavender ground, the cobalt angels (sampled #274FE9). */
 .theme-fatd {
-  --album-color-primary: #BE563E;
-  --album-color-secondary: #BCBAB3;
+  --album-color-primary: #C7AFED;
+  --album-color-secondary: #081751;
 }
 
+/* The Mississauga night, the snow. */
+.theme-sss4u {
+  --album-color-primary: #030F0F;
+  --album-color-secondary: #E2EFF0;
+}
+
+/* Black ground, the crystal glove's sparkle. */
+.theme-iceman {
+  --album-color-primary: #000000;
+  --album-color-secondary: #D6D1D0;
+}
+
+/* The sepia photograph (sampled #AC9591), its darkest shadow (sampled
+   #493A3A). */
+.theme-maid-of-honour {
+  --album-color-primary: #CABBB8;
+  --album-color-secondary: #221B1B;
+}
+
+/* Masking tape, the dark band around her eyes (sampled #3E3131). */
+.theme-habibti {
+  --album-color-primary: #D9C3A6;
+  --album-color-secondary: #282020;
+}

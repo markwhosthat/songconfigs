@@ -1,1197 +1,441 @@
 [
-  {
-    "title": "Lust for Life",
-    "album": "Other Songs",
-    "id": 1
-  },
-  {
-    "title": "Houstatlantavegas",
-    "album": "Other Songs",
-    "id": 2
-  },
-  {
-    "title": "Successful",
-    "album": "Other Songs",
-    "id": 3
-  },
-  {
-    "title": "Best I Ever Had",
-    "album": "Other Songs",
-    "id": 4
-  },
-  {
-    "title": "Uptown",
-    "album": "Other Songs",
-    "id": 5
-  },
-  {
-    "title": "I'm Goin' In",
-    "album": "Other Songs",
-    "id": 6
-  },
-  {
-    "title": "The Calm",
-    "album": "Other Songs",
-    "id": 7
-  },
-  {
-    "title": "Fireworks",
-    "album": "Thank Me Later",
-    "id": 8
-  },
-  {
-    "title": "Karaoke",
-    "album": "Thank Me Later",
-    "id": 9
-  },
-  {
-    "title": "The Resistance",
-    "album": "Thank Me Later",
-    "id": 10
-  },
-  {
-    "title": "Over",
-    "album": "Thank Me Later",
-    "id": 11
-  },
-  {
-    "title": "Show Me a Good Time",
-    "album": "Thank Me Later",
-    "id": 12
-  },
-  {
-    "title": "Up All Night",
-    "album": "Thank Me Later",
-    "id": 13
-  },
-  {
-    "title": "Fancy",
-    "album": "Thank Me Later",
-    "id": 14
-  },
-  {
-    "title": "Shut It Down",
-    "album": "Thank Me Later",
-    "id": 15
-  },
-  {
-    "title": "Unforgettable",
-    "album": "Thank Me Later",
-    "id": 16
-  },
-  {
-    "title": "Light Up",
-    "album": "Thank Me Later",
-    "id": 17
-  },
-  {
-    "title": "Miss Me",
-    "album": "Thank Me Later",
-    "id": 18
-  },
-  {
-    "title": "Cece's Interlude",
-    "album": "Thank Me Later",
-    "id": 19
-  },
-  {
-    "title": "Find Your Love",
-    "album": "Thank Me Later",
-    "id": 20
-  },
-  {
-    "title": "Thank Me Now",
-    "album": "Thank Me Later",
-    "id": 21
-  },
-  {
-    "title": "Over My Dead Body",
-    "album": "Take Care",
-    "id": 22
-  },
-  {
-    "title": "Shot for Me",
-    "album": "Take Care",
-    "id": 23
-  },
-  {
-    "title": "Headlines",
-    "album": "Take Care",
-    "id": 24
-  },
-  {
-    "title": "Crew Love",
-    "album": "Take Care",
-    "id": 25
-  },
-  {
-    "title": "Take Care",
-    "album": "Take Care",
-    "id": 26
-  },
-  {
-    "title": "Marvins Room",
-    "album": "Take Care",
-    "id": 27
-  },
-  {
-    "title": "Buried Alive Interlude",
-    "album": "Take Care",
-    "id": 28
-  },
-  {
-    "title": "Under Ground Kings",
-    "album": "Take Care",
-    "id": 29
-  },
-  {
-    "title": "We'll Be Fine",
-    "album": "Take Care",
-    "id": 30
-  },
-  {
-    "title": "Make Me Proud",
-    "album": "Take Care",
-    "id": 31
-  },
-  {
-    "title": "Lord Knows",
-    "album": "Take Care",
-    "id": 32
-  },
-  {
-    "title": "Cameras / Good Ones Go Interlude",
-    "album": "Take Care",
-    "id": 33
-  },
-  {
-    "title": "Doing It Wrong",
-    "album": "Take Care",
-    "id": 34
-  },
-  {
-    "title": "The Real Her",
-    "album": "Take Care",
-    "id": 35
-  },
-  {
-    "title": "Look What You've Done",
-    "album": "Take Care",
-    "id": 36
-  },
-  {
-    "title": "HYFR (Hell Ya Fucking Right)",
-    "album": "Take Care",
-    "id": 37
-  },
-  {
-    "title": "Practice",
-    "album": "Take Care",
-    "id": 38
-  },
-  {
-    "title": "The Ride",
-    "album": "Take Care",
-    "id": 39
-  },
-  {
-    "title": "The Motto",
-    "album": "Take Care",
-    "id": 40
-  },
-  {
-    "title": "Hate Sleeping Alone",
-    "album": "Take Care",
-    "id": 41
-  },
-  {
-    "title": "Tuscan Leather",
-    "album": "Nothing Was the Same",
-    "id": 42
-  },
-  {
-    "title": "Furthest Thing",
-    "album": "Nothing Was the Same",
-    "id": 43
-  },
-  {
-    "title": "Started from the Bottom",
-    "album": "Nothing Was the Same",
-    "id": 44
-  },
-  {
-    "title": "Wu-Tang Forever",
-    "album": "Nothing Was the Same",
-    "id": 45
-  },
-  {
-    "title": "Own It",
-    "album": "Nothing Was the Same",
-    "id": 46
-  },
-  {
-    "title": "Worst Behavior",
-    "album": "Nothing Was the Same",
-    "id": 47
-  },
-  {
-    "title": "From Time",
-    "album": "Nothing Was the Same",
-    "id": 48
-  },
-  {
-    "title": "Hold On, We're Going Home",
-    "album": "Nothing Was the Same",
-    "id": 49
-  },
-  {
-    "title": "Connect",
-    "album": "Nothing Was the Same",
-    "id": 50
-  },
-  {
-    "title": "The Language",
-    "album": "Nothing Was the Same",
-    "id": 51
-  },
-  {
-    "title": "305 to My City",
-    "album": "Nothing Was the Same",
-    "id": 52
-  },
-  {
-    "title": "Too Much",
-    "album": "Nothing Was the Same",
-    "id": 53
-  },
-  {
-    "title": "Pound Cake / Paris Morton Music 2",
-    "album": "Nothing Was the Same",
-    "id": 54
-  },
-  {
-    "title": "Come Thru",
-    "album": "Nothing Was the Same",
-    "id": 55
-  },
-  {
-    "title": "All Me",
-    "album": "Nothing Was the Same",
-    "id": 56
-  },
-  {
-    "title": "Legend",
-    "album": "Other Songs",
-    "id": 57
-  },
-  {
-    "title": "Energy",
-    "album": "Other Songs",
-    "id": 58
-  },
-  {
-    "title": "10 Bands",
-    "album": "Other Songs",
-    "id": 59
-  },
-  {
-    "title": "Know Yourself",
-    "album": "Other Songs",
-    "id": 60
-  },
-  {
-    "title": "No Tellin'",
-    "album": "Other Songs",
-    "id": 61
-  },
-  {
-    "title": "Madonna",
-    "album": "Other Songs",
-    "id": 62
-  },
-  {
-    "title": "6 God",
-    "album": "Other Songs",
-    "id": 63
-  },
-  {
-    "title": "Star67",
-    "album": "Other Songs",
-    "id": 64
-  },
-  {
-    "title": "Preach",
-    "album": "Other Songs",
-    "id": 65
-  },
-  {
-    "title": "Wednesday Night Interlude",
-    "album": "Other Songs",
-    "id": 66
-  },
-  {
-    "title": "Used To",
-    "album": "Other Songs",
-    "id": 67
-  },
-  {
-    "title": "6 Man",
-    "album": "Other Songs",
-    "id": 68
-  },
-  {
-    "title": "Now & Forever",
-    "album": "Other Songs",
-    "id": 69
-  },
-  {
-    "title": "Company",
-    "album": "Other Songs",
-    "id": 70
-  },
-  {
-    "title": "You & The 6",
-    "album": "Other Songs",
-    "id": 71
-  },
-  {
-    "title": "Jungle",
-    "album": "Other Songs",
-    "id": 72
-  },
-  {
-    "title": "6PM in New York",
-    "album": "Other Songs",
-    "id": 73
-  },
-  {
-    "title": "Digital Dash",
-    "album": "Other Songs",
-    "id": 74
-  },
-  {
-    "title": "Big Rings",
-    "album": "Other Songs",
-    "id": 75
-  },
-  {
-    "title": "Live from the Gutter",
-    "album": "Other Songs",
-    "id": 76
-  },
-  {
-    "title": "Diamonds Dancing",
-    "album": "Other Songs",
-    "id": 77
-  },
-  {
-    "title": "Scholarships",
-    "album": "Other Songs",
-    "id": 78
-  },
-  {
-    "title": "Plastic Bag",
-    "album": "Other Songs",
-    "id": 79
-  },
-  {
-    "title": "I'm the Plug",
-    "album": "Other Songs",
-    "id": 80
-  },
-  {
-    "title": "Change Locations",
-    "album": "Other Songs",
-    "id": 81
-  },
-  {
-    "title": "Jumpman",
-    "album": "Other Songs",
-    "id": 82
-  },
-  {
-    "title": "Jersey",
-    "album": "Other Songs",
-    "id": 83
-  },
-  {
-    "title": "30 for 30",
-    "album": "Other Songs",
-    "id": 84
-  },
-  {
-    "title": "Keep the Family Close",
-    "album": "Views",
-    "id": 85
-  },
-  {
-    "title": "9",
-    "album": "Views",
-    "id": 86
-  },
-  {
-    "title": "U with Me?",
-    "album": "Views",
-    "id": 87
-  },
-  {
-    "title": "Feel No Ways",
-    "album": "Views",
-    "id": 88
-  },
-  {
-    "title": "Hype",
-    "album": "Views",
-    "id": 89
-  },
-  {
-    "title": "Weston Road Flows",
-    "album": "Views",
-    "id": 90
-  },
-  {
-    "title": "Redemption",
-    "album": "Views",
-    "id": 91
-  },
-  {
-    "title": "With You",
-    "album": "Views",
-    "id": 92
-  },
-  {
-    "title": "Faithful",
-    "album": "Views",
-    "id": 93
-  },
-  {
-    "title": "Still Here",
-    "album": "Views",
-    "id": 94
-  },
-  {
-    "title": "Controlla",
-    "album": "Views",
-    "id": 95
-  },
-  {
-    "title": "One Dance",
-    "album": "Views",
-    "id": 96
-  },
-  {
-    "title": "Grammys",
-    "album": "Views",
-    "id": 97
-  },
-  {
-    "title": "Childs Play",
-    "album": "Views",
-    "id": 98
-  },
-  {
-    "title": "Pop Style",
-    "album": "Views",
-    "id": 99
-  },
-  {
-    "title": "Too Good",
-    "album": "Views",
-    "id": 100
-  },
-  {
-    "title": "Summers Over Interlude",
-    "album": "Views",
-    "id": 101
-  },
-  {
-    "title": "Fire & Desire",
-    "album": "Views",
-    "id": 102
-  },
-  {
-    "title": "Views",
-    "album": "Views",
-    "id": 103
-  },
-  {
-    "title": "Hotline Bling",
-    "album": "Views",
-    "id": 104
-  },
-  {
-    "title": "Free Smoke",
-    "album": "Other Songs",
-    "id": 105
-  },
-  {
-    "title": "No Long Talk",
-    "album": "Other Songs",
-    "id": 106
-  },
-  {
-    "title": "Passionfruit",
-    "album": "Other Songs",
-    "id": 107
-  },
-  {
-    "title": "Jorja Interlude",
-    "album": "Other Songs",
-    "id": 108
-  },
-  {
-    "title": "Get It Together",
-    "album": "Other Songs",
-    "id": 109
-  },
-  {
-    "title": "Madiba Riddim",
-    "album": "Other Songs",
-    "id": 110
-  },
-  {
-    "title": "Blem",
-    "album": "Other Songs",
-    "id": 111
-  },
-  {
-    "title": "4422",
-    "album": "Other Songs",
-    "id": 112
-  },
-  {
-    "title": "Gyalchester",
-    "album": "Other Songs",
-    "id": 113
-  },
-  {
-    "title": "Skepta Interlude",
-    "album": "Other Songs",
-    "id": 114
-  },
-  {
-    "title": "Portland",
-    "album": "Other Songs",
-    "id": 115
-  },
-  {
-    "title": "Sacrifices",
-    "album": "Other Songs",
-    "id": 116
-  },
-  {
-    "title": "Nothings Into Somethings",
-    "album": "Other Songs",
-    "id": 117
-  },
-  {
-    "title": "Teenage Fever",
-    "album": "Other Songs",
-    "id": 118
-  },
-  {
-    "title": "KMT",
-    "album": "Other Songs",
-    "id": 119
-  },
-  {
-    "title": "Lose You",
-    "album": "Other Songs",
-    "id": 120
-  },
-  {
-    "title": "Can't Have Everything",
-    "album": "Other Songs",
-    "id": 121
-  },
-  {
-    "title": "Glow",
-    "album": "Other Songs",
-    "id": 122
-  },
-  {
-    "title": "Since Way Back",
-    "album": "Other Songs",
-    "id": 123
-  },
-  {
-    "title": "Fake Love",
-    "album": "Other Songs",
-    "id": 124
-  },
-  {
-    "title": "Ice Melts",
-    "album": "Other Songs",
-    "id": 125
-  },
-  {
-    "title": "Do Not Disturb",
-    "album": "Other Songs",
-    "id": 126
-  },
-  {
-    "title": "Survival",
-    "album": "Scorpion",
-    "id": 127
-  },
-  {
-    "title": "Nonstop",
-    "album": "Scorpion",
-    "id": 128
-  },
-  {
-    "title": "Elevate",
-    "album": "Scorpion",
-    "id": 129
-  },
-  {
-    "title": "Emotionless",
-    "album": "Scorpion",
-    "id": 130
-  },
-  {
-    "title": "God's Plan",
-    "album": "Scorpion",
-    "id": 131
-  },
-  {
-    "title": "I'm Upset",
-    "album": "Scorpion",
-    "id": 132
-  },
-  {
-    "title": "8 Out of 10",
-    "album": "Scorpion",
-    "id": 133
-  },
-  {
-    "title": "Mob Ties",
-    "album": "Scorpion",
-    "id": 134
-  },
-  {
-    "title": "Can't Take a Joke",
-    "album": "Scorpion",
-    "id": 135
-  },
-  {
-    "title": "Sandra's Rose",
-    "album": "Scorpion",
-    "id": 136
-  },
-  {
-    "title": "Talk Up",
-    "album": "Scorpion",
-    "id": 137
-  },
-  {
-    "title": "Is There More",
-    "album": "Scorpion",
-    "id": 138
-  },
-  {
-    "title": "Peak",
-    "album": "Scorpion",
-    "id": 139
-  },
-  {
-    "title": "Summer Games",
-    "album": "Scorpion",
-    "id": 140
-  },
-  {
-    "title": "Jaded",
-    "album": "Scorpion",
-    "id": 141
-  },
-  {
-    "title": "Nice for What",
-    "album": "Scorpion",
-    "id": 142
-  },
-  {
-    "title": "Finesse",
-    "album": "Scorpion",
-    "id": 143
-  },
-  {
-    "title": "Ratchet Happy Birthday",
-    "album": "Scorpion",
-    "id": 144
-  },
-  {
-    "title": "That's How You Feel",
-    "album": "Scorpion",
-    "id": 145
-  },
-  {
-    "title": "Blue Tint",
-    "album": "Scorpion",
-    "id": 146
-  },
-  {
-    "title": "In My Feelings",
-    "album": "Scorpion",
-    "id": 147
-  },
-  {
-    "title": "Don't Matter to Me",
-    "album": "Scorpion",
-    "id": 148
-  },
-  {
-    "title": "After Dark",
-    "album": "Scorpion",
-    "id": 149
-  },
-  {
-    "title": "Final Fantasy",
-    "album": "Scorpion",
-    "id": 150
-  },
-  {
-    "title": "March 14",
-    "album": "Scorpion",
-    "id": 151
-  },
-  {
-    "title": "Deep Pockets",
-    "album": "Other Songs",
-    "id": 152
-  },
-  {
-    "title": "When To Say When",
-    "album": "Other Songs",
-    "id": 153
-  },
-  {
-    "title": "Chicago Freestyle",
-    "album": "Other Songs",
-    "id": 154
-  },
-  {
-    "title": "Not You Too",
-    "album": "Other Songs",
-    "id": 155
-  },
-  {
-    "title": "Toosie Slide",
-    "album": "Other Songs",
-    "id": 156
-  },
-  {
-    "title": "Desires",
-    "album": "Other Songs",
-    "id": 157
-  },
-  {
-    "title": "Time Flies",
-    "album": "Other Songs",
-    "id": 158
-  },
-  {
-    "title": "Landed",
-    "album": "Other Songs",
-    "id": 159
-  },
-  {
-    "title": "D4L",
-    "album": "Other Songs",
-    "id": 160
-  },
-  {
-    "title": "Pain 1993",
-    "album": "Other Songs",
-    "id": 161
-  },
-  {
-    "title": "Losses",
-    "album": "Other Songs",
-    "id": 162
-  },
-  {
-    "title": "From Florida With Love",
-    "album": "Other Songs",
-    "id": 163
-  },
-  {
-    "title": "Demons",
-    "album": "Other Songs",
-    "id": 164
-  },
-  {
-    "title": "War",
-    "album": "Other Songs",
-    "id": 165
-  },
-  {
-    "title": "Champagne Poetry",
-    "album": "Certified Lover Boy",
-    "id": 166
-  },
-  {
-    "title": "Papi's Home",
-    "album": "Certified Lover Boy",
-    "id": 167
-  },
-  {
-    "title": "Girls Want Girls",
-    "album": "Certified Lover Boy",
-    "id": 168
-  },
-  {
-    "title": "In the Bible",
-    "album": "Certified Lover Boy",
-    "id": 169
-  },
-  {
-    "title": "Love All",
-    "album": "Certified Lover Boy",
-    "id": 170
-  },
-  {
-    "title": "Fair Trade",
-    "album": "Certified Lover Boy",
-    "id": 171
-  },
-  {
-    "title": "Way 2 Sexy",
-    "album": "Certified Lover Boy",
-    "id": 172
-  },
-  {
-    "title": "TSU",
-    "album": "Certified Lover Boy",
-    "id": 173
-  },
-  {
-    "title": "N 2 Deep",
-    "album": "Certified Lover Boy",
-    "id": 174
-  },
-  {
-    "title": "Pipe Down",
-    "album": "Certified Lover Boy",
-    "id": 175
-  },
-  {
-    "title": "Yebba's Heartbreak",
-    "album": "Certified Lover Boy",
-    "id": 176
-  },
-  {
-    "title": "No Friends In The Industry",
-    "album": "Certified Lover Boy",
-    "id": 177
-  },
-  {
-    "title": "Knife Talk",
-    "album": "Certified Lover Boy",
-    "id": 178
-  },
-  {
-    "title": "7am On Bridle Path",
-    "album": "Certified Lover Boy",
-    "id": 179
-  },
-  {
-    "title": "Race My Mind",
-    "album": "Certified Lover Boy",
-    "id": 180
-  },
-  {
-    "title": "Fountains",
-    "album": "Certified Lover Boy",
-    "id": 181
-  },
-  {
-    "title": "Get Along Better",
-    "album": "Certified Lover Boy",
-    "id": 182
-  },
-  {
-    "title": "You Only Live Twice",
-    "album": "Certified Lover Boy",
-    "id": 183
-  },
-  {
-    "title": "IMY2",
-    "album": "Certified Lover Boy",
-    "id": 184
-  },
-  {
-    "title": "Fucking Fans",
-    "album": "Certified Lover Boy",
-    "id": 185
-  },
-  {
-    "title": "The Remorse",
-    "album": "Certified Lover Boy",
-    "id": 186
-  },
-  {
-    "title": "Intro",
-    "album": "Honestly, Nevermind",
-    "id": 187
-  },
-  {
-    "title": "Falling Back",
-    "album": "Honestly, Nevermind",
-    "id": 188
-  },
-  {
-    "title": "Texts Go Green",
-    "album": "Honestly, Nevermind",
-    "id": 189
-  },
-  {
-    "title": "Currents",
-    "album": "Honestly, Nevermind",
-    "id": 190
-  },
-  {
-    "title": "A Keeper",
-    "album": "Honestly, Nevermind",
-    "id": 191
-  },
-  {
-    "title": "Calling My Name",
-    "album": "Honestly, Nevermind",
-    "id": 192
-  },
-  {
-    "title": "Sticky",
-    "album": "Honestly, Nevermind",
-    "id": 193
-  },
-  {
-    "title": "Massive",
-    "album": "Honestly, Nevermind",
-    "id": 194
-  },
-  {
-    "title": "Flight's Booked",
-    "album": "Honestly, Nevermind",
-    "id": 195
-  },
-  {
-    "title": "Overdrive",
-    "album": "Honestly, Nevermind",
-    "id": 196
-  },
-  {
-    "title": "Down Hill",
-    "album": "Honestly, Nevermind",
-    "id": 197
-  },
-  {
-    "title": "Tie That Binds",
-    "album": "Honestly, Nevermind",
-    "id": 198
-  },
-  {
-    "title": "Liability",
-    "album": "Honestly, Nevermind",
-    "id": 199
-  },
-  {
-    "title": "Jimmy Cooks",
-    "album": "Honestly, Nevermind",
-    "id": 200
-  },
-  {
-    "title": "Rich Flex",
-    "album": "Other Songs",
-    "id": 201
-  },
-  {
-    "title": "Major Distribution",
-    "album": "Other Songs",
-    "id": 202
-  },
-  {
-    "title": "On BS",
-    "album": "Other Songs",
-    "id": 203
-  },
-  {
-    "title": "BackOutsideBoyz",
-    "album": "Other Songs",
-    "id": 204
-  },
-  {
-    "title": "Privileged Rappers",
-    "album": "Other Songs",
-    "id": 205
-  },
-  {
-    "title": "Spin Bout U",
-    "album": "Other Songs",
-    "id": 206
-  },
-  {
-    "title": "Hours in Silence",
-    "album": "Other Songs",
-    "id": 207
-  },
-  {
-    "title": "Treacherous Twins",
-    "album": "Other Songs",
-    "id": 208
-  },
-  {
-    "title": "Circo Loco",
-    "album": "Other Songs",
-    "id": 209
-  },
-  {
-    "title": "Pussy & Millions",
-    "album": "Other Songs",
-    "id": 210
-  },
-  {
-    "title": "Broke Boys",
-    "album": "Other Songs",
-    "id": 211
-  },
-  {
-    "title": "Middle of the Ocean",
-    "album": "Other Songs",
-    "id": 212
-  },
-  {
-    "title": "Jumbotron Shit Poppin",
-    "album": "Other Songs",
-    "id": 213
-  },
-  {
-    "title": "More M's",
-    "album": "Other Songs",
-    "id": 214
-  },
-  {
-    "title": "3AM on Glenwood",
-    "album": "Other Songs",
-    "id": 215
-  },
-  {
-    "title": "I Guess It's Fuck Me",
-    "album": "Other Songs",
-    "id": 216
-  },
-  {
-    "title": "Virginia Beach",
-    "album": "For All The Dogs",
-    "id": 217
-  },
-  {
-    "title": "Amen",
-    "album": "For All The Dogs",
-    "id": 218
-  },
-  {
-    "title": "Calling For You",
-    "album": "For All The Dogs",
-    "id": 219
-  },
-  {
-    "title": "Fear of Heights",
-    "album": "For All The Dogs",
-    "id": 220
-  },
-  {
-    "title": "Daylight",
-    "album": "For All The Dogs",
-    "id": 221
-  },
-  {
-    "title": "First Person Shooter",
-    "album": "For All The Dogs",
-    "id": 222
-  },
-  {
-    "title": "IDGAF",
-    "album": "For All The Dogs",
-    "id": 223
-  },
-  {
-    "title": "7969 Santa",
-    "album": "For All The Dogs",
-    "id": 224
-  },
-  {
-    "title": "Slime You Out",
-    "album": "For All The Dogs",
-    "id": 225
-  },
-  {
-    "title": "Bahamas Promises",
-    "album": "For All The Dogs",
-    "id": 226
-  },
-  {
-    "title": "Tried Our Best",
-    "album": "For All The Dogs",
-    "id": 227
-  },
-  {
-    "title": "Screw The World",
-    "album": "For All The Dogs",
-    "id": 228
-  },
-  {
-    "title": "Drew A Picasso",
-    "album": "For All The Dogs",
-    "id": 229
-  },
-  {
-    "title": "Members Only",
-    "album": "For All The Dogs",
-    "id": 230
-  },
-  {
-    "title": "What Would Pluto Do",
-    "album": "For All The Dogs",
-    "id": 231
-  },
-  {
-    "title": "All The Parties",
-    "album": "For All The Dogs",
-    "id": 232
-  },
-  {
-    "title": "8am in Charlotte",
-    "album": "For All The Dogs",
-    "id": 233
-  },
-  {
-    "title": "BBL Love",
-    "album": "For All The Dogs",
-    "id": 234
-  },
-  {
-    "title": "Gently",
-    "album": "For All The Dogs",
-    "id": 235
-  },
-  {
-    "title": "Rich Baby Daddy",
-    "album": "For All The Dogs",
-    "id": 236
-  },
-  {
-    "title": "Another Late Night",
-    "album": "For All The Dogs",
-    "id": 237
-  },
-  {
-    "title": "Away From Home",
-    "album": "For All The Dogs",
-    "id": 238
-  },
-  {
-    "title": "Polar Opposites",
-    "album": "For All The Dogs",
-    "id": 239
-  }
+  {"title": "Lust For Life", "album": "So Far Gone", "id": 1},
+  {"title": "Houstatlantavegas", "album": "So Far Gone", "id": 2},
+  {"title": "Successful (feat. Trey Songz & Lil Wayne)", "album": "So Far Gone", "id": 3},
+  {"title": "Let's Call It Off (feat. Peter Bjorn and John)", "album": "So Far Gone", "id": 240},
+  {"title": "November 18th", "album": "So Far Gone", "id": 241},
+  {"title": "Ignant Shit (feat. Lil Wayne)", "album": "So Far Gone", "id": 242},
+  {"title": "A Night Off (feat. Lloyd)", "album": "So Far Gone", "id": 243},
+  {"title": "Say What's Real", "album": "So Far Gone", "id": 244},
+  {"title": "Little Bit (feat. Lykke Li)", "album": "So Far Gone", "id": 245},
+  {"title": "Best I Ever Had", "album": "So Far Gone", "id": 4},
+  {"title": "Unstoppable (feat. Santigold & Lil Wayne)", "album": "So Far Gone", "id": 246},
+  {"title": "Uptown (feat. Bun B & Lil Wayne)", "album": "So Far Gone", "id": 5},
+  {"title": "Sooner Than Later", "album": "So Far Gone", "id": 247},
+  {"title": "Bria's Interlude (feat. Omarion)", "album": "So Far Gone", "id": 248},
+  {"title": "The Calm", "album": "So Far Gone", "id": 7},
+  {"title": "Outro (feat. Chilly Gonzales)", "album": "So Far Gone", "id": 249},
+  {"title": "Brand New", "album": "So Far Gone", "id": 250},
+  {"title": "Congratulations", "album": "So Far Gone", "id": 251},
+
+  {"title": "Fireworks (feat. Alicia Keys)", "album": "Thank Me Later", "id": 8},
+  {"title": "Karaoke", "album": "Thank Me Later", "id": 9},
+  {"title": "The Resistance", "album": "Thank Me Later", "id": 10},
+  {"title": "Over", "album": "Thank Me Later", "id": 11},
+  {"title": "Show Me a Good Time", "album": "Thank Me Later", "id": 12},
+  {"title": "Up All Night (feat. Nicki Minaj)", "album": "Thank Me Later", "id": 13},
+  {"title": "Fancy (feat. T.I. & Swizz Beatz)", "album": "Thank Me Later", "id": 14},
+  {"title": "Shut It Down (feat. The-Dream)", "album": "Thank Me Later", "id": 15},
+  {"title": "Unforgettable (feat. Young Jeezy)", "album": "Thank Me Later", "id": 16},
+  {"title": "Light Up (feat. JAY-Z)", "album": "Thank Me Later", "id": 17},
+  {"title": "Miss Me (feat. Lil Wayne)", "album": "Thank Me Later", "id": 18},
+  {"title": "Cece's Interlude", "album": "Thank Me Later", "id": 19},
+  {"title": "Find Your Love", "album": "Thank Me Later", "id": 20},
+  {"title": "Thank Me Now", "album": "Thank Me Later", "id": 21},
+
+  {"title": "Over My Dead Body", "album": "Take Care", "id": 22},
+  {"title": "Shot for Me", "album": "Take Care", "id": 23},
+  {"title": "Headlines", "album": "Take Care", "id": 24},
+  {"title": "Crew Love (feat. The Weeknd)", "album": "Take Care", "id": 25},
+  {"title": "Take Care (feat. Rihanna)", "album": "Take Care", "id": 26},
+  {"title": "Marvins Room", "album": "Take Care", "id": 27},
+  {"title": "Buried Alive Interlude (feat. Kendrick Lamar)", "album": "Take Care", "id": 28},
+  {"title": "Under Ground Kings", "album": "Take Care", "id": 29},
+  {"title": "We'll Be Fine (feat. Birdman)", "album": "Take Care", "id": 30},
+  {"title": "Make Me Proud (feat. Nicki Minaj)", "album": "Take Care", "id": 31},
+  {"title": "Lord Knows (feat. Rick Ross)", "album": "Take Care", "id": 32},
+  {"title": "Cameras / Good Ones Go Interlude", "album": "Take Care", "id": 33},
+  {"title": "Doing It Wrong", "album": "Take Care", "id": 34},
+  {"title": "The Real Her (feat. Lil Wayne & Andre 3000)", "album": "Take Care", "id": 35},
+  {"title": "Look What You've Done", "album": "Take Care", "id": 36},
+  {"title": "HYFR (Hell Ya Fucking Right) (feat. Lil Wayne)", "album": "Take Care", "id": 37},
+  {"title": "Practice", "album": "Take Care", "id": 38},
+  {"title": "The Ride", "album": "Take Care", "id": 39},
+  {"title": "The Motto (feat. Lil Wayne)", "album": "Take Care", "id": 40, "variants": ["Deluxe"]},
+  {"title": "Hate Sleeping Alone", "album": "Take Care", "id": 41, "variants": ["Deluxe"]},
+
+  {"title": "Tuscan Leather", "album": "Nothing Was the Same", "id": 42},
+  {"title": "Furthest Thing", "album": "Nothing Was the Same", "id": 43},
+  {"title": "Started From the Bottom", "album": "Nothing Was the Same", "id": 44},
+  {"title": "Wu-Tang Forever", "album": "Nothing Was the Same", "id": 45},
+  {"title": "Own It", "album": "Nothing Was the Same", "id": 46},
+  {"title": "Worst Behavior", "album": "Nothing Was the Same", "id": 47},
+  {"title": "From Time (feat. Jhené Aiko)", "album": "Nothing Was the Same", "id": 48},
+  {"title": "Hold On, We're Going Home (feat. Majid Jordan)", "album": "Nothing Was the Same", "id": 49},
+  {"title": "Connect", "album": "Nothing Was the Same", "id": 50},
+  {"title": "The Language", "album": "Nothing Was the Same", "id": 51},
+  {"title": "305 To My City (feat. Detail)", "album": "Nothing Was the Same", "id": 52},
+  {"title": "Too Much", "album": "Nothing Was the Same", "id": 53},
+  {"title": "Pound Cake / Paris Morton Music 2 (feat. JAY-Z)", "album": "Nothing Was the Same", "id": 54},
+  {"title": "Come Thru", "album": "Nothing Was the Same", "id": 55, "variants": ["Deluxe"]},
+  {"title": "All Me (feat. 2 Chainz & Big Sean)", "album": "Nothing Was the Same", "id": 56, "variants": ["Deluxe"]},
+
+  {"title": "Legend", "album": "If You're Reading This It's Too Late", "id": 57},
+  {"title": "Energy", "album": "If You're Reading This It's Too Late", "id": 58},
+  {"title": "10 Bands", "album": "If You're Reading This It's Too Late", "id": 59},
+  {"title": "Know Yourself", "album": "If You're Reading This It's Too Late", "id": 60},
+  {"title": "No Tellin'", "album": "If You're Reading This It's Too Late", "id": 61},
+  {"title": "Madonna", "album": "If You're Reading This It's Too Late", "id": 62},
+  {"title": "6 God", "album": "If You're Reading This It's Too Late", "id": 63},
+  {"title": "Star67", "album": "If You're Reading This It's Too Late", "id": 64},
+  {"title": "Preach (feat. PARTYNEXTDOOR)", "album": "If You're Reading This It's Too Late", "id": 65},
+  {"title": "Wednesday Night Interlude (feat. PARTYNEXTDOOR)", "album": "If You're Reading This It's Too Late", "id": 66},
+  {"title": "Used To (feat. Lil Wayne)", "album": "If You're Reading This It's Too Late", "id": 67},
+  {"title": "6 Man", "album": "If You're Reading This It's Too Late", "id": 68},
+  {"title": "Now & Forever", "album": "If You're Reading This It's Too Late", "id": 69},
+  {"title": "Company (feat. Travis Scott)", "album": "If You're Reading This It's Too Late", "id": 70},
+  {"title": "You & The 6", "album": "If You're Reading This It's Too Late", "id": 71},
+  {"title": "Jungle", "album": "If You're Reading This It's Too Late", "id": 72},
+  {"title": "6PM In New York", "album": "If You're Reading This It's Too Late", "id": 73},
+
+  {"title": "Digital Dash", "album": "What a Time to Be Alive", "id": 74},
+  {"title": "Big Rings", "album": "What a Time to Be Alive", "id": 75},
+  {"title": "Live From the Gutter", "album": "What a Time to Be Alive", "id": 76},
+  {"title": "Diamonds Dancing", "album": "What a Time to Be Alive", "id": 77},
+  {"title": "Scholarships", "album": "What a Time to Be Alive", "id": 78},
+  {"title": "Plastic Bag", "album": "What a Time to Be Alive", "id": 79},
+  {"title": "I'm the Plug", "album": "What a Time to Be Alive", "id": 80},
+  {"title": "Change Locations", "album": "What a Time to Be Alive", "id": 81},
+  {"title": "Jumpman", "album": "What a Time to Be Alive", "id": 82},
+  {"title": "Jersey", "album": "What a Time to Be Alive", "id": 83},
+  {"title": "30 for 30 Freestyle", "album": "What a Time to Be Alive", "id": 84},
+
+  {"title": "Keep the Family Close", "album": "Views", "id": 85},
+  {"title": "9", "album": "Views", "id": 86},
+  {"title": "U With Me?", "album": "Views", "id": 87},
+  {"title": "Feel No Ways", "album": "Views", "id": 88},
+  {"title": "Hype", "album": "Views", "id": 89},
+  {"title": "Weston Road Flows", "album": "Views", "id": 90},
+  {"title": "Redemption", "album": "Views", "id": 91},
+  {"title": "With You (feat. PARTYNEXTDOOR)", "album": "Views", "id": 92},
+  {"title": "Faithful (feat. Pimp C & dvsn)", "album": "Views", "id": 93},
+  {"title": "Still Here", "album": "Views", "id": 94},
+  {"title": "Controlla", "album": "Views", "id": 95},
+  {"title": "One Dance (feat. Wizkid & Kyla)", "album": "Views", "id": 96},
+  {"title": "Grammys (feat. Future)", "album": "Views", "id": 97},
+  {"title": "Childs Play", "album": "Views", "id": 98},
+  {"title": "Pop Style", "album": "Views", "id": 99},
+  {"title": "Too Good (feat. Rihanna)", "album": "Views", "id": 100},
+  {"title": "Summers Over Interlude", "album": "Views", "id": 101},
+  {"title": "Fire & Desire", "album": "Views", "id": 102},
+  {"title": "Views", "album": "Views", "id": 103},
+  {"title": "Hotline Bling", "album": "Views", "id": 104, "variants": ["Bonus"]},
+
+  {"title": "Free Smoke", "album": "More Life", "id": 105},
+  {"title": "No Long Talk (feat. Giggs)", "album": "More Life", "id": 106},
+  {"title": "Passionfruit", "album": "More Life", "id": 107},
+  {"title": "Jorja Interlude", "album": "More Life", "id": 108},
+  {"title": "Get It Together (feat. Black Coffee & Jorja Smith)", "album": "More Life", "id": 109},
+  {"title": "Madiba Riddim", "album": "More Life", "id": 110},
+  {"title": "Blem", "album": "More Life", "id": 111},
+  {"title": "4422 (feat. Sampha)", "album": "More Life", "id": 112},
+  {"title": "Gyalchester", "album": "More Life", "id": 113},
+  {"title": "Skepta Interlude", "album": "More Life", "id": 114},
+  {"title": "Portland (feat. Quavo & Travis Scott)", "album": "More Life", "id": 115},
+  {"title": "Sacrifices (feat. 2 Chainz & Young Thug)", "album": "More Life", "id": 116},
+  {"title": "Nothings Into Somethings", "album": "More Life", "id": 117},
+  {"title": "Teenage Fever", "album": "More Life", "id": 118},
+  {"title": "KMT (feat. Giggs)", "album": "More Life", "id": 119},
+  {"title": "Lose You", "album": "More Life", "id": 120},
+  {"title": "Can't Have Everything", "album": "More Life", "id": 121},
+  {"title": "Glow (feat. Kanye West)", "album": "More Life", "id": 122},
+  {"title": "Since Way Back (feat. PARTYNEXTDOOR)", "album": "More Life", "id": 123},
+  {"title": "Fake Love", "album": "More Life", "id": 124},
+  {"title": "Ice Melts (feat. Young Thug)", "album": "More Life", "id": 125},
+  {"title": "Do Not Disturb", "album": "More Life", "id": 126},
+
+  {"title": "Survival", "album": "Scorpion", "id": 127},
+  {"title": "Nonstop", "album": "Scorpion", "id": 128},
+  {"title": "Elevate", "album": "Scorpion", "id": 129},
+  {"title": "Emotionless", "album": "Scorpion", "id": 130},
+  {"title": "God's Plan", "album": "Scorpion", "id": 131},
+  {"title": "I'm Upset", "album": "Scorpion", "id": 132},
+  {"title": "8 Out Of 10", "album": "Scorpion", "id": 133},
+  {"title": "Mob Ties", "album": "Scorpion", "id": 134},
+  {"title": "Can't Take A Joke", "album": "Scorpion", "id": 135},
+  {"title": "Sandra's Rose", "album": "Scorpion", "id": 136},
+  {"title": "Talk Up (feat. JAY-Z)", "album": "Scorpion", "id": 137},
+  {"title": "Is There More", "album": "Scorpion", "id": 138},
+  {"title": "Peak", "album": "Scorpion", "id": 139},
+  {"title": "Summer Games", "album": "Scorpion", "id": 140},
+  {"title": "Jaded", "album": "Scorpion", "id": 141},
+  {"title": "Nice For What", "album": "Scorpion", "id": 142},
+  {"title": "Finesse", "album": "Scorpion", "id": 143},
+  {"title": "Ratchet Happy Birthday", "album": "Scorpion", "id": 144},
+  {"title": "That's How You Feel", "album": "Scorpion", "id": 145},
+  {"title": "Blue Tint", "album": "Scorpion", "id": 146},
+  {"title": "In My Feelings", "album": "Scorpion", "id": 147},
+  {"title": "Don't Matter To Me (with Michael Jackson)", "album": "Scorpion", "id": 148},
+  {"title": "After Dark (feat. Static Major & Ty Dolla $ign)", "album": "Scorpion", "id": 149},
+  {"title": "Final Fantasy", "album": "Scorpion", "id": 150},
+  {"title": "March 14", "album": "Scorpion", "id": 151},
+
+  {"title": "Dreams Money Can Buy", "album": "Care Package", "id": 252},
+  {"title": "The Motion", "album": "Care Package", "id": 253},
+  {"title": "How Bout Now", "album": "Care Package", "id": 254},
+  {"title": "Trust Issues", "album": "Care Package", "id": 255},
+  {"title": "Days in the East", "album": "Care Package", "id": 256},
+  {"title": "Draft Day", "album": "Care Package", "id": 257},
+  {"title": "4pm in Calabasas", "album": "Care Package", "id": 258},
+  {"title": "5 Am in Toronto", "album": "Care Package", "id": 259},
+  {"title": "I Get Lonely", "album": "Care Package", "id": 260},
+  {"title": "My Side", "album": "Care Package", "id": 261},
+  {"title": "Jodeci Freestyle (feat. J. Cole)", "album": "Care Package", "id": 262},
+  {"title": "Club Paradise", "album": "Care Package", "id": 263},
+  {"title": "Free Spirit (feat. Rick Ross)", "album": "Care Package", "id": 264},
+  {"title": "Heat of the Moment", "album": "Care Package", "id": 265},
+  {"title": "Girls Love Beyoncé (feat. James Fauntleroy)", "album": "Care Package", "id": 266},
+  {"title": "Paris Morton Music", "album": "Care Package", "id": 267},
+  {"title": "Can I", "album": "Care Package", "id": 268},
+
+  {"title": "Deep Pockets", "album": "Dark Lane Demo Tapes", "id": 152},
+  {"title": "When To Say When", "album": "Dark Lane Demo Tapes", "id": 153},
+  {"title": "Chicago Freestyle (with GIVĒON)", "album": "Dark Lane Demo Tapes", "id": 154},
+  {"title": "Not You Too (feat. Chris Brown)", "album": "Dark Lane Demo Tapes", "id": 155},
+  {"title": "Toosie Slide", "album": "Dark Lane Demo Tapes", "id": 156},
+  {"title": "Desires (feat. Future)", "album": "Dark Lane Demo Tapes", "id": 157},
+  {"title": "Time Flies", "album": "Dark Lane Demo Tapes", "id": 158},
+  {"title": "Landed", "album": "Dark Lane Demo Tapes", "id": 159},
+  {"title": "D4L (with Future & Young Thug)", "album": "Dark Lane Demo Tapes", "id": 160},
+  {"title": "Pain 1993 (feat. Playboi Carti)", "album": "Dark Lane Demo Tapes", "id": 161},
+  {"title": "Losses", "album": "Dark Lane Demo Tapes", "id": 162},
+  {"title": "From Florida With Love", "album": "Dark Lane Demo Tapes", "id": 163},
+  {"title": "Demons (feat. Fivio Foreign & Sosa Geek)", "album": "Dark Lane Demo Tapes", "id": 164},
+  {"title": "War", "album": "Dark Lane Demo Tapes", "id": 165},
+
+  {"title": "Champagne Poetry", "album": "Certified Lover Boy", "id": 166},
+  {"title": "Papi's Home", "album": "Certified Lover Boy", "id": 167},
+  {"title": "Girls Want Girls (feat. Lil Baby)", "album": "Certified Lover Boy", "id": 168},
+  {"title": "In The Bible (feat. Lil Durk & GIVĒON)", "album": "Certified Lover Boy", "id": 169},
+  {"title": "Love All (feat. JAY-Z)", "album": "Certified Lover Boy", "id": 170},
+  {"title": "Fair Trade (feat. Travis Scott)", "album": "Certified Lover Boy", "id": 171},
+  {"title": "Way 2 Sexy (feat. Future & Young Thug)", "album": "Certified Lover Boy", "id": 172},
+  {"title": "TSU", "album": "Certified Lover Boy", "id": 173},
+  {"title": "N 2 Deep (feat. Future)", "album": "Certified Lover Boy", "id": 174},
+  {"title": "Pipe Down", "album": "Certified Lover Boy", "id": 175},
+  {"title": "Yebba's Heartbreak (with Yebba)", "album": "Certified Lover Boy", "id": 176},
+  {"title": "No Friends In The Industry", "album": "Certified Lover Boy", "id": 177},
+  {"title": "Knife Talk (feat. 21 Savage & Project Pat)", "album": "Certified Lover Boy", "id": 178},
+  {"title": "7am On Bridle Path", "album": "Certified Lover Boy", "id": 179},
+  {"title": "Race My Mind", "album": "Certified Lover Boy", "id": 180},
+  {"title": "Fountains (feat. Tems)", "album": "Certified Lover Boy", "id": 181},
+  {"title": "Get Along Better (feat. Ty Dolla $ign)", "album": "Certified Lover Boy", "id": 182},
+  {"title": "You Only Live Twice (feat. Lil Wayne & Rick Ross)", "album": "Certified Lover Boy", "id": 183},
+  {"title": "IMY2 (feat. Kid Cudi)", "album": "Certified Lover Boy", "id": 184},
+  {"title": "Fucking Fans", "album": "Certified Lover Boy", "id": 185},
+  {"title": "The Remorse", "album": "Certified Lover Boy", "id": 186},
+
+  {"title": "Intro", "album": "Honestly, Nevermind", "id": 187},
+  {"title": "Falling Back", "album": "Honestly, Nevermind", "id": 188},
+  {"title": "Texts Go Green", "album": "Honestly, Nevermind", "id": 189},
+  {"title": "Currents", "album": "Honestly, Nevermind", "id": 190},
+  {"title": "A Keeper", "album": "Honestly, Nevermind", "id": 191},
+  {"title": "Calling My Name", "album": "Honestly, Nevermind", "id": 192},
+  {"title": "Sticky", "album": "Honestly, Nevermind", "id": 193},
+  {"title": "Massive", "album": "Honestly, Nevermind", "id": 194},
+  {"title": "Flight's Booked", "album": "Honestly, Nevermind", "id": 195},
+  {"title": "Overdrive", "album": "Honestly, Nevermind", "id": 196},
+  {"title": "Down Hill", "album": "Honestly, Nevermind", "id": 197},
+  {"title": "Tie That Binds", "album": "Honestly, Nevermind", "id": 198},
+  {"title": "Liability", "album": "Honestly, Nevermind", "id": 199},
+  {"title": "Jimmy Cooks (feat. 21 Savage)", "album": "Honestly, Nevermind", "id": 200},
+
+  {"title": "Rich Flex", "album": "Her Loss", "id": 201},
+  {"title": "Major Distribution", "album": "Her Loss", "id": 202},
+  {"title": "On BS", "album": "Her Loss", "id": 203},
+  {"title": "BackOutsideBoyz", "album": "Her Loss", "id": 204},
+  {"title": "Privileged Rappers", "album": "Her Loss", "id": 205},
+  {"title": "Spin Bout U", "album": "Her Loss", "id": 206},
+  {"title": "Hours In Silence", "album": "Her Loss", "id": 207},
+  {"title": "Treacherous Twins", "album": "Her Loss", "id": 208},
+  {"title": "Circo Loco", "album": "Her Loss", "id": 209},
+  {"title": "Pussy & Millions (feat. Travis Scott)", "album": "Her Loss", "id": 210},
+  {"title": "Broke Boys", "album": "Her Loss", "id": 211},
+  {"title": "Middle of the Ocean", "album": "Her Loss", "id": 212},
+  {"title": "Jumbotron Shit Poppin", "album": "Her Loss", "id": 213},
+  {"title": "More M's", "album": "Her Loss", "id": 214},
+  {"title": "3AM on Glenwood", "album": "Her Loss", "id": 215},
+  {"title": "I Guess It's Fuck Me", "album": "Her Loss", "id": 216},
+
+  {"title": "Virginia Beach", "album": "For All The Dogs", "id": 217},
+  {"title": "Amen (feat. Teezo Touchdown)", "album": "For All The Dogs", "id": 218},
+  {"title": "Calling For You (feat. 21 Savage)", "album": "For All The Dogs", "id": 219},
+  {"title": "Fear Of Heights", "album": "For All The Dogs", "id": 220},
+  {"title": "Daylight", "album": "For All The Dogs", "id": 221},
+  {"title": "First Person Shooter (feat. J. Cole)", "album": "For All The Dogs", "id": 222},
+  {"title": "IDGAF (feat. Yeat)", "album": "For All The Dogs", "id": 223},
+  {"title": "7969 Santa", "album": "For All The Dogs", "id": 224},
+  {"title": "Slime You Out (feat. SZA)", "album": "For All The Dogs", "id": 225},
+  {"title": "Bahamas Promises", "album": "For All The Dogs", "id": 226},
+  {"title": "Tried Our Best", "album": "For All The Dogs", "id": 227},
+  {"title": "Screw The World (Interlude)", "album": "For All The Dogs", "id": 228},
+  {"title": "Drew A Picasso", "album": "For All The Dogs", "id": 229},
+  {"title": "Members Only (feat. PARTYNEXTDOOR)", "album": "For All The Dogs", "id": 230},
+  {"title": "What Would Pluto Do", "album": "For All The Dogs", "id": 231},
+  {"title": "All The Parties (feat. Chief Keef)", "album": "For All The Dogs", "id": 232},
+  {"title": "8am in Charlotte", "album": "For All The Dogs", "id": 233},
+  {"title": "BBL Love (Interlude)", "album": "For All The Dogs", "id": 234},
+  {"title": "Gently (feat. Bad Bunny)", "album": "For All The Dogs", "id": 235},
+  {"title": "Rich Baby Daddy (feat. Sexyy Red & SZA)", "album": "For All The Dogs", "id": 236},
+  {"title": "Another Late Night (feat. Lil Yachty)", "album": "For All The Dogs", "id": 237},
+  {"title": "Away From Home", "album": "For All The Dogs", "id": 238},
+  {"title": "Polar Opposites", "album": "For All The Dogs", "id": 239},
+  {"title": "Red Button", "album": "For All The Dogs", "id": 269, "variants": ["Scary Hours Edition"]},
+  {"title": "Stories About My Brother", "album": "For All The Dogs", "id": 270, "variants": ["Scary Hours Edition"]},
+  {"title": "The Shoe Fits", "album": "For All The Dogs", "id": 271, "variants": ["Scary Hours Edition"]},
+  {"title": "Wick Man", "album": "For All The Dogs", "id": 272, "variants": ["Scary Hours Edition"]},
+  {"title": "Evil Ways (feat. J. Cole)", "album": "For All The Dogs", "id": 273, "variants": ["Scary Hours Edition"]},
+  {"title": "You Broke My Heart", "album": "For All The Dogs", "id": 274, "variants": ["Scary Hours Edition"]},
+
+  {"title": "CN TOWER", "album": "$ome $exy $ongs 4 U", "id": 275},
+  {"title": "MOTH BALLS", "album": "$ome $exy $ongs 4 U", "id": 276},
+  {"title": "SOMETHING ABOUT YOU", "album": "$ome $exy $ongs 4 U", "id": 277},
+  {"title": "CRYING IN CHANEL", "album": "$ome $exy $ongs 4 U", "id": 278},
+  {"title": "SPIDER-MAN SUPERMAN", "album": "$ome $exy $ongs 4 U", "id": 279},
+  {"title": "DEEPER", "album": "$ome $exy $ongs 4 U", "id": 280},
+  {"title": "SMALL TOWN FAME", "album": "$ome $exy $ongs 4 U", "id": 281},
+  {"title": "PIMMIE'S DILEMMA (with Pimmie)", "album": "$ome $exy $ongs 4 U", "id": 282},
+  {"title": "BRIAN STEEL", "album": "$ome $exy $ongs 4 U", "id": 283},
+  {"title": "GIMME A HUG", "album": "$ome $exy $ongs 4 U", "id": 284},
+  {"title": "RAINING IN HOUSTON", "album": "$ome $exy $ongs 4 U", "id": 285},
+  {"title": "LASERS", "album": "$ome $exy $ongs 4 U", "id": 286},
+  {"title": "MEET YOUR PADRE (with Chino Pacas)", "album": "$ome $exy $ongs 4 U", "id": 287},
+  {"title": "NOKIA", "album": "$ome $exy $ongs 4 U", "id": 288},
+  {"title": "DIE TRYING (with Yebba)", "album": "$ome $exy $ongs 4 U", "id": 289},
+  {"title": "SOMEBODY LOVES ME", "album": "$ome $exy $ongs 4 U", "id": 290},
+  {"title": "CELIBACY", "album": "$ome $exy $ongs 4 U", "id": 291},
+  {"title": "OMW", "album": "$ome $exy $ongs 4 U", "id": 292},
+  {"title": "GLORIOUS", "album": "$ome $exy $ongs 4 U", "id": 293},
+  {"title": "WHEN HE'S GONE", "album": "$ome $exy $ongs 4 U", "id": 294},
+  {"title": "GREEDY", "album": "$ome $exy $ongs 4 U", "id": 295},
+
+  {"title": "Make Them Cry", "album": "ICEMAN", "id": 296},
+  {"title": "Dust", "album": "ICEMAN", "id": 297},
+  {"title": "Whisper My Name", "album": "ICEMAN", "id": 298},
+  {"title": "Janice STFU", "album": "ICEMAN", "id": 299},
+  {"title": "Ran To Atlanta (with Future & Molly Santana)", "album": "ICEMAN", "id": 300},
+  {"title": "Shabang", "album": "ICEMAN", "id": 301},
+  {"title": "Make Them Pay", "album": "ICEMAN", "id": 302},
+  {"title": "Burning Bridges", "album": "ICEMAN", "id": 303},
+  {"title": "National Treasures", "album": "ICEMAN", "id": 304},
+  {"title": "B's On The Table (with 21 Savage)", "album": "ICEMAN", "id": 305},
+  {"title": "What Did I Miss?", "album": "ICEMAN", "id": 306},
+  {"title": "Plot Twist", "album": "ICEMAN", "id": 307},
+  {"title": "2 Hard 4 The Radio", "album": "ICEMAN", "id": 308},
+  {"title": "Make Them Remember", "album": "ICEMAN", "id": 309},
+  {"title": "Little Birdie", "album": "ICEMAN", "id": 310},
+  {"title": "Don't Worry", "album": "ICEMAN", "id": 311},
+  {"title": "Firm Friends", "album": "ICEMAN", "id": 312},
+  {"title": "Make Them Know", "album": "ICEMAN", "id": 313},
+
+  {"title": "Hoe Phase", "album": "MAID OF HONOUR", "id": 314},
+  {"title": "Road Trips", "album": "MAID OF HONOUR", "id": 315},
+  {"title": "Outside Tweaking (with Stunna Sandy)", "album": "MAID OF HONOUR", "id": 316},
+  {"title": "Cheetah Print (with Sexyy Red)", "album": "MAID OF HONOUR", "id": 317},
+  {"title": "Which One (with Central Cee)", "album": "MAID OF HONOUR", "id": 318},
+  {"title": "Amazing Shape (with Popcaan)", "album": "MAID OF HONOUR", "id": 319},
+  {"title": "BBW", "album": "MAID OF HONOUR", "id": 320},
+  {"title": "True Bestie (with Iconic Savvy)", "album": "MAID OF HONOUR", "id": 321},
+  {"title": "Where's Your Stuff Interlude", "album": "MAID OF HONOUR", "id": 322},
+  {"title": "New Bestie", "album": "MAID OF HONOUR", "id": 323},
+  {"title": "Q&A", "album": "MAID OF HONOUR", "id": 324},
+  {"title": "Stuck", "album": "MAID OF HONOUR", "id": 325},
+  {"title": "Goose and The Juice", "album": "MAID OF HONOUR", "id": 326},
+  {"title": "Princess", "album": "MAID OF HONOUR", "id": 327},
+
+  {"title": "Rusty Intro", "album": "HABIBTI", "id": 328},
+  {"title": "WNBA", "album": "HABIBTI", "id": 329},
+  {"title": "Slap The City (with Qendresa)", "album": "HABIBTI", "id": 330},
+  {"title": "High Fives", "album": "HABIBTI", "id": 331},
+  {"title": "Hurrr Nor Thurrr (with Sexyy Red)", "album": "HABIBTI", "id": 332},
+  {"title": "I'm Spent (with Loe Shimmy)", "album": "HABIBTI", "id": 333},
+  {"title": "Classic", "album": "HABIBTI", "id": 334},
+  {"title": "Gen 5", "album": "HABIBTI", "id": 335},
+  {"title": "White Bone", "album": "HABIBTI", "id": 336},
+  {"title": "Fortworth (with PARTYNEXTDOOR)", "album": "HABIBTI", "id": 337},
+  {"title": "Prioritizing", "album": "HABIBTI", "id": 338},
+  {"title": "Solar Eclipse (with Don Toliver)", "album": "HABIBTI", "id": 339, "variants": ["FOMO"]},
+  {"title": "Quebec", "album": "HABIBTI", "id": 340, "variants": ["FOMO"]},
+  {"title": "Cold Shoulder (with Don Toliver & Yebba)", "album": "HABIBTI", "id": 341, "variants": ["FOMO"]},
+  {"title": "Classic PT2", "album": "HABIBTI", "id": 342, "variants": ["FOMO"]},
+
+  {"title": "I'm Goin' In (feat. Lil Wayne & Young Jeezy)", "album": "Other Songs", "id": 6, "variants": ["Singles"]},
+  {"title": "Fear", "album": "Other Songs", "id": 343, "variants": ["Singles"]},
+  {"title": "Forever (with Kanye West, Lil Wayne & Eminem)", "album": "Other Songs", "id": 344, "variants": ["Singles"]},
+  {"title": "9AM in Dallas", "album": "Other Songs", "id": 345, "variants": ["Singles"]},
+  {"title": "0 to 100 / The Catch Up", "album": "Other Songs", "id": 346, "variants": ["Singles"]},
+  {"title": "Back to Back", "album": "Other Songs", "id": 347, "variants": ["Singles"]},
+  {"title": "Right Hand", "album": "Other Songs", "id": 348, "variants": ["Singles"]},
+  {"title": "Charged Up", "album": "Other Songs", "id": 349, "variants": ["Singles"]},
+  {"title": "Summer Sixteen", "album": "Other Songs", "id": 350, "variants": ["Singles"]},
+  {"title": "Two Birds, One Stone", "album": "Other Songs", "id": 351, "variants": ["Singles"]},
+  {"title": "Sneakin' (feat. 21 Savage)", "album": "Other Songs", "id": 352, "variants": ["Singles"]},
+  {"title": "Signs", "album": "Other Songs", "id": 353, "variants": ["Singles"]},
+  {"title": "Diplomatic Immunity", "album": "Other Songs", "id": 354, "variants": ["Singles"]},
+  {"title": "Omertà", "album": "Other Songs", "id": 355, "variants": ["Singles"]},
+  {"title": "Money in the Grave (feat. Rick Ross)", "album": "Other Songs", "id": 356, "variants": ["Singles"]},
+  {"title": "Laugh Now Cry Later (feat. Lil Durk)", "album": "Other Songs", "id": 357, "variants": ["Singles"]},
+  {"title": "What's Next", "album": "Other Songs", "id": 358, "variants": ["Singles"]},
+  {"title": "Wants and Needs (feat. Lil Baby)", "album": "Other Songs", "id": 359, "variants": ["Singles"]},
+  {"title": "Lemon Pepper Freestyle (feat. Rick Ross)", "album": "Other Songs", "id": 360, "variants": ["Singles"]},
+  {"title": "Search & Rescue", "album": "Other Songs", "id": 361, "variants": ["Singles"]},
+  {"title": "Push Ups", "album": "Other Songs", "id": 362, "variants": ["Singles"]},
+  {"title": "Family Matters", "album": "Other Songs", "id": 363, "variants": ["Singles"]},
+  {"title": "Circadian Rhythm", "album": "Other Songs", "id": 364, "variants": ["Singles"]},
+  {"title": "It's Up (with Young Thug & 21 Savage)", "album": "Other Songs", "id": 365, "variants": ["Singles"]},
+  {"title": "Housekeeping Knows (feat. Latto)", "album": "Other Songs", "id": 366, "variants": ["Singles"]},
+  {"title": "No Face", "album": "Other Songs", "id": 367, "variants": ["Singles"]},
+  {"title": "On the Radar Freestyle (with Central Cee)", "album": "Other Songs", "id": 368, "variants": ["Singles"]},
+  {"title": "DOG HOUSE (with Julia Wolf & Yeat)", "album": "Other Songs", "id": 369, "variants": ["Singles"]},
+  {"title": "The One (with Mary J. Blige)", "album": "Other Songs", "id": 370, "variants": ["Features"]},
+  {"title": "Throw It in the Bag (Remix) (with Fabolous & The-Dream)", "album": "Other Songs", "id": 371, "variants": ["Features"]},
+  {"title": "Digital Girl (Remix) (with Jamie Foxx, Kanye West & The-Dream)", "album": "Other Songs", "id": 372, "variants": ["Features"]},
+  {"title": "Un-thinkable (I'm Ready) (Remix) (with Alicia Keys)", "album": "Other Songs", "id": 373, "variants": ["Features"]},
+  {"title": "Fall for Your Type (with Jamie Foxx)", "album": "Other Songs", "id": 374, "variants": ["Features"]},
+  {"title": "I'm on One (with DJ Khaled, Rick Ross & Lil Wayne)", "album": "Other Songs", "id": 375, "variants": ["Features"]},
+  {"title": "So Good (with Shanell & Lil Wayne)", "album": "Other Songs", "id": 376, "variants": ["Features"]},
+  {"title": "She Will (with Lil Wayne)", "album": "Other Songs", "id": 377, "variants": ["Features"]},
+  {"title": "Round of Applause (with Waka Flocka Flame)", "album": "Other Songs", "id": 378, "variants": ["Features"]},
+  {"title": "Stay Schemin' (with Rick Ross & French Montana)", "album": "Other Songs", "id": 379, "variants": ["Features"]},
+  {"title": "We in This 1.5 (with DJ Drama & Future)", "album": "Other Songs", "id": 380, "variants": ["Features"]},
+  {"title": "No New Friends (SFTB Remix) (with DJ Khaled, Rick Ross & Lil Wayne)", "album": "Other Songs", "id": 381, "variants": ["Features"]},
+  {"title": "Know Bout Me (with Timbaland, JAY-Z & James Fauntleroy)", "album": "Other Songs", "id": 382, "variants": ["Features"]},
+  {"title": "Versace (Remix) (with Migos)", "album": "Other Songs", "id": 383, "variants": ["Features"]},
+  {"title": "Believe Me (with Lil Wayne)", "album": "Other Songs", "id": 384, "variants": ["Features"]},
+  {"title": "Grindin' (with Lil Wayne)", "album": "Other Songs", "id": 385, "variants": ["Features"]},
+  {"title": "Tuesday (with iLoveMakonnen)", "album": "Other Songs", "id": 386, "variants": ["Features"]},
+  {"title": "Schemin Up (with OB OBrien & Preme)", "album": "Other Songs", "id": 387, "variants": ["Features"]},
+  {"title": "Blessings (Extended Version) (with Big Sean & Kanye West)", "album": "Other Songs", "id": 388, "variants": ["Features"]},
+  {"title": "No Shopping (with French Montana)", "album": "Other Songs", "id": 389, "variants": ["Features"]},
+  {"title": "Wanna Know (Remix) (with Dave)", "album": "Other Songs", "id": 390, "variants": ["Features"]},
+  {"title": "Used to This (with Future)", "album": "Other Songs", "id": 391, "variants": ["Features"]},
+  {"title": "No Frauds (with Nicki Minaj & Lil Wayne)", "album": "Other Songs", "id": 392, "variants": ["Features"]},
+  {"title": "Both (Remix) (with Gucci Mane & Lil Wayne)", "album": "Other Songs", "id": 393, "variants": ["Features"]},
+  {"title": "Look Alive (with BlocBoy JB)", "album": "Other Songs", "id": 394, "variants": ["Features"]},
+  {"title": "Lemon (Drake Remix) (with N.E.R.D & Rihanna)", "album": "Other Songs", "id": 395, "variants": ["Features"]},
+  {"title": "Bigger Than You (with 2 Chainz & Quavo)", "album": "Other Songs", "id": 396, "variants": ["Features"]},
+  {"title": "No Stylist (with French Montana)", "album": "Other Songs", "id": 397, "variants": ["Features"]},
+  {"title": "MIA (with Bad Bunny)", "album": "Other Songs", "id": 398, "variants": ["Features"]},
+  {"title": "Girls Need Love (Remix) (with Summer Walker)", "album": "Other Songs", "id": 399, "variants": ["Features"]},
+  {"title": "Gold Roses (with Rick Ross)", "album": "Other Songs", "id": 400, "variants": ["Features"]},
+  {"title": "Won't Be Late (with Swae Lee)", "album": "Other Songs", "id": 401, "variants": ["Features"]},
+  {"title": "Life Is Good (with Future)", "album": "Other Songs", "id": 402, "variants": ["Features"]},
+  {"title": "LOYAL (Remix) (with PARTYNEXTDOOR & Bad Bunny)", "album": "Other Songs", "id": 403, "variants": ["Features"]},
+  {"title": "Oprah's Bank Account (with Lil Yachty & DaBaby)", "album": "Other Songs", "id": 404, "variants": ["Features"]},
+  {"title": "POPSTAR (with DJ Khaled)", "album": "Other Songs", "id": 405, "variants": ["Features"]},
+  {"title": "GREECE (with DJ Khaled)", "album": "Other Songs", "id": 406, "variants": ["Features"]},
+  {"title": "Only You Freestyle (with Headie One)", "album": "Other Songs", "id": 407, "variants": ["Features"]},
+  {"title": "You're Mines Still (with Yung Bleu)", "album": "Other Songs", "id": 408, "variants": ["Features"]},
+  {"title": "B.B. King Freestyle (with Lil Wayne)", "album": "Other Songs", "id": 409, "variants": ["Features"]},
+  {"title": "Wasting Time (with Brent Faiyaz)", "album": "Other Songs", "id": 410, "variants": ["Features"]},
+  {"title": "Over the Top (with Smiley)", "album": "Other Songs", "id": 411, "variants": ["Features"]},
+  {"title": "WAIT FOR U (with Future & Tems)", "album": "Other Songs", "id": 412, "variants": ["Features"]},
+  {"title": "STAYING ALIVE (with DJ Khaled & Lil Baby)", "album": "Other Songs", "id": 413, "variants": ["Features"]},
+  {"title": "We Caa Done (with Popcaan)", "album": "Other Songs", "id": 414, "variants": ["Features"]},
+  {"title": "Who Told You (with J Hus)", "album": "Other Songs", "id": 415, "variants": ["Features"]},
+  {"title": "MELTDOWN (with Travis Scott)", "album": "Other Songs", "id": 416, "variants": ["Features"]},
+  {"title": "act ii: date @ 8 (Remix) (with 4batz)", "album": "Other Songs", "id": 417, "variants": ["Features"]},
+  {"title": "Sideways (with Gordo)", "album": "Other Songs", "id": 418, "variants": ["Features"]},
+  {"title": "SOMEBODY LOVES ME PT. 2 (with PARTYNEXTDOOR & Cash Cobain)", "album": "Other Songs", "id": 419, "variants": ["Features"]},
+  {"title": "No Brakes (with The Game)", "album": "Other Songs", "id": 420, "variants": ["Features"]}
 ]
