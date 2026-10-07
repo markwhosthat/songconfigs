@@ -1,0 +1,33 @@
+/* Colours sampled from each record's official cover art (Apple Music):
+   the background (--album-color-primary) is the cover's ground, and the
+   accent the lettering or the detail that defines it. No official era
+   palette exists; the searched era colours (WHEN WE ALL FALL ASLEEP's black
+   and white, Happier Than Ever's beige, HIT ME HARD AND SOFT's blue) match
+   the covers. Every pair meets WCAG AA (4.5:1) both ways round, faded (70%)
+   text included; where a sampled colour missed, only its lightness was
+   moved, keeping its hue, and the sampled value is noted. */
+
+/* The yellow ground, the red ladder (sampled #C03333). */
+.theme-be-dont-smile-at-me {
+  --album-color-primary: #EFD982;
+  --album-color-secondary: #5B1818;
+}
+
+/* The black room, the white of the bedsheets. */
+.theme-be-wwafawdwg {
+  --album-color-primary: #020202;
+  --album-color-secondary: #E5DCD0;
+}
+
+/* The cream of her sweater, the deepest brown (sampled #442316). */
+.theme-be-happier-than-ever {
+  --album-color-primary: #E0D4CC;
+  --album-color-secondary: #412115;
+}
+
+/* The blue of the deep water, the light on the door at the surface
+   (sampled #83857B). */
+.theme-be-hit-me-hard-and-soft {
+  --album-color-primary: #0C2B43;
+  --album-color-secondary: #D1D2CE;
+}
