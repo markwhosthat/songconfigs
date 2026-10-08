@@ -1,0 +1,35 @@
+/* Colours sampled from each record's official cover art (Apple Music):
+   the background (--album-color-primary) is the cover's ground, and the
+   accent the lettering or the detail that defines it. No official era
+   palette exists, but each pick follows the colours his eras are known
+   by: the debut's pink (it was nearly titled Pink), Fine Line's pinks and
+   blues, Harry's House's beige, and the "Kiss Pink" of the latest album's
+   official vinyl. Every pair meets WCAG AA (4.5:1) both ways
+   round, faded (70%) text included; where a sampled colour missed, only
+   its lightness was moved, keeping its hue, and the sampled value is
+   noted. */
+
+/* The pink bath (sampled #CA9D97), his dark wet hair. */
+.theme-hs-harry-styles {
+  --album-color-primary: #CB9F99;
+  --album-color-secondary: #110F12;
+}
+
+/* His hot pink shirt (sampled #BA2B6D), his white trousers. */
+.theme-hs-fine-line {
+  --album-color-primary: #6D1940;
+  --album-color-secondary: #E7EBEC;
+}
+
+/* The cream walls of the upside-down room, the blue of his jeans. */
+.theme-hs-harrys-house {
+  --album-color-primary: #E3D3B9;
+  --album-color-secondary: #0F2634;
+}
+
+/* The black ground, the pink "KISS ALL THE TIME." lettering (sampled
+   #EA77AE). */
+.theme-hs-kiss-all-the-time {
+  --album-color-primary: #000000;
+  --album-color-secondary: #EC86B7;
+}
