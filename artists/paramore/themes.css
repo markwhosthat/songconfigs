@@ -1,0 +1,48 @@
+/* Colours sampled from each record's official cover art (Apple Music):
+   the background (--album-color-primary) is the cover's ground, and the
+   accent the lettering or the detail that defines it. No official era
+   palettes were found; Hayley Williams has named orange, red and yellow
+   as Riot!'s colours, which its theme keeps. Every pair meets WCAG AA
+   (4.5:1) both ways round, faded (70%) text included; where a sampled
+   colour missed, only its lightness was moved, keeping its hue, and the
+   sampled value is noted. */
+
+/* The red couch in the trees (sampled #9E2220), the white "paramore"
+   wordmark. */
+.theme-pm-all-we-know-is-falling {
+  --album-color-primary: #851D1B;
+  --album-color-secondary: #F9FDFE;
+}
+
+/* The black "RIOT!" scrawl that covers the sleeve, the orange "RIOT!"
+   (sampled #E15021). */
+.theme-pm-riot {
+  --album-color-primary: #191816;
+  --album-color-secondary: #EFA188;
+}
+
+/* The bare beige wall, the butterfly's black wings. */
+.theme-pm-brand-new-eyes {
+  --album-color-primary: #E0D8CD;
+  --album-color-secondary: #060105;
+}
+
+/* Hayley's denim jacket (sampled #3C5D6E), the white "GROW UP" painted
+   on its back. */
+.theme-pm-paramore {
+  --album-color-primary: #253943;
+  --album-color-secondary: #F5F6F1;
+}
+
+/* The lilac-pink ground, the black "AFTER LAUGHTER" lettering. */
+.theme-pm-after-laughter {
+  --album-color-primary: #DBACD0;
+  --album-color-secondary: #0D0F0E;
+}
+
+/* The shadow behind the rain-streaked glass, the cream "Paramore" and
+   "This Is Why" lettering. */
+.theme-pm-this-is-why {
+  --album-color-primary: #2E272F;
+  --album-color-secondary: #DBD5C9;
+}
