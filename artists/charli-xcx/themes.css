@@ -1,0 +1,67 @@
+/* Colours sampled from each record's official cover art (Apple Music):
+   the background (--album-color-primary) is the cover's ground, and the
+   accent the lettering or the detail that defines it. Brat's green is the
+   era's own, #8ACE00, which the cover carries. Every pair meets WCAG AA
+   (4.5:1) both ways round, faded (70%) text included; where a sampled
+   colour missed, only its lightness was moved, keeping its hue, and the
+   sampled value is noted. */
+
+/* The white ground, the magenta-red of her outfit (sampled #AD2A47). */
+.theme-charli-xcx-true-romance {
+  --album-color-primary: #FFFFFF;
+  --album-color-secondary: #7F1F34;
+}
+
+/* The pink ground, the red lollipop heart (sampled #CB242E). */
+.theme-charli-xcx-sucker {
+  --album-color-primary: #F5B1CE;
+  --album-color-secondary: #4A0D11;
+}
+
+/* The red ground, the white rose in her hand (sampled #E0BDA8). */
+.theme-charli-xcx-number-1-angel {
+  --album-color-primary: #8E1318;
+  --album-color-secondary: #FBF6F4;
+}
+
+/* The white ground, the lilac chrome "Pop 2" logo (sampled #A79BC3). */
+.theme-charli-xcx-pop-2 {
+  --album-color-primary: #FFFFFF;
+  --album-color-secondary: #403659;
+}
+
+/* The grey ground (sampled #8A807E), the black "charli" lettering. */
+.theme-charli-xcx-charli {
+  --album-color-primary: #AFA8A7;
+  --album-color-secondary: #090605;
+}
+
+/* The lilac-grey sheets, the handwritten title (sampled #696570). */
+.theme-charli-xcx-how-im-feeling-now {
+  --album-color-primary: #B4B0BD;
+  --album-color-secondary: #171618;
+}
+
+/* The blue sky (sampled #037CB6), the white of the cracked windscreen. */
+.theme-charli-xcx-crash {
+  --album-color-primary: #024464;
+  --album-color-secondary: #FFFFFF;
+}
+
+/* Brat green, the black "brat" lettering. */
+.theme-charli-xcx-brat {
+  --album-color-primary: #8ACE00;
+  --album-color-secondary: #000000;
+}
+
+/* The dark wood of the table, the skin of the hands (sampled #B88872). */
+.theme-charli-xcx-wuthering-heights {
+  --album-color-primary: #291D17;
+  --album-color-secondary: #D8BDB1;
+}
+
+/* The white kitchen wall, the black suits. */
+.theme-charli-xcx-music-fashion-film {
+  --album-color-primary: #FFFFFF;
+  --album-color-secondary: #101010;
+}
