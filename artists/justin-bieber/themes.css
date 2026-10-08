@@ -1,0 +1,78 @@
+/* Colours sampled from each record's official cover art (Apple Music):
+   the background (--album-color-primary) is the cover's ground, and the
+   accent the lettering or the detail that defines it. No official era
+   palettes were found beyond SWAG's black and SWAG II's pale pink, which
+   their themes keep. Every pair meets WCAG AA (4.5:1) both ways round,
+   faded (70%) text included; where a sampled colour missed, only its
+   lightness was moved, keeping its hue, and the sampled value is noted. */
+
+/* The dusk shadows, the orange "JUSTIN BIEBER" lettering (sampled
+   #DC8C5C). */
+.theme-jb-my-world {
+  --album-color-primary: #1C0404;
+  --album-color-secondary: #E0986D;
+}
+
+/* The grey studio ground (sampled #B4B4B4), the purple "MY WORLD 2.0"
+   (sampled #5C2C84). */
+.theme-jb-my-world-2 {
+  --album-color-primary: #F2F2F2;
+  --album-color-secondary: #4F2671;
+}
+
+/* The white snow, the red glitter "JUSTIN BIEBER" (sampled #CC242C). */
+.theme-jb-under-the-mistletoe {
+  --album-color-primary: #F4F4F4;
+  --album-color-secondary: #84171D;
+}
+
+/* The black ground, the yellow "BELIEVE" tape. */
+.theme-jb-believe {
+  --album-color-primary: #1C1C1C;
+  --album-color-secondary: #E4BC34;
+}
+
+/* The white ground, the magenta icons round its edge (sampled
+   #A43494). */
+.theme-jb-journals {
+  --album-color-primary: #FCFCFC;
+  --album-color-secondary: #6C2261;
+}
+
+/* The charcoal of the black-and-white photo, the white "Purpose"
+   signature (sampled #D4D4D4). */
+.theme-jb-purpose {
+  --album-color-primary: #2C2C2C;
+  --album-color-secondary: #DCDCDC;
+}
+
+/* The red wash (sampled #EC4434), the white "CHANGES" (sampled
+   #FCE4E4). */
+.theme-jb-changes {
+  --album-color-primary: #93190E;
+  --album-color-secondary: #FFFFFF;
+}
+
+/* The tunnel's dark teal, the cyan "JUSTICE" (sampled #0CF4EC). */
+.theme-jb-justice {
+  --album-color-primary: #183838;
+  --album-color-secondary: #99FAF7;
+}
+
+/* The white Notes page, its dark grey "Freedom." (sampled #3C3C3C). */
+.theme-jb-freedom {
+  --album-color-primary: #FCFCFC;
+  --album-color-secondary: #3B3B3B;
+}
+
+/* The black ground, the grey "SWAG" (sampled #4A4A4E). */
+.theme-jb-swag {
+  --album-color-primary: #0A0A0A;
+  --album-color-secondary: #A8A8AD;
+}
+
+/* The pale pink ground, the deeper pink "II" (sampled #F29ABA). */
+.theme-jb-swag-ii {
+  --album-color-primary: #FAB6C6;
+  --album-color-secondary: #500A24;
+}
