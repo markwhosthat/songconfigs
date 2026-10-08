@@ -9,22 +9,22 @@ const SHOWGIRL = 'The Life Of A Showgirl';
 const TAYLORS_VERSIONS = ['Fearless', 'Speak Now', 'Red', '1989'].map(album => `${album}:Taylor's Version`);
 
 // Left out unless someone opts in (see defaultExcludedVariants below).
-const DEFAULT_EXCLUDED = ['Other Songs:Features', 'The Life Of A Showgirl:Extras', 'Other Songs:Covers', 'Lover:Live From Paris', ...TAYLORS_VERSIONS];
+const DEFAULT_EXCLUDED = ['Other Songs:Features', 'The Life Of A Showgirl:Extras', 'The Life Of A Showgirl:Encore Extras', 'Other Songs:Covers', 'Lover:Live From Paris', ...TAYLORS_VERSIONS];
 
 // Just the Encore's new songs: every other album out, and within Showgirl
-// the Extras variant and the standard tracks (which carry no variant, so
+// both Extras variants and the standard tracks (which carry no variant, so
 // only a song-level exclusion can drop them).
 const encoreOnly = {
   excludedAlbums: [...new Set(songs.map(s => s.album))].filter(a => a !== SHOWGIRL),
-  excludedVariants: [`${SHOWGIRL}:Extras`],
+  excludedVariants: [`${SHOWGIRL}:Extras`, `${SHOWGIRL}:Encore Extras`],
   excludedSongs: songs.filter(s => s.album === SHOWGIRL && !s.variants?.length).map(s => s.id),
 };
 
 // The Encore edition as released: the standard tracks and the four new
-// songs, without the Extras' acoustic and alternate versions.
+// songs, without the acoustic and alternate versions of either.
 const encoreEdition = {
   excludedAlbums: encoreOnly.excludedAlbums,
-  excludedVariants: [`${SHOWGIRL}:Extras`],
+  excludedVariants: encoreOnly.excludedVariants,
 };
 
 // Builds a preset's filters from what it keeps: these albums, and in each
@@ -92,8 +92,10 @@ export const TaylorSwiftConfig: ArtistConfig = {
     { label: "Taylor's Versions", variants: ["Taylor's Version"] },
     // 3am Edition, The Anthology and The Encore are deluxe editions.
     { label: 'Deluxe', variants: ['Deluxe', '3am Edition', 'The Anthology', 'The Encore'] },
-    // Bonus tracks, Showgirl's extra versions among them.
-    { label: 'Bonus', variants: ['Bonus', 'Extras'] },
+    // Bonus tracks, Showgirl's extra versions among them: Extras for the
+    // album's songs, Encore Extras for the Encore's (Patient Zero's
+    // acoustic and piano CDs).
+    { label: 'Bonus', variants: ['Bonus', 'Extras', 'Encore Extras'] },
     { label: 'From the Vault', variants: ['From the Vault'] },
     { label: 'Remix', variants: ['Remix'] },
     // Lover (Live From Paris), the City of Lover concert recordings.
