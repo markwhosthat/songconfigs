@@ -187,3 +187,19 @@ If not provided, the site will use default values based on the artist's name.
 
 If using custom fonts, you can include `@font-face` declarations at the top of your `themes.css` or import them from a CDN. Ensure font files are placed in the `public/` directory if hosting them locally.
 
+
+### 7. Home page photo
+
+The artist's tile on the home page shows their Apple Music photo, stored in
+`src/config/artistPhotos.json`. Once the artist is registered in
+`src/config/artists.ts`, fetch theirs:
+
+```bash
+npx tsx scripts/fetch-artist-photos.ts <artist-id>
+```
+
+It prints the Apple Music page it matched. Check it's the right artist; if
+another artist of the same name came first, add their Apple Music artist ID
+(the number at the end of their Apple Music URL) to `OVERRIDES` in the script
+and run it again. Until a photo is fetched, the tile falls back to one of the
+artist's album covers.
