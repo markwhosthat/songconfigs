@@ -1,0 +1,36 @@
+/* Colours sampled from each record's official cover art (Apple Music):
+   the background (--album-color-primary) is the cover's ground, and the
+   accent the lettering or the detail that defines it. No official era
+   palette exists. Every pair meets WCAG AA (4.5:1) both ways round,
+   faded (70%) text included; where a sampled colour missed, only its
+   lightness was moved, keeping its hue, and the sampled value is noted. */
+
+/* The pale sky behind them, the red 1D badge (sampled #B41A33). */
+.theme-1d-up-all-night {
+  --album-color-primary: #EBEEEE;
+  --album-color-secondary: #811324;
+}
+
+/* The red phone box (sampled #9C2830), the white lettering. */
+.theme-1d-take-me-home {
+  --album-color-primary: #822128;
+  --album-color-secondary: #FFFFFF;
+}
+
+/* The dark ground, the white brushstroke "MIDNIGHT MEMORIES". */
+.theme-1d-midnight-memories {
+  --album-color-primary: #1B1B30;
+  --album-color-secondary: #F5F4F5;
+}
+
+/* The wood panelling (sampled #6C391F), the white lettering. */
+.theme-1d-four {
+  --album-color-primary: #5E321B;
+  --album-color-secondary: #FCFBFB;
+}
+
+/* The plaster wall (sampled #A2988A), their black clothes. */
+.theme-1d-made-in-the-am {
+  --album-color-primary: #C2BBB2;
+  --album-color-secondary: #1C1C1D;
+}
