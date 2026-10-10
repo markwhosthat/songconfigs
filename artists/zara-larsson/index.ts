@@ -22,7 +22,7 @@ const REMIX_ALBUM = 'Midnight Sun: Girls Trip';
 const GIRLS_TRIP = `${REMIX_ALBUM}:Remix`;
 
 // Left out unless someone opts in (see defaultExcludedVariants below).
-const DEFAULT_EXCLUDED = [GIRLS_TRIP, 'Other Songs:Features', 'Other Songs:Covers'];
+const DEFAULT_EXCLUDED = [GIRLS_TRIP, 'Other Songs:Covers'];
 
 // Her studio albums; the Introducing, Allow Me to Reintroduce Myself and
 // Honor The Light EPs stand apart. Songs 1 and the Uncover EP gathered from
@@ -86,8 +86,8 @@ export const ZaraLarssonConfig: ArtistConfig = {
     // Live Room).
     { label: 'Covers', variants: ['Covers'] },
   ],
-  // The Girls Trip remixes, the songs where she shares the billing on
-  // someone else's record, and her covers of other people's songs.
+  // The Girls Trip remixes and her covers of other people's songs; her
+  // features are in.
   defaultExcludedVariants: DEFAULT_EXCLUDED,
   topSectionName: 'The Top 10',
   topSectionCount: 10,
