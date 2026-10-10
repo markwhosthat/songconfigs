@@ -1,0 +1,24 @@
+/* Colours sampled from each record's official cover art (Apple Music):
+   the background (--album-color-primary) is the cover's ground, and the
+   accent the detail that defines it. No official era palette exists.
+   Every pair meets WCAG AA (4.5:1) both ways round, faded (70%) text
+   included; where a sampled colour missed, only its lightness was moved,
+   keeping its hue, and the sampled value is noted. */
+
+/* The lilac backdrop (sampled #A697A2), her dark snakeskin jacket. */
+.theme-dua-lipa-dua-lipa {
+  --album-color-primary: #B3A6B0;
+  --album-color-secondary: #180815;
+}
+
+/* The night sky, her pink shirt. */
+.theme-dua-lipa-future-nostalgia {
+  --album-color-primary: #070707;
+  --album-color-secondary: #D6AAC8;
+}
+
+/* The sunset sky, the shark's fin. */
+.theme-dua-lipa-radical-optimism {
+  --album-color-primary: #D6B6A2;
+  --album-color-secondary: #171B1A;
+}

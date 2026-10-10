@@ -1,0 +1,36 @@
+/* Colours sampled from each record's official cover art (Apple Music):
+   the background (--album-color-primary) is the cover's ground, and the
+   accent the lettering or the detail that defines it. No official era
+   palette exists. Every pair meets WCAG AA (4.5:1) both ways round, faded
+   (70%) text included; where a sampled colour missed, only its lightness
+   was moved, keeping its hue, and the sampled value is noted. */
+
+/* The purple sunset sky (sampled #835579), the white "sunset season". */
+.theme-conan-gray-sunset-season {
+  --album-color-primary: #372433;
+  --album-color-secondary: #DED1FE;
+}
+
+/* The white studio, the black crow wings. */
+.theme-conan-gray-kid-krow {
+  --album-color-primary: #E7E6E2;
+  --album-color-secondary: #211A10;
+}
+
+/* The black ground, the red roses of the heart (sampled #AD2022). */
+.theme-conan-gray-superache {
+  --album-color-primary: #060604;
+  --album-color-secondary: #EA8E8F;
+}
+
+/* The yellow backdrop, his black leather jacket. */
+.theme-conan-gray-found-heaven {
+  --album-color-primary: #CAB82E;
+  --album-color-secondary: #1B100D;
+}
+
+/* The stormy sky, his white sailor suit. */
+.theme-conan-gray-wishbone {
+  --album-color-primary: #092833;
+  --album-color-secondary: #DCDBE1;
+}

@@ -1,0 +1,45 @@
+/* Colours sampled from each record's official cover art (Apple Music):
+   the background (--album-color-primary) is the cover's ground, and the
+   accent the detail that defines it. No official era palettes exist;
+   She's the Best instead takes his official store's colours.
+   Every pair meets WCAG AA (4.5:1) both ways round, faded (70%) text
+   included; where a sampled colour missed, only its lightness was moved,
+   keeping its hue, and the sampled value is noted. */
+
+/* The sky-blue ground, his dark hair. */
+.theme-troye-sivan-trxye {
+  --album-color-primary: #84CEE2;
+  --album-color-secondary: #07121D;
+}
+
+/* The blue sky (sampled #3B8AB3), his white sweater. */
+.theme-troye-sivan-blue-neighbourhood {
+  --album-color-primary: #18394A;
+  --album-color-secondary: #F1EEE4;
+}
+
+/* The black ground, his bleached hair. */
+.theme-troye-sivan-bloom {
+  --album-color-primary: #000000;
+  --album-color-secondary: #C9C9C9;
+}
+
+/* The dark water, his red-lit face (sampled #762023). */
+.theme-troye-sivan-in-a-dream {
+  --album-color-primary: #050706;
+  --album-color-secondary: #E29295;
+}
+
+/* The tan sofa (sampled #CFA782), the deep brown shadow. */
+.theme-troye-sivan-something-to-give-each-other {
+  --album-color-primary: #D3AF8D;
+  --album-color-secondary: #330F04;
+}
+
+/* His official store's colours (troyesivan.store, where troyesivan.com
+   points, with the album's artwork): its white ground and its deep indigo
+   headings and links (hsl(244 75% 23%)). */
+.theme-troye-sivan-shes-the-best {
+  --album-color-primary: #FFFFFF;
+  --album-color-secondary: #150F67;
+}

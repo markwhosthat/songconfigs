@@ -1,0 +1,31 @@
+/* Colours sampled from each record's official cover art (Apple Music):
+   the background (--album-color-primary) is the cover's ground, and the
+   accent the detail that defines it. No official era palette exists; the
+   merch was made to match the covers. Every pair meets WCAG AA (4.5:1)
+   both ways round, faded (70%) text included; where a sampled colour
+   missed, only its lightness was moved, keeping its hue, and the sampled
+   value is noted. */
+
+/* The pink marble, the wine-red fruit (sampled #5F2638). */
+.theme-sza-z {
+  --album-color-primary: #E6B3A8;
+  --album-color-secondary: #33151E;
+}
+
+/* The green hillside (sampled #34543A), the cream monitors. */
+.theme-sza-ctrl {
+  --album-color-primary: #1E3021;
+  --album-color-secondary: #E0D9CB;
+}
+
+/* The deep sea, the white diving board. */
+.theme-sza-sos {
+  --album-color-primary: #011C38;
+  --album-color-secondary: #E5E5E3;
+}
+
+/* The night sky, her gold jacket. */
+.theme-sza-lana {
+  --album-color-primary: #021A24;
+  --album-color-secondary: #D3AC4E;
+}
