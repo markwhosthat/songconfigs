@@ -47,6 +47,9 @@ export const ALBUM_THEMES: Record<string, Theme> = {
         // The Showgirl album page opens in the Encore now; the original
         // Showgirl theme stays in the picker.
         forAlbum: 'The Life Of A Showgirl',
+        // In the results only the Encore's own songs wear it; the standard
+        // album and its Extras stay in the original Showgirl theme.
+        forVariants: ['The Encore', 'Encore Extras'],
         // Rankings shared from this theme preview as a glitter card.
         // The title is the header's lockup screenshotted from the live site
         // (real Gazzetta, the site's spacing and glitter), trimmed.
