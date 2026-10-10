@@ -331,10 +331,9 @@ body.theme-showgirl-encore .choice-card .song-metadata {
   }
 }
 
-/* Showgirl songs in the results: the top cards in gold glitter with
-   burgundy lettering, as on the sorter's choice cards; the small album
-   badges plain gold, where glitter would swamp the text. The `.results`
-   ancestor outranks the component's scoped rules. */
+/* Encore songs in the results: plain gold with burgundy lettering, the
+   choice cards' colours without their glitter. The `.results` ancestor
+   outranks the component's scoped rules. */
 .results .top-card.theme-showgirl-encore,
 .results .album-badge.theme-showgirl-encore {
   background-color: var(--album-color-secondary);
@@ -342,11 +341,6 @@ body.theme-showgirl-encore .choice-card .song-metadata {
 }
 
 .results .top-card.theme-showgirl-encore {
-  background-image:
-    linear-gradient(rgb(213 153 67 / 0.3), rgb(213 153 67 / 0.3)),
-    url('/textures/encore-glitter.webp');
-  background-size: auto, 256px 256px;
-  text-shadow: 0 1px 0 rgb(255 236 200 / 0.35);
   border-color: var(--album-color-primary);
   font-style: normal;
   text-transform: none;
