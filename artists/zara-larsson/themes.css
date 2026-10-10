@@ -1,0 +1,87 @@
+/* Colours sampled from each record's official cover art (Apple Music):
+   the background (--album-color-primary) is the cover's ground, and the
+   accent the detail that defines it - often her pink hibiscus. Midnight Sun
+   and Girls Trip instead take their era's official colours.
+   Every pair meets WCAG AA (4.5:1) both ways round, faded (70%) text
+   included; where a sampled colour missed, only its lightness was moved,
+   keeping its hue, and the sampled value is noted. */
+
+/* Midnight Sun and Girls Trip set their titles in the covers' face, Arial
+   Black, squeezed to 85% as on the covers and tracked in. It is Monotype's
+   and cannot be served, so it is used only where the device has it (macOS,
+   iOS, Windows with Office); elsewhere the site's own font stands in,
+   squeezed the same, and the word spacing keeps its narrower spaces open.
+   The squeeze is a transform, anchored where the title starts, on a box
+   widened to match so lines break where the squeezed text runs out. */
+.theme-zara-larsson-midnight-sun,
+.theme-zara-larsson-girls-trip {
+  --album-font: 'Arial Black', var(--default-font);
+  --album-letter-spacing: -0.035em;
+}
+.theme-zara-larsson-midnight-sun header h1,
+.theme-zara-larsson-girls-trip header h1 {
+  word-spacing: 0.06em;
+  width: calc(100% / 0.85);
+  transform: scaleX(0.85);
+  transform-origin: left center;
+}
+
+/* The brown backdrop (sampled #4A392A), the pink title. */
+.theme-zara-larsson-introducing {
+  --album-color-primary: #2D2219;
+  --album-color-secondary: #FEBBC1;
+}
+
+/* The grey sepia ground (sampled #A8A5A1), the white lettering. */
+.theme-zara-larsson-allow-me-to-reintroduce-myself {
+  --album-color-primary: #3D3B38;
+  --album-color-secondary: #FFFFFF;
+}
+
+/* The white ground, the pink hibiscus (sampled #EE4386). */
+.theme-zara-larsson-1 {
+  --album-color-primary: #FFFFFF;
+  --album-color-secondary: #990E45;
+}
+
+/* The blue-grey knit (sampled #738D9C), the white lettering. */
+.theme-zara-larsson-so-good {
+  --album-color-primary: #313E45;
+  --album-color-secondary: #FFFFFF;
+}
+
+/* The pink bedroom wall (sampled #BF707F), the dark leather chair. */
+.theme-zara-larsson-poster-girl {
+  --album-color-primary: #D39CA6;
+  --album-color-secondary: #1B0E16;
+}
+
+/* The black ground, the sea-green chrome lettering (sampled #5C7A6E). */
+.theme-zara-larsson-honor-the-light {
+  --album-color-primary: #0E0E11;
+  --album-color-secondary: #95AFA4;
+}
+
+/* The golden glow around her, the pink hibiscus (sampled #EE1B86). */
+.theme-zara-larsson-venus {
+  --album-color-primary: #D1C49D;
+  --album-color-secondary: #55062E;
+}
+
+/* The era's official colours: the neon yellow of her site
+   (zaralarssonofficial.com, #F4ED1A - its text and links, and the cover's
+   title) and the hot pink of the Midnight Sun merch it pairs with on her
+   store's hoodies and tees (zaralarsson.store; sampled #DD3C79,
+   darkened). */
+.theme-zara-larsson-midnight-sun {
+  --album-color-primary: #F4ED1A;
+  --album-color-secondary: #741438;
+}
+
+/* Her site's Girls Trip colours (zaralarssonofficial.com): the pink of
+   its nav and mailing-list panel (#FF80DD) and the dark olive it sets on
+   that pink (#3A3624, darkened). */
+.theme-zara-larsson-girls-trip {
+  --album-color-primary: #FF80DD;
+  --album-color-secondary: #16140E;
+}
